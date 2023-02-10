@@ -13,6 +13,8 @@ const BlogDetails = () => {
          <HomeOneHeader/>
          <CommonPageHeader title="Blog Details" subtitle="Blog Details" />
          <BlogDetailsArea/>
+         <BlogDetailsArea/>
+         <BlogDetailsArea/>
          <BlogFooter/>
       </>
    );

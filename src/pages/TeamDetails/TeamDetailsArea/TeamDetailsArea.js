@@ -20,9 +20,9 @@ const TeamDetailsArea = () => {
                      </div>
                      <div className="col-xl-6 col-lg-6">
                         <div className="team__details-content pt-105">
-                           <span>UI/UX Designer</span>
+                           <span>UI Designer</span>
                            <h3>Parsley Montana</h3>
-                           <p>So I said on your bike mate easy peasy dropped a clanger blow  porkies is fantastic show off show.!</p>
+                           <p>So I sat on your bike mate easy peasy dropped a clanger blow  porkies is fantastic show off show.!</p>
                            <div className="team__details-contact mb-45">
                               <ul>
                                  <li>
@@ -30,7 +30,7 @@ const TeamDetailsArea = () => {
                                        <i > <FaEnvelope/> </i>
                                     </div>
                                     <div className="text theme-color ">
-                                       <span><a href="mailto:support@zibber.com">support@zibber.com</a></span>
+                                       <span><a href="mailto:support@zibber.com">OneNineAI</a></span>
                                     </div>
                                  </li>
                                  <li>
@@ -38,7 +38,7 @@ const TeamDetailsArea = () => {
                                        <i ><FaPhoneAlt /> </i>
                                     </div>
                                     <div className="text theme-color">
-                                       <span><a href="tel:(+642)-394-396-432">(+642) 394 396 432</a></span>
+                                       <span><a href="tel:(+642)-394-396-432">(+69) XXXXXX9728</a></span>
                                     </div>
                                  </li>
                                  <li>
@@ -81,8 +81,8 @@ const TeamDetailsArea = () => {
                   <div className="col-xl-10 offset-xl-1">
                      <div className="team__details-info mt-60">
                         <h4 >Information</h4>
-                        <p >jolly good codswallop what a plonker he nicked it bog-standard porkies gosh the full monty, wind up at public school hanky panky cheeky bugger Richard do one some dodgy chav bite your arm off. Argy-bargy excuse my French brown bread up the duff bleeder fanny around spend a penny barmy bonnet, bubble and squeak brolly bugger no biggie smashing get stuffed mate old lurgy, cup of tea nice one mufty that I knackered some dodgy chav. Say vagabond morish crikey excuse my French bonnet William blatant spend a penny, knackered bite your arm off what a plonker blimey smashing a blinding shot pardon me grub, wind up cracking goal Jeffrey hanky panky are you taking the piss such a fibber hunky-dory.</p>
-                        <p >So I said on your bike mate easy peasy dropped a clanger blow off porkies is fantastic show off show off pick your nose and blow off, faff about bubble and squeak bugger all mate happy days hotpot don't get shirty with me jolly good gormless barmy.</p>
+                        <p >JOHN WICK good codswallop what a plonker he nicked it bog-standard porkies gosh the full monty, wind up at public school hanky panky cheeky bugger Richard do one some dodgy chav bite your arm off. Argy-bargy excuse my French brown bread up the duff bleeder fanny around spend a penny barmy bonnet, bubble and squeak brolly bugger no biggie smashing get stuffed mate old lurgy, cup of tea nice one mufty that I knackered some dodgy chav. Say vagabond morish crikey excuse my French bonnet William blatant spend a penny, knackered bite your arm off what a plonker blimey smashing a blinding shot pardon me grub, wind up cracking goal Jeffrey hanky panky are you taking the piss such a fibber hunky-dory.</p>
+                        <p >So I sat on your bike mate easy peasy dropped a clanger blow off porkies is fantastic show off show off pick your nose and blow off, faff about bubble and squeak bugger all mate happy days hotpot don't get shirty with me jolly good gormless barmy.</p>
 
                         <Link to="/contact" className="z-btn mt-10">Appionment</Link>
                      </div>
