@@ -16,11 +16,11 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
     <>
       <header>
         <div className="header__area p-relative header__transparent">
-          <div className="header__shape p-absolute ">
+          {/* <div className="header__shape p-absolute ">
             <div className='logo_adj'>
               <img src="assets/img/icon/slider/03/icon-5.png" alt="" />
             </div>
-          </div>
+          </div> */}
           <div id="header__sticky" className={stickyMenu ? `sticky header__bottom header__bottom-2 ${h4class && h4class}`
           :`header__bottom header__bottom-2 ${h4class && h4class}`}>
             <div className="container">
