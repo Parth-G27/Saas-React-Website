@@ -38,7 +38,7 @@ const HomeThree = () => {
          {/* <HomeTwoTestimonial /> */}
          {/* <HomeThreeProjects /> */}
          {/* <HomeThreeFaq />   */}
-         {/* <CommonCtaArea /> */}
+         <CommonCtaArea />
          
          <HomeThreeFooter />
       </>
