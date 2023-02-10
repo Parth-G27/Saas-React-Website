@@ -37,7 +37,7 @@ const HomeThree = () => {
          {/* <HomeThreeSecondServices /> */}
          {/* <HomeTwoTestimonial /> */}
          {/* <HomeThreeProjects /> */}
-         {/* <HomeThreeFaq />   */}
+         <HomeThreeFaq />  
          <CommonCtaArea />
          
          <HomeThreeFooter />
