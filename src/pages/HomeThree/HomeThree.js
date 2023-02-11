@@ -13,6 +13,7 @@ import HomeThreeServices from './HomeThreeServices/HomeThreeServices';
 import HomeTwoHeader from './HomeTwoHeader/HomeTwoHeader';
 import HomeTwoFeatures from './HomeTwoFeatures/HomeTwoFeatures';
 import HomeServices from './HomeServices/HomeServices';
+import HomeHeroSlider from './HomeHeroArea/HomeHeroSlider';
 
 const HomeThree = () => {
    return (
@@ -33,12 +34,14 @@ const HomeThree = () => {
          <HomeThreeServices />
          <HomeTwoFeatures/>
          <HomeServices />
+         <HomeHeroSlider/>
          
          {/* <HomeThreeSecondServices /> */}
          {/* <HomeTwoTestimonial /> */}
          {/* <HomeThreeProjects /> */}
-         <HomeThreeFaq />  
-         <CommonCtaArea />
+         
+         {/* <HomeThreeFaq />  
+         <CommonCtaArea /> */}
          
          <HomeThreeFooter />
       </>

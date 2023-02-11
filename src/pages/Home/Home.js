@@ -20,7 +20,7 @@ const Home = () => {
         <>
             <PageHelmet pageTitle="Home Page" />
 
-            <HomeOneHeader/>
+            {/* <HomeOneHeader/> */}
             <HomeHeroSlider/>
             <HomeFeatures/>
             <HomeAbout/>
