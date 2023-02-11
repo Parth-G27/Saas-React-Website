@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # OneNineWeb
 Main website for OneNineAI
 =======
