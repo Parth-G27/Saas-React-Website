@@ -33,8 +33,9 @@ const HomeThree = () => {
          <HomeThreeHeroSection />
          <HomeThreeServices />
          <HomeTwoFeatures/>
-         <HomeServices />
          <HomeHeroSlider/>
+         <HomeServices />
+        
          
          {/* <HomeThreeSecondServices /> */}
          {/* <HomeTwoTestimonial /> */}
