@@ -8,7 +8,7 @@ import PortfolioDetailsArea from './PortfolioDetailsArea/PortfolioDetailsArea';
 const PortfolioDetails = () => {
    return (
       <>
-         <PageHelmet pageTitle="Portfolio Details Page" />
+         <PageHelmet pageTitle="One Nine AI" />
 
          <HomeOneHeader/>
          <CommonPageHeader title="Portfolio Details" subtitle="Portfolio Details" />

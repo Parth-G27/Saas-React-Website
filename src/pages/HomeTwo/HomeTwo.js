@@ -16,7 +16,7 @@ import HomeTwoTestimonial from './HomeTwoTestimonial/HomeTwoTestimonial';
 const HomeTwo = () => {
    return (
       <>
-         <PageHelmet pageTitle="Home Two" />
+         <PageHelmet pageTitle="One Nine AI" />
 
          <HomeTwoHeader/>
          <HomeTwoHeroSlider/>

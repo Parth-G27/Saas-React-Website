@@ -14,6 +14,7 @@ import HomeTwoHeader from './HomeTwoHeader/HomeTwoHeader';
 import HomeTwoFeatures from './HomeTwoFeatures/HomeTwoFeatures';
 import HomeServices from './HomeServices/HomeServices';
 import HomeHeroSlider from './HomeHeroArea/HomeHeroSlider';
+import HomeTwoBlogs from './HomeTwoBlogs/HomeTwoBlogs';
 
 const HomeThree = () => {
    return (
@@ -35,6 +36,7 @@ const HomeThree = () => {
          <HomeTwoFeatures/>
          <HomeHeroSlider/>
          <HomeServices />
+         <HomeTwoBlogs/>
         
          
          {/* <HomeThreeSecondServices /> */}

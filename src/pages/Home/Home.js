@@ -18,7 +18,7 @@ import PageHelmet from '../../components/shared/PageHelmet';
 const Home = () => {
     return (
         <>
-            <PageHelmet pageTitle="Home Page" />
+            <PageHelmet pageTitle="One Nine AI" />
 
             {/* <HomeOneHeader/> */}
             <HomeHeroSlider/>

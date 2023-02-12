@@ -13,7 +13,7 @@ import StyleHeaderSix from './StyleHeaderSix/StyleHeaderSix';
 const HeaderStyleSix = () => {
    return (
       <>
-         <PageHelmet pageTitle="Header Style Six" />
+         <PageHelmet pageTitle="One Nine AI" />
 
          <StyleHeaderSix/>
          <HomeThreeHeroSection />

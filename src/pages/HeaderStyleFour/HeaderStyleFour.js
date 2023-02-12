@@ -13,7 +13,7 @@ import HomeTwoTestimonial from '../HomeTwo/HomeTwoTestimonial/HomeTwoTestimonial
 const HeaderStyleFour = () => {
    return (
       <>
-         <PageHelmet pageTitle="Header Style Four" />
+         <PageHelmet pageTitle="One Nine AI" />
 
          <HomeThreeHeader h4class="header__style-4" btn_text="Sign Up" btn_class="z-btn-border" />
          <HomeThreeHeroSection />
