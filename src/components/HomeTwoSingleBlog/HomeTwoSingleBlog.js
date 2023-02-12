@@ -6,8 +6,13 @@ const HomeTwoSingleBlog = ({date,name,desc}) => {
       <>
          <div className="col-xl-4 col-lg-4 col-md-6">
             <div className="blog__item p-relative fix mb-30 white-bg">
-               <div className="blog__thumb" style={{background: `url(assets/img/blog/blog-1.jpg)` , backgroundPosition: 'center', backgroundSize: 'cover' }} ></div>
+               <div className="blog__thumb" style={{background: `` , backgroundPosition: 'center', backgroundSize: 'cover' }} ></div>
                <div className="blog__content">
+               <div className="team__thumb mb-25">
+               <img src={`assets/img/team/team-1.jpg`} alt="team"/>
+                </div>
+
+               
                   <div className="blog__meta date mb-45">
                      <h4>{date}</h4>
                      <h6>Nov 2021</h6>
