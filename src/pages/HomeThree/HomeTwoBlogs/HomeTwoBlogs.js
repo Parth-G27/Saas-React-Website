@@ -21,7 +21,7 @@ const HomeTwoBlogs = () => {
                   <HomeTwoSingleBlog date="24" name="Elon Gated" desc="The Start-Up Ultimate Guide to Make Your WordPress Journal." />
                   <HomeTwoSingleBlog date="12" name="Lance Bogrol" desc="Businesses Are Thriving, Societies Are Not. Time for Urgent Change" />
                   <HomeTwoSingleBlog date="10" name="Shahnewaz Sakil" desc="For Banks, Modernizing Technology Has Become a Perpetual Challenge" />
-                  <HomeTwoSingleBlog date="10" name="Shahnewaz Sakil" desc="For Banks, Modernizing Technology Has Become a Perpetual Challenge" />
+                  <HomeTwoSingleBlog date="10" name="Shahnewaz Sakil" desc="Null" />
 
                </div>
                <div className="row">
