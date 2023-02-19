@@ -23,13 +23,13 @@ const HomeTwoSingleBlog = ({date,name,desc}) => {
                   <h3>
                      <Link to="/blogDetails">{desc}</Link>
                   </h3>
-                  <div className="blog__btn">
+                  {/* <div className="blog__btn">
                      <Link to="/blogDetails" className="link-btn-2">
-                        Read More
+                 Read More
                         <i > <CgArrowLongRight /> </i>
                         <i > <CgArrowLongRight /> </i>
-                     </Link>
-                  </div>
+                     </Link>       
+                  </div> */}
                </div>
             </div>
          </div>
