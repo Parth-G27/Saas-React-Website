@@ -1,11 +1,11 @@
-import { CgArrowLongRight } from 'react-icons/cg';
+//import { CgArrowLongRight } from 'react-icons/cg';
 import { Link } from 'react-router-dom';
 
 const HomeTwoSingleBlog = ({date,name,desc}) => {
    return (
       <>
          <div className="col-xl-4 col-lg-4 col-md-6">
-            <div className="blog__item p-relative fix mb-30 white-bg">
+            <div className="blog__item p-relative fix mb-10 white-bg">
                <div className="blog__thumb" style={{background: `` , backgroundPosition: 'center', backgroundSize: 'cover' }} ></div>
                <div className="blog__content">
                <div className="team__thumb mb-25">
@@ -15,7 +15,7 @@ const HomeTwoSingleBlog = ({date,name,desc}) => {
                
                   <div className="blog__meta date mb-45">
                      <h4>{date}</h4>
-                     <h6>Nov 2021</h6>
+                     {/* <h6>Nov 2021</h6> */}
                   </div>
                   <div className="blog__meta user mb-15">
                      <span>By <Link to="/blogDetails">{name}</Link></span>

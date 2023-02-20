@@ -10,7 +10,7 @@ const HomeTwoBlogs = () => {
             <div className="container">
                <div className="row">
                   <div className="col-xl-5">
-                     <div className="section__title section__title-3 mb-65">
+                     <div className="section__title section__title-3 mb-35">
                         <span>Reviews</span>
                         <h2>Our Reviews from Clients </h2>
                      </div>
@@ -18,10 +18,10 @@ const HomeTwoBlogs = () => {
                </div>
                <div className="row">
 
-                  <HomeTwoSingleBlog date="24" name="Elon Gated" desc="The Start-Up Ultimate Guide to Make Your WordPress Journal." />
-                  <HomeTwoSingleBlog date="12" name="Lance Bogrol" desc="Businesses Are Thriving, Societies Are Not. Time for Urgent Change" />
-                  <HomeTwoSingleBlog date="10" name="Shahnewaz Sakil" desc="For Banks, Modernizing Technology Has Become a Perpetual Challenge" />
-                  <HomeTwoSingleBlog date="10" name="Shahnewaz Sakil" desc="Null" />
+                  {/* <HomeTwoSingleBlog date="7/27/2022" name="Sr Advisor to CIO, IRS" desc="Very comprehensive platform for everyone. I was able to develop & test multiple AI use cases for leaning organizations. Platform helped me learn data science, data visualization, NLP, NLU and fundamentals." /> */}
+                  <HomeTwoSingleBlog date="8/7/2022" name="Fedral Contractor" desc="I was able to generate insights in minutes and was able to complete data projects in days vs months" />
+                  <HomeTwoSingleBlog date="8/1/2022" name="Professor & Researcher" desc="My students were able to learn and develop AI use cases very fast using OneNine Platform" />
+                  <HomeTwoSingleBlog date="8/8/2022" name="Graduate Student" desc="Learned a lot about the platform during training sessions. I can easily develop predictive models using Smart Model feature" />
 
                </div>
                <div className="row">
