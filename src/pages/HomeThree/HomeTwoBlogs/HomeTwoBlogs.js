@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const HomeTwoBlogs = () => {
    return (
       <>
-         <section className="blog__area grey-bg-15 pt-115 pb-135">
+         <section className="blog__area grey-bg-15 pt-15 pb-45">
             <div className="container">
                <div className="row">
                   <div className="col-xl-5">
@@ -24,7 +24,7 @@ const HomeTwoBlogs = () => {
                   <HomeTwoSingleBlog date="8/8/2022" name="Graduate Student" desc="Learned a lot about the platform during training sessions. I can easily develop predictive models using Smart Model feature" />
 
                </div>
-               <div className="row">
+               {/* <div className="row">
                   <div className="col-xl-12">
                      <div className="blog__more mt-60">
                         <Link to="/blogs" className="z-btn z-btn-border">View all News
@@ -32,7 +32,7 @@ const HomeTwoBlogs = () => {
                         </Link>
                      </div>
                   </div>
-               </div>
+               </div> */}
             </div>
          </section>
       </>

@@ -19,12 +19,12 @@ const HomeThreeFooter = () => {
                                     </a>
                                  </div>
                               </div>
-                              <div className="footer__widget-content">
-                                 <p>Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble.</p>
+                              {/* <div className="footer__widget-content">
+                                 <p></p>
                                  <div className="footer__img">
                                     <img src="assets/img/footer/footer-img-1.png" alt=""/>
                                  </div>
-                              </div>
+                              </div> */}
                            </div>
                         </div>
                         <div className="col-xl-2 offset-xl-1 col-lg-2 offset-lg-1 col-md-4 col-sm-6">
@@ -104,12 +104,12 @@ const HomeThreeFooter = () => {
                                              <i ><FaTwitter /> </i>
                                           </a>
                                        </li>
-                                       <li>
+                                       {/* <li>
                                           <a href="#">
                                              <i ><FaVimeoV /> </i>
                                              <i ><FaVimeoV /> </i>
                                           </a>
-                                       </li>
+                                       </li> */}
                                     </ul>
                                  </div>
                               </div>
@@ -124,7 +124,7 @@ const HomeThreeFooter = () => {
                         <div className="row align-items-center">
                            <div className="col-xl-12">
                               <div className="footer__copyright-text text-center">
-                                 <p>Copyright © 2022 All Rights Reserved passion by <Link to="/home">Theme_Pure</Link></p>
+                                 <p>Copyright © 2022 OneNine AI - All Rights Reserved.</p>
                               </div>
                            </div>
                         </div>
