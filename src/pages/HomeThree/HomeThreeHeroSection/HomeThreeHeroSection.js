@@ -30,6 +30,10 @@ const HomeThreeHeroSection = () => {
                            <div className="hero__thumb four d-none d-md-block d-lg-none d-xl-block">
                               <img className="layer" data-depth="0.5" src="assets/img/slider/03/slider-4.jpg" alt="" />
                            </div>
+                           <iframe
+                  className="w-full lg:relative lg:inset-y-0 lg:left-30 lg:h-full lg:w-auto lg:max-w-none"
+                  src="https://embed.lottiefiles.com/animation/71003"
+                ></iframe>
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-7 d-flex align-items-center">

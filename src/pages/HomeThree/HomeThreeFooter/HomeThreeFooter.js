@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaFacebookF, FaPhoneAlt, FaTwitter, FaVimeoV } from 'react-icons/fa';
+import { FaEnvelope, FaFacebookF, FaPhoneAlt, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const HomeThreeFooter = () => {
@@ -15,7 +15,7 @@ const HomeThreeFooter = () => {
                               <div className="footer__widget-title mb-30">
                                  <div className="logo">
                                     <a href="#">
-                                       <img src="assets/img/logo/logo-black.png" alt=""/>
+                                       <img src="assets/img/logo/rsz_9.png" alt=""/>
                                     </a>
                                  </div>
                               </div>
@@ -35,11 +35,11 @@ const HomeThreeFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links">
                                     <ul>
+                                       <li><a href="#">Platform</a></li>
+                                       <li><a href="#">Solutions</a></li>
+                                       <li><a href="#">Services</a></li>
+                                       <li><a href="#">AI Academy</a></li>
                                        <li><a href="#">About Us</a></li>
-                                       <li><a href="#">Testimonials</a></li>
-                                       <li><a href="#">Consulting</a></li>
-                                       <li><a href="#">Partners</a></li>
-                                       <li><a href="#">Contact Us</a></li>
                                     </ul>
                                  </div>
                               </div>
@@ -53,12 +53,12 @@ const HomeThreeFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links">
                                     <ul>
-                                       <li><a href="#">Customers</a></li>
-                                       <li><a href="#">Pricing</a></li>
                                        <li><a href="#">News</a></li>
-                                       <li><a href="#">Learning Center</a></li>
-                                       <li><a href="#">Help desk</a></li>
-                                       <li><a href="#">Support</a></li>
+                                       <li><a href="#">Support Portal</a></li>
+                                       <li><a href="#">Contact</a></li>
+                                       <li><a href="#">Careers</a></li>
+                                       <li><a href="#">Release Notes</a></li>
+                                      
                                     </ul>
                                  </div>
                               </div>
@@ -77,7 +77,7 @@ const HomeThreeFooter = () => {
                                              <i> <FaEnvelope/> </i>
                                           </div>
                                           <div className="text theme-color ">
-                                             <span><a href="mailto:support@zibber.com">support@zibber.com</a></span>
+                                             <span><a href="/">onenineai@gmail.com</a></span>
                                           </div>
                                        </li>
                                        <li>
@@ -85,7 +85,7 @@ const HomeThreeFooter = () => {
                                              <i > <FaPhoneAlt/> </i>
                                           </div>
                                           <div className="text theme-color">
-                                             <span><a href="tel:(+642)-394-396-432">(+642) 394 396 432</a></span>
+                                             <span><a href="/">(+91) XXX-XXX-7282</a></span>
                                           </div>
                                        </li>
                                     </ul>
@@ -93,13 +93,13 @@ const HomeThreeFooter = () => {
                                  <div className="footer__social theme-social">
                                     <ul>
                                        <li>
-                                          <a href="#">
-                                             <i ><FaFacebookF /></i>
-                                             <i ><FaFacebookF /></i>
+                                          <a href="https://www.linkedin.com/company/onenine-ai/">
+                                             <i ><FaLinkedin /></i>
+                                             <i ><FaLinkedin /></i>
                                           </a>
                                        </li>
                                        <li>
-                                          <a href="#">
+                                          <a href="https://twitter.com/Onenineai">
                                              <i ><FaTwitter /> </i>
                                              <i ><FaTwitter /> </i>
                                           </a>
