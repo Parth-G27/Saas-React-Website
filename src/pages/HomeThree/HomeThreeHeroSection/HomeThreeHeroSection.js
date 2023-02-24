@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Hero_an from './hero_animation.json';
+import Lottie from 'lottie-react';
 
 const HomeThreeHeroSection = () => {
    return (
@@ -18,10 +20,8 @@ const HomeThreeHeroSection = () => {
                   <div className="row">
                      <div className="col-xl-6 col-lg-5 order-last">
                         <div className="hero__thumb-wrapper ml-100 scene p-relative">
-                           {/* <div className="hero__thumb one">
-                              <img className="layer" data-depth="0.2" src="assets/img/slider/03/slider-1.jpg" alt="" />
-                           </div> */}
-                           <div className="hero__thumb two d-none d-md-block d-lg-none d-xl-block">
+                           
+                           {/* <div className="hero__thumb two d-none d-md-block d-lg-none d-xl-block">
                               <img className="layer" data-depth="0.3" src="assets/img/slider/03/slider-2.jpg" alt="" />
                            </div>
                            <div className="hero__thumb three d-none d-sm-block">
@@ -29,15 +29,9 @@ const HomeThreeHeroSection = () => {
                            </div>
                            <div className="hero__thumb four d-none d-md-block d-lg-none d-xl-block">
                               <img className="layer" data-depth="0.5" src="assets/img/slider/03/slider-4.jpg" alt="" />
-                           </div>
-                           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
-
-
-    <lottie-player src="https://lottie.host/e6613dc7-dbc2-4bdb-800f-4ed48e1175e8/QMSgfr9yWr.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
-                           {/* <iframe
-                  className="w-full lg:relative lg:inset-y-0 lg:left-30 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://lottie.host/e6613dc7-dbc2-4bdb-800f-4ed48e1175e8/QMSgfr9yWr.json"
-                ></iframe> */}
+                           </div> */}
+                           
+                           <Lottie loop={true} animationData ={Hero_an}/>
 
                         </div>
                      </div>
