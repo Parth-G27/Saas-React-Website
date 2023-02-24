@@ -30,10 +30,15 @@ const HomeThreeHeroSection = () => {
                            <div className="hero__thumb four d-none d-md-block d-lg-none d-xl-block">
                               <img className="layer" data-depth="0.5" src="assets/img/slider/03/slider-4.jpg" alt="" />
                            </div>
-                           <iframe
+                           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+
+
+    <lottie-player src="https://lottie.host/e6613dc7-dbc2-4bdb-800f-4ed48e1175e8/QMSgfr9yWr.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+                           {/* <iframe
                   className="w-full lg:relative lg:inset-y-0 lg:left-30 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://embed.lottiefiles.com/animation/71003"
-                ></iframe>
+                  src="https://lottie.host/e6613dc7-dbc2-4bdb-800f-4ed48e1175e8/QMSgfr9yWr.json"
+                ></iframe> */}
+
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-7 d-flex align-items-center">
