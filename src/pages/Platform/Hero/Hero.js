@@ -12,7 +12,7 @@ import Lottie from 'lottie-react';
 const Hero = () => {
    return (
       <>
-         <section className="services__area-2 mt-120 pt-70 pb-140 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>
+         <section className="services__area-2 mt-120 pt-70 pb-140 p-relative" style={{ background: `url(assets/img/bg/bg-new.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
             
                <div className="about__area-2 pt-130 pl-20">
                   <div className="row">
