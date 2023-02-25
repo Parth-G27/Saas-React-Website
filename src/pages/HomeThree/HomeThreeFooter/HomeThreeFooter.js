@@ -77,7 +77,7 @@ const HomeThreeFooter = () => {
                                              <i> <FaEnvelope/> </i>
                                           </div>
                                           <div className="text theme-color ">
-                                             <span><a href="/">onenineai@gmail.com</a></span>
+                                             <span><a href="/">support@onenine.ai</a></span>
                                           </div>
                                        </li>
                                        <li>

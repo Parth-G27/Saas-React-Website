@@ -554,6 +554,18 @@ p {
 					font-size: 35px;
 				}
 			}
+			& h3{
+				font-size: 40px;
+				@media #{$md}{
+					font-size: 30px;
+				}
+				@media #{$sm}{
+					font-size: 30px;
+				}
+				@media #{$xs}{
+					font-size: 25px;
+				}
+			}
 		}
 		&-h2{
 			& span{

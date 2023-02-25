@@ -18,6 +18,20 @@
             background-repeat: no-repeat;
             background-position: bottom;
         }
+        &-3{
+            @media #{$md}{
+                margin-top: 30px;
+            }
+            @media #{$sm}{
+                margin-top: 30px;
+            }
+            @media #{$xs}{
+                margin-top: 30px;
+            }
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
     }
     &__item{
         padding-right: 55px;
