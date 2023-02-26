@@ -19,6 +19,7 @@ import Team from "./pages/Team/Team";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
 
 import Platform from "./pages/Platform/Platform";
+import Solutions from "./pages/Solutions/Solutions";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
             <Route path="/headerStyleSix" element={<HeaderStyleSix/>} />
             <Route path="/headerStyleSeven" element={<HeaderStyleSeven/>} />
             <Route path="/platform" element={<Platform/>} />
+            <Route path="/solutions" element={<Solutions/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/services" element={<Services/>} />
             <Route path="/servicesDetails" element={<ServicesDetails/>} />
