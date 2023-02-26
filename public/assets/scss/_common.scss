@@ -554,6 +554,7 @@ p {
 					font-size: 35px;
 				}
 			}
+			
 			& h3{
 				font-size: 40px;
 				@media #{$md}{
@@ -571,6 +572,46 @@ p {
 			& span{
 				margin-bottom: 20px;
 			}
+
+		}
+		&-m{
+			& h2{
+				font-size: 50px;
+				@media #{$md}{
+					font-size: 40px;
+				}
+				@media #{$sm}{
+					font-size: 40px;
+				}
+				@media #{$xs}{
+					font-size: 35px;
+				}
+			}
+			h2:before {
+				content: "";
+				// padding-top: 5x;
+				display: inline;
+				width: 33%;
+				height: 1.5px;
+				background: #000;
+				left: 0;
+				border-width: 1px;
+				
+				position: absolute;
+			  }
+			  
+			  h2:after {
+				content: "";
+				// padding-top: 5px;
+				display: block;
+				width: 33%;
+				height: 1.5px;
+				background: #000;
+				right: 0;
+				border-width: 1px;
+				position: absolute;
+			  }
+			
 
 		}
 	}

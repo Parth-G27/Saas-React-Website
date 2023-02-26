@@ -5,6 +5,9 @@ import SingleService from '../../../components/SingleService/SingleService';
 import plat_Hero1 from './sub_hero-1.json';
 import plat_Hero2 from './sub_hero-2.json';
 import plat_Hero3 from './sub_hero-3.json';
+import plat_Hero4 from './sub_hero-4.json';
+import plat_Hero5 from './sub_hero-5.json';
+import plat_Hero6 from './sub_hero-6.json';
 import Lottie from 'lottie-react';
 
 
@@ -15,7 +18,7 @@ const HomeServices = () => {
             <div className="container">
                <div className="row">
                   <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                     <div className="section__title section__title-3 text-center mb-0 wow fadeInUp" data-wow-delay=".2s">
+                     <div className="section__title section__title-m text-center mb-0 wow fadeInUp" data-wow-delay=".2s">
                         {/* <span>Highlights</span> */}
                         <h2>No Code Platform</h2>
                      </div>
@@ -73,6 +76,68 @@ const HomeServices = () => {
                      </div>  
                    
                    
+                  
+                  
+                                      
+                  </div>
+               </div>  
+         </section>
+         <section className="services__area-3 mt-10 pt-20 pb-40 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>
+            
+               <div className="about__area-2 pt-10 pl-20">
+                  <div className="row">
+                  <div className="col-xl-7 col-lg-5">
+                        <div className="about__content pl-10 ">
+                           <div className="section__title section__title-3 mb-25 mt-80">
+                              <h3 >Self Service Visualization</h3>
+                           </div>
+                           <p> Modern data exploration and visualization feature allows you to explore and visualize your data, from simple line charts to highly detailed geospatial charts with few clicks. No-code viz builder allows you to connect to any SQL based data sources or upload csv files</p>
+                        </div>
+                     </div>  
+                   
+                   <Lottie className="col-xl-4 col-lg-4 ml-70" speed={null} loop={true} animationData ={plat_Hero4} />
+                  
+                  
+                                      
+                  </div>
+               </div>  
+         </section>
+         <section className="services__area-3 mt-10 pt-20 pb-10 p-relative" style={{ background: `url(assets/img/bg/bg-new.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
+            
+               <div className="about__area-2 pt-10 pl-20">
+                  <div className="row">
+                  <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero5} />
+                  <div className="col-xl-7 col-lg-5">
+                        <div className="about__content pl-10 ">
+                           <div className="section__title section__title-3 mb-25 mt-80">
+                              <h3 >Open Source Data</h3>
+                           </div>
+                           <p>Search Open Data from Data.gov (The home of the U.S. Government’s open data) and other sources to discover correlation between your data and open data from around the world,  Open Government Data is a philosophy and increasingly a set of policies - that promotes transparency, accountability and value creation by making government data available to all. Public bodies produce and commission huge quantities of data and information.</p>
+
+                        </div>
+                     </div>  
+                   
+                   
+                  
+                  
+                                      
+                  </div>
+               </div>  
+         </section>
+         <section className="services__area-3 mt-10 pt-20 pb-40 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>
+            
+               <div className="about__area-2 pt-10 pl-20">
+                  <div className="row">
+                  <div className="col-xl-6 col-lg-5">
+                        <div className="about__content pl-10 ">
+                           <div className="section__title section__title-3 mb-25 mt-80">
+                              <h3 >Organize Projects & Share Outcomes with others</h3>
+                           </div>
+                           <p> Control Data, Artifacts, Analysis, Models & Prediction APIs in secured dashboard</p>
+                        </div>
+                     </div>  
+                   
+                   <Lottie className="col-xl-4 col-lg-4 ml-90" speed={null} loop={true} animationData ={plat_Hero6} />
                   
                   
                                       

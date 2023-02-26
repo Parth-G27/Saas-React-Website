@@ -9,6 +9,7 @@ import HomeTwoAchievement from '../HomeTwo/HomeTwoAchievement/HomeTwoAchievement
 import HomeTwoFaq from '../HomeTwo/HomeTwoFaq/HomeTwoFaq';
 import Hero from './Hero/Hero';
 import PlatformFeatures from './PlatformFeatures/PlatformFeatures';
+import HomeThreeFooter from './HomeThreeFooter/HomeThreeFooter';
 
 const About = () => {
    return (
@@ -20,6 +21,7 @@ const About = () => {
 
          <Hero/>
          <PlatformFeatures/>
+         <HomeThreeFooter/>
 {/* 
          <HomeAbout/>
          <HomeTwoFaq/>
