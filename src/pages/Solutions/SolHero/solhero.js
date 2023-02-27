@@ -79,6 +79,40 @@ const SolHero = () => {
                </div>  
          </section>
 
+         <section className="services__area-3 mt-40 pt-20 pb-10 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>      
+               <div className="about__area-2 pt-130 pl-20">
+                  <div className="row">
+                  <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero3} />
+                     <div className="col-xl-7 col-lg-6">
+                        <div className="about__content pl-140">
+                           <div className="section__title section__title-sh mb-25 ">
+                              <h3 >Fraud Detection , Prediction & Prevention</h3>
+                           </div>
+                           <p > Over 90% of fraud detection use transaction rules to direct suspicious transactions through to human review. Automated AI models give analysts the ability to reduce the time spent on manual reviews and data analysis.  With Machine Learning, you can enable your analysts’ team to work faster and with greater accuracy. Models can quickly identify if the user has drifted from their regular behavior. </p>                              
+                           <p className='wee'>Learn from historical fraud patterns and recognize them in future transactions </p>                        
+                        </div>
+                     </div>                     
+                  </div>
+               </div>
+         </section>
+
+         <section className="services__area-3 mt-10 pt-20 pb-10 p-relative" style={{ background: `url(assets/img/bg/3.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
+               <div className="about__area-2 pt-10 pl-20">
+                  <div className="row">
+                  <div className="col-xl-7 col-lg-5">
+                        <div className="about__content pl-10 ">
+                           <div className="section__title section__title-sh mb-25 mt-80">
+                              <h3 >Customer Segmentation</h3>
+                           </div>
+                           <p>Analysts can create groups that reflect similarity among customers in order to maximize the value of each customer to the business. Customer segmentation has the potential to allow marketers to address each customer in the most effective way. Using the large amount of data available on customers (and potential customers), a customer segmentation analysis allows marketers to identify discrete groups of customers with a high degree of accuracy based on demographic, behavioral and other indicators.</p>
+                           <p className='wee'>Smart segmentation for better personalization</p>
+                        </div>
+                     </div>
+                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero4} />                                  
+                  </div>
+               </div>  
+         </section>
+
 
 
 
