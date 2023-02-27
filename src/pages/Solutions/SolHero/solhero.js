@@ -5,6 +5,10 @@ import plat_Hero1 from './solhero-1.json';
 import plat_Hero2 from './solhero-2.json';
 import plat_Hero3 from './solhero-3.json';
 import plat_Hero4 from './solhero-4.json';
+import plat_Hero5 from './solhero-5.json';
+import plat_Hero6 from './solhero-6.json';
+import plat_Hero7 from './solhero-7.json';
+import plat_Hero8 from './solhero-8.json';
 import Lottie from 'lottie-react';
 
 
@@ -82,7 +86,7 @@ const SolHero = () => {
          <section className="services__area-3 mt-40 pt-20 pb-10 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>      
                <div className="about__area-2 pt-130 pl-20">
                   <div className="row">
-                  <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero3} />
+                  <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero5} />
                      <div className="col-xl-7 col-lg-6">
                         <div className="about__content pl-140">
                            <div className="section__title section__title-sh mb-25 ">
@@ -108,7 +112,41 @@ const SolHero = () => {
                            <p className='wee'>Smart segmentation for better personalization</p>
                         </div>
                      </div>
-                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero4} />                                  
+                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero6} />                                  
+                  </div>
+               </div>  
+         </section>
+
+         <section className="services__area-3 mt-40 pt-20 pb-10 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>      
+               <div className="about__area-2 pt-130 pl-20">
+                  <div className="row">
+                  <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero7} />
+                     <div className="col-xl-7 col-lg-6">
+                        <div className="about__content pl-140">
+                           <div className="section__title section__title-sh mb-25 ">
+                              <h3 >financial product Defaulters Predictions</h3>
+                           </div>
+                           <p>Credit risk plays a major role in the financial services industry. Many organizations have been facing an escalating credit default rate. Analysts can build AI models that helps to predict which customer is most likely to default and prevent the loss by providing the customer with alternative options (such as forbearance or debt consolidation)</p>
+                           <p className='wee'>  Develop more reliable models in order to reduce the decision time</p>                        
+                        </div>
+                     </div>                     
+                  </div>
+               </div>
+         </section>
+
+         <section className="services__area-3 mt-10 pt-20 pb-10 p-relative" style={{ background: `url(assets/img/bg/3.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
+               <div className="about__area-2 pt-10 pl-20">
+                  <div className="row">
+                  <div className="col-xl-7 col-lg-5">
+                        <div className="about__content pl-10 ">
+                           <div className="section__title section__title-sh mb-25 mt-80">
+                              <h3 >Employee Attrition</h3>
+                           </div>
+                           <p>A high rate of attrition in an organization leads to increased recruitment, hiring and training costs. Not only it is costly, but qualified and competent replacements are hard to find. In most industries, the top 20% of people produce about 50% of the output. This use case takes HR data and uses machine learning models to predict what employees will be more likely to leave given some attributes.</p>
+                           <p className='wee'>Predict employee attrition at every level and define a strategy to reduce attrition</p>
+                        </div>
+                     </div>
+                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero8} />                                  
                   </div>
                </div>  
          </section>
