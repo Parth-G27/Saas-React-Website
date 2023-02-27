@@ -35,8 +35,8 @@ const HomeThreeFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links">
                                     <ul>
-                                       <li><a href="#">Platform</a></li>
-                                       <li><a href="#">Solutions</a></li>
+                                       <li><a href="/platform">Platform</a></li>
+                                       <li><a href="/solutions">Solutions</a></li>
                                        <li><a href="#">Services</a></li>
                                        <li><a href="#">AI Academy</a></li>
                                        <li><a href="#">About Us</a></li>
@@ -125,6 +125,9 @@ const HomeThreeFooter = () => {
                            <div className="col-xl-12">
                               <div className="footer__copyright-text text-center">
                                  <p>Copyright © 2022 OneNine AI - All Rights Reserved.</p>
+                              </div>
+                              <div className="footer__privacy-text text-center">
+                                 <a href="/"><p>Privacy</p></a>
                               </div>
                            </div>
                         </div>

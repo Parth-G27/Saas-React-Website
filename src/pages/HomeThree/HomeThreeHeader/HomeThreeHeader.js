@@ -62,7 +62,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                           </li>
                           <li><NavLink to="/platform">Platform</NavLink></li>
                           <li>
-                            <NavLink to="/services">Solutions</NavLink>
+                            <NavLink to="/solutions">Solutions</NavLink>
                             <ul className="submenu">
                               <li><NavLink to="/services">Services</NavLink></li>
                               <li><NavLink to="/servicesDetails">Services Details</NavLink></li>

@@ -132,6 +132,43 @@
             }
         }
     }
+    &__privacy{
+        border-top: 1px solid $border-7;
+        padding: 25px 0;
+        &-2{
+            border-top: 1px solid #3f395c;
+        }
+        &-inner{
+            border-top: 1px solid $border-7;
+            padding: 25px 0;
+        }
+        &-text{
+            & p{
+                margin-top: 10px;
+                margin-bottom: 0;
+                font-weight:bolder;
+                    color: #000000;
+                & a{
+                    font-weight:bolder;
+                    color: #000000;
+                    &:hover{
+                        color: $theme-color;
+                    }
+                }
+            }
+            &-2{
+                & p{
+                    color: #868395;
+                    & a{
+                        color: $white;
+                        &:hover{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
     &__social{
         @media #{$sm}{
             float: left;
