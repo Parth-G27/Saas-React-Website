@@ -3,6 +3,8 @@ import React from 'react';
 
 import plat_Hero1 from './solhero-1.json';
 import plat_Hero2 from './solhero-2.json';
+import plat_Hero3 from './solhero-3.json';
+import plat_Hero4 from './solhero-4.json';
 import Lottie from 'lottie-react';
 
 
@@ -43,10 +45,10 @@ const SolHero = () => {
                </div>  
          </section>
 
-         <section className="services__area-3 mt-120 pt-70 pb-140 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>      
+         <section className="services__area-3 mt-40 pt-20 pb-10 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>      
                <div className="about__area-2 pt-130 pl-20">
                   <div className="row">
-                  <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero1} />
+                  <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero3} />
                      <div className="col-xl-7 col-lg-6">
                         <div className="about__content pl-140">
                            <div className="section__title section__title-sh mb-25 ">
@@ -58,6 +60,23 @@ const SolHero = () => {
                      </div>                     
                   </div>
                </div>
+         </section>
+
+         <section className="services__area-3 mt-10 pt-20 pb-10 p-relative" style={{ background: `url(assets/img/bg/3.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
+               <div className="about__area-2 pt-10 pl-20">
+                  <div className="row">
+                  <div className="col-xl-7 col-lg-5">
+                        <div className="about__content pl-10 ">
+                           <div className="section__title section__title-sh mb-25 mt-80">
+                              <h3 >Product Recommendation Engine</h3>
+                           </div>
+                           <p>Build machine learning algorithms to recommend the most relevant items to a particular customer. It provides analysts with association rules that can be used to predict the likelihood of products being purchased together & next best product. It captures the past behavior of a customer and recommends products/content which the users might be likely to buy/watch.</p>
+                           <p className='wee'>Build Innovative organization while making positive impact in the world</p>
+                        </div>
+                     </div>
+                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero4} />                                  
+                  </div>
+               </div>  
          </section>
 
 
