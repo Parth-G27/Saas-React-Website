@@ -73,6 +73,9 @@ const HomeTwoHeader = () => {
                                           </ul>
                                        </li>
                                        <li>
+                                          <NavLink to="/startnow">Start now</NavLink>
+                                       </li>
+                                       <li>
                                           <NavLink to="/blogs">AI Academy</NavLink>
                                           <ul className="submenu">
                                              <li><NavLink to="/blogs">Blog</NavLink></li>
