@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SinglePrice = ({title,price,active,one,two,three,four,five,six,seven,link}) => {
+const SinglePrice2 = ({title,price,active,one,two,three,four,five,six,seven}) => {
    return (
       <>
          <div className="col-xl-4 col-lg-4 col-md-6">
@@ -26,7 +26,7 @@ const SinglePrice = ({title,price,active,one,two,three,four,five,six,seven,link}
                         <li><span>{seven}</span></li>
                      </ul>
                   </div>
-                  <a href={link} className="price-btn">Get Started</a>
+                  <a href='https://checkout.stripe.com/c/pay/cs_live_b1iRqPzho5LmwmVRAQ9Uh5aDdvHsVIBt1X69yfBJ7kRsiuNq5zVhYEec4A#fidkdWxOYHwnPyd1blppbHNgWjA0SXBjdTROSENOa2hATUJ%2FUDdVc3FNRzE9bExQc0JKQFdAUExLb3QzTmBJXzBWaDV3RkRgUjJPc0ZgSklgTXJAf0JcXzZGQXUyMDBBMFVWcVBsTmh2XVxGNTU9Vm9xdmB0Zyd4JSUl' className="price-btn">Get Started</a>
                </div>
             </div>
          </div>
@@ -34,4 +34,4 @@ const SinglePrice = ({title,price,active,one,two,three,four,five,six,seven,link}
    );
 };
 
-export default SinglePrice;
+export default SinglePrice2;

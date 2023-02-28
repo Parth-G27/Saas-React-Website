@@ -19,12 +19,7 @@ const HomeServices = () => {
                   <SingleService icon="1" title="Affordability" desc="80% Cost effective compared to other Enterprise platforms. Get 100+ insights using One Click Automation, 200+ Data Visualization & 300+ Machine Learning features" />
                   <SingleService icon="2" title="Accessibility" desc="Only No Code Platform that covers full data literacy life cycle. Accelerate organization's AI journey by reducing entry barriers for individuals and businesses to start using AI "/>
                   <SingleService icon="3" title="Simplicity" desc="  Wizard based user-friendly interface for non-technical users. Provides step by step instructions to solve a complex AI problem"/>
-                  <SingleService icon="4" title="Improve Business Outcomes" desc=" Data Driven Insights will help you increase revenue and deliver projects faster than ever using OneNine"/>
-                  {/* <SingleService icon="5" title="Finance Analytics" />
-                  <SingleService icon="6" title="Cord Processing" />
-                  <SingleService icon="7" title="Development" />
-                  <SingleService icon="8" title="Financial audit" /> */}
-
+                  <SingleService icon="8" title="Improve Business Outcomes" desc=" Data Driven Insights will help you increase revenue and deliver projects faster than ever using OneNine"/>
                </div>
             </div>
          </section>

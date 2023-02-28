@@ -11,7 +11,7 @@ const SingleService = ({icon,title,desc}) => {
                </div>
                <div className="services__content">
                   <h2>{title}</h2>
-                  <p>{desc}</p>
+                  <p className='startnow'>{desc}</p>
                </div>
             </div>
          </div>

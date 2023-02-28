@@ -130,6 +130,10 @@ p {
 	margin-bottom: 15px;
 	line-height: 24px;
 }
+p.startnow{
+	color:rgb(119, 119, 119);
+	font-weight: 550;
+}
 
 *::-moz-selection {
 	background: $theme-color;
