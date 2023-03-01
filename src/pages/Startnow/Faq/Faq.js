@@ -4,9 +4,7 @@ const Faq = () => {
    return (
       <>
          <section className="faq__area p-relative pt-65 pb-120 grey-bg-12 pl-40">
-            {/* <div className="faq__thumb" style={{ background: `url(assets/img/faq/faq-1.jpg)`, backgroundPosition: 'center', backgroundSize: 'cover' }}></div> */}
-            {/* <div className="container"> */}
-               {/* <div className="row"> */}
+            
                   <div className="col-xl-9  col-lg-6  col-md-7">
                      <div className="faq__wrapper">
                         <div className="section__title section__title-3 mb-55 pl-25 wow fadeInUp" data-wow-delay=".2s">
@@ -62,10 +60,7 @@ const Faq = () => {
                               </div>
                            </div>
                         </div>
-
                      </div>
-                  {/* </div> */}
-               {/* </div> */}
             </div>
          </section>
       </>
