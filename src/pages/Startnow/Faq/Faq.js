@@ -1,15 +1,15 @@
 import React from 'react';
 
-const HomeTwoFaq = () => {
+const Faq = () => {
    return (
       <>
-         <section className="faq__area p-relative pt-35 pb-120 grey-bg-12 pl-40">
+         <section className="faq__area p-relative pt-65 pb-120 grey-bg-12 pl-40">
             {/* <div className="faq__thumb" style={{ background: `url(assets/img/faq/faq-1.jpg)`, backgroundPosition: 'center', backgroundSize: 'cover' }}></div> */}
             {/* <div className="container"> */}
                {/* <div className="row"> */}
                   <div className="col-xl-9  col-lg-6  col-md-7">
                      <div className="faq__wrapper">
-                        <div className="section__title section__title-3 mb-25 pl-25 wow fadeInUp" data-wow-delay=".2s">
+                        <div className="section__title section__title-3 mb-55 pl-25 wow fadeInUp" data-wow-delay=".2s">
                            <span>Frequently Asked Questions</span>
                            <h4>Please reach us at <a href='mailto:support@onenine.ai'className='sup'>support@onenine.ai</a> if you cannot find an answer to your question.</h4>
                         </div>
@@ -72,4 +72,4 @@ const HomeTwoFaq = () => {
    );
 };
 
-export default HomeTwoFaq;
+export default Faq;

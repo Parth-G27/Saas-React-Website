@@ -4,6 +4,7 @@ import HomeThreeHeader from '../HomeThree/HomeThreeHeader/HomeThreeHeader';
 import HomeThreeFooter from '../HomeThree/HomeThreeFooter/HomeThreeFooter';
 import Price_exp from './Price_exp/Price_exp';
 import Pricing from './Pricing/Pricing';
+import Faq from './Faq/Faq';
 
 
 const Startnow = () => {
@@ -13,6 +14,7 @@ const Startnow = () => {
          <HomeThreeHeader/>
          <Price_exp/>
          <Pricing/>
+         <Faq/>
          
 {/* 
          <Hero/>
