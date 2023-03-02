@@ -38,7 +38,7 @@ const HomeThreeFooter = () => {
                                        <li><a href="/platform">Platform</a></li>
                                        <li><a href="/solutions">Solutions</a></li>
                                        <li><a href="#">Services</a></li>
-                                       <li><a href="#">AI Academy</a></li>
+                                       <li><a href="/aiacademy">AI Academy</a></li>
                                        <li><a href="#">About Us</a></li>
                                     </ul>
                                  </div>

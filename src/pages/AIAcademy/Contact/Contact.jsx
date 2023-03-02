@@ -20,7 +20,7 @@ const HomeContact = () => {
                                  <li>
                                     <h4>call us</h4>
                                     <p><a href="/">(+1) XXX-XXXX-456</a></p>
-         
+                                    
                                  </li>
                                  <li>
                                     <h4>Email Address</h4>

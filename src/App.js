@@ -21,6 +21,7 @@ import TeamDetails from "./pages/TeamDetails/TeamDetails";
 import Platform from "./pages/Platform/Platform";
 import Solutions from "./pages/Solutions/Solutions";
 import Startnow from "./pages/Startnow/Startnow";
+import AIAcademy from './pages/AIAcademy/AIAcademy';
 
 
 function App() {
@@ -40,6 +41,8 @@ function App() {
             <Route path="/platform" element={<Platform/>} />
             <Route path="/solutions" element={<Solutions/>} />
             <Route path="/startnow" element={<Startnow/>} />
+            <Route path="/aiacademy" element={<AIAcademy/>} />
+
 
 
             <Route path="/about" element={<About/>} />
