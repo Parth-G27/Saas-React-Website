@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 import plat_Hero from './platform_hero.json';
 import Lottie from 'lottie-react';
 

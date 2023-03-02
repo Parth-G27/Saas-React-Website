@@ -38,7 +38,7 @@ const HomeThreeHeroSection = () => {
                      <div className="col-xl-6 col-lg-7 d-flex align-items-center">
                         <div className="hero__content">
                            <span className='ai'>OneNine AI.</span>
-                           <h1>The future of<br />Date Science<br/>is no code</h1>
+                           <h1>Bringing power of AI to everyone</h1>
                            <p>No Code Data Intelligence Platform for Everyone.</p>
                            <Link to="/about" className="z-btn ">Book Demo</Link>
                         </div>
