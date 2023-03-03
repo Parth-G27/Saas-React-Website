@@ -16,7 +16,7 @@ const featuredWorksData = [
     },
     {
         id:3,
-        img:'assets/img/case/case-3.jpg',
+        img:'assets/img/case/case-2.jpg',
         title:'Leadership & Change',
         subtitle:'Strategy',
         category: 'coaching',

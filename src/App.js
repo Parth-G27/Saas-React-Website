@@ -23,6 +23,7 @@ import Solutions from "./pages/Solutions/Solutions";
 import Startnow from "./pages/Startnow/Startnow";
 import AIAcademy from './pages/AIAcademy/AIAcademy';
 import Ourteam from './pages/Ourteam/Ourteam';
+import Partner from './pages/Partner/Partner';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
             <Route path="/startnow" element={<Startnow/>} />
             <Route path="/aiacademy" element={<AIAcademy/>} />
             <Route path="/ourteam" element={<Ourteam/>} />
+            <Route path="/partner" element={<Partner/>} />
 
 
 
