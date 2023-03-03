@@ -40,7 +40,11 @@ const HomeThreeHeroSection = () => {
                            <span className='ai'>OneNine AI.</span>
                            <h1>Bringing power of AI to everyone</h1>
                            <p>No Code Data Intelligence Platform for Everyone.</p>
-                           <Link to="/about" className="z-btn ">Book Demo</Link>
+                           <a href="https://calendly.com/onenine/15min?month=2023-03">
+                              <button className='z-btn-1'>Book Demo</button>
+                           </a>
+                           
+                           {/* <Link to="/about" className="z-btn ">Book Demo</Link> */}
                         </div>
                      </div>
                   </div>

@@ -58,14 +58,14 @@ const featuredWorksData = [
     },
     {
         id: 9,
-        img: 'assets/img/case/case-3.jpg',
+        img: 'assets/img/case/case-0.jpg',
         title: 'Leadership & Change',
         subtitle: 'Strategy',
         category: 'consulting',
     },
     {
         id: 10,
-        img: 'assets/img/case/case-3.jpg',
+        img: 'assets/img/case/case-0.jpg',
         title: 'Leadership & Change',
         subtitle: 'Strategy',
         category: 'strategy',

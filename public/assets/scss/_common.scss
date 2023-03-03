@@ -333,7 +333,7 @@ p.startnow{
 	@include border-radius(10px);
 	font-weight: 700;
 	text-transform: capitalize;
-	min-width: 160px;
+	min-width: 150px;
 	text-align: center;
 	& i{
 		margin-left: 8px;
@@ -388,6 +388,42 @@ p.startnow{
 	&-3{
 		height: 44px;
 		line-height: 40px;
+	}
+}
+.z-btn-1{
+	display: inline-block;
+	height: 54px;
+	line-height: 48px;
+	border: 2px solid $theme-color;
+	background: $theme-color;
+	color: $white;
+	padding: 0 30px;
+	@include border-radius(10px);
+	font-weight: 700;
+	text-transform: capitalize;
+	min-width: 160px;
+	text-align: center;
+	&:hover{
+		background: $white;
+		color: $theme-color;
+	}
+}
+.z-btn-2{
+	display: inline-block;
+	height: 51px;
+	line-height: 45px;
+	border: 2px solid $theme-color;
+	background: $theme-color;
+	color: $white;
+	padding: 0 5px;
+	@include border-radius(13px);
+	font-weight: 600;
+	text-transform: capitalize;
+	min-width: 130px;
+	text-align: center;
+	&:hover{
+		background: $white;
+		color: $theme-color;
 	}
 }
 

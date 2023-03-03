@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import HomeTwoSingleCase from '../../../components/HomeTwoSingleCase/HomeTwoSingleCase';
-import featuredWorksData from '../../../data/featuredWorksData';
+// import featuredWorksData from '../../../data/featuredWorksData';
+import test from '../../../data/test';
 
-const allCategories = ['all', ...new Set(featuredWorksData.map(item => item.category))];
+const allCategories = ['all', ...new Set(test.map(item => item.category))];
 
-const arr = featuredWorksData;
+const arr = test;
 const uniqueItem = arr.filter((arr, index, self) =>
    index === self.findIndex((t) => (t.img === arr.img && t.State === arr.State)))
 
@@ -20,7 +21,7 @@ const Partnerarea = () => {
         return setFilterGalleryItems(uniqueItem);
       }
 
-      const remainingItems = featuredWorksData.filter(item => item.category === category);
+      const remainingItems = test.filter(item => item.category === category);
       setFilterGalleryItems(remainingItems);
    }
 

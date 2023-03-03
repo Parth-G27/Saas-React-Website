@@ -25,12 +25,12 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
           :`header__bottom header__bottom-2 ${h4class && h4class}`}>
             <div className="container">
               <div className="row align-items-center">
-                <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
-                  <div className="logo-3">
+                <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-6">
+                  {/* <div className=""> */}
                     <NavLink to="/">
                       <img src="assets/img/logo/rsz_9.png" alt="logo" />
                     </NavLink>
-                  </div>
+                  {/* </div> */}
                 </div>
                 <div className="col-xl-9 col-lg-9 col-md-6 col-sm-6 col-6">
                   <div className="header__bottom-right d-flex justify-content-end align-items-center">
@@ -39,7 +39,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                         <ul>
                           <li>
                             <NavLink to={`${h4class ? '/headerStyleFour' : '/homeThree'}`}>Home</NavLink>
-                            <ul className="submenu">
+                            {/* <ul className="submenu">
                               <li><NavLink to="/home">Home Style 1</NavLink></li>
                               <li>
                                 <NavLink to="/homeTwo">Home Style 2</NavLink>
@@ -58,42 +58,51 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                                   <li><NavLink to="/headerStyleSeven">Header Syle 7</NavLink></li>
                                 </ul>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li><NavLink to="/platform">Platform</NavLink></li>
                           <li>
                             <NavLink to="/solutions">Solutions</NavLink>
-                            <ul className="submenu">
+                            {/* <ul className="submenu">
                               <li><NavLink to="/services">Services</NavLink></li>
                               <li><NavLink to="/servicesDetails">Services Details</NavLink></li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li>
-                            <NavLink to="/portfolio">Services</NavLink>
-                            <ul className="submenu">
+                            <NavLink to="/">Services</NavLink>
+                            {/* <ul className="submenu">
                               <li><NavLink to="/portfolio">portfolio</NavLink></li>
                               <li><NavLink to="/portfolioDetails">portfolio Details</NavLink></li>
                               <li><NavLink to="/team">team</NavLink></li>
                               <li><NavLink to="/teamDetails">team Details</NavLink></li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li>
                             <NavLink to="/startnow">Start now</NavLink>
                           </li>
                           <li>
                             <NavLink to="/aiacademy">AI Academy</NavLink>
-                            <ul className="submenu">
+                            {/* <ul className="submenu">
                               <li><NavLink to="/blogs">Blog</NavLink></li>
                               <li><NavLink to="/blogDetails">Blog Details</NavLink></li>
+                            </ul> */}
+                          </li>
+                          <li>
+                            <NavLink to="/">About Us</NavLink>
+                            <ul className="submenu">
+                              <li><NavLink to="/ourteam">Our Team</NavLink></li>
+                              <li><NavLink to="/partner">Partners</NavLink></li>
                             </ul>
                           </li>
-                          <li><NavLink to="/contact">About Us</NavLink></li>
                         </ul>
                       </nav>
                     </div>
-                    {/* <div className="header__btn d-none d-sm-block d-xl-block ml-50">
-                      <Link to="/contact" className={`z-btn ${btn_class}`}>{btn_text}</Link>
-                    </div> */}
+                    <div className="ml-25">
+                    <a href="https://calendly.com/onenine/15min?month=2023-03">
+                              <button className='z-btn-2'>Book Demo</button>
+                           </a>
+                      {/* <Link to="/contact" className={`z-btn ${btn_class}`}>{btn_text}</Link> */}
+                    </div>
                     <div onClick={handleShow} className="sidebar__menu d-lg-none">
                       <div className="sidebar-toggle-btn sidebar-toggle-btn-3" id="sidebar-toggle">
                         <span className="line"></span>
