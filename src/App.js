@@ -22,6 +22,7 @@ import Platform from "./pages/Platform/Platform";
 import Solutions from "./pages/Solutions/Solutions";
 import Startnow from "./pages/Startnow/Startnow";
 import AIAcademy from './pages/AIAcademy/AIAcademy';
+import Ourteam from './pages/Ourteam/Ourteam';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             <Route path="/solutions" element={<Solutions/>} />
             <Route path="/startnow" element={<Startnow/>} />
             <Route path="/aiacademy" element={<AIAcademy/>} />
+            <Route path="/ourteam" element={<Ourteam/>} />
 
 
 

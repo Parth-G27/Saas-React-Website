@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { FaEnvelope, FaFacebookF, FaPhoneAlt, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
 
@@ -76,21 +77,29 @@ const Contact = () => {
                         <div className="contact__wrapper d-md-flex justify-content-between">
                            <div className="contact__info mr-100">
                               <h3>Get in touch</h3>
+                              
                               <ul>
-                                 <li>
-                                    <h4>Address</h4>
-                                    <p>24 Parking Plaza, Suite 506 <br/> Ardmore, SA 19004</p>
-                                 </li>
-                                 <li>
-                                    <h4>call us</h4>
-                                    <p><a href="/">(+1) XXX-XXXX-456</a></p>
-                                    
-                                 </li>
                                  <li>
                                     <h4>Email Address</h4>
                                     <p><a href="mailto:support@onenine.ai">support@onenine.ai</a></p>
                                  </li>
                               </ul>
+                              <div className="footer__social theme-social pt-60">
+                                 <ul>
+                                 <li>
+                                    <a href="https://www.linkedin.com/company/onenine-ai/">
+                                       <i ><FaLinkedin /></i>
+                                       <i ><FaLinkedin /></i>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://twitter.com/Onenineai">
+                                       <i ><FaTwitter /> </i>
+                                       <i ><FaTwitter /> </i>
+                                    </a>
+                                 </li>
+                              </ul>
+                              </div>
                            </div>
                            <div className="contact__form">
                               <form  onSubmit={submitHandler}>
