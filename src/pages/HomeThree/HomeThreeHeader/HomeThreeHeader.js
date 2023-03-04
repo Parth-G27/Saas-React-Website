@@ -98,7 +98,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                       </nav>
                     </div>
                     <div className="ml-25">
-                    <a href="https://calendly.com/onenine/15min?month=2023-03">
+                    <a href="https://calendly.com/onenine/15min?month=2023-03" target="_blank">
                               <button className='z-btn-2'>Book Demo</button>
                            </a>
                       {/* <Link to="/contact" className={`z-btn ${btn_class}`}>{btn_text}</Link> */}

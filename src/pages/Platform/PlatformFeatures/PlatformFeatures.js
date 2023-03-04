@@ -145,6 +145,11 @@ const HomeServices = () => {
                </div>  
          </section>
          </section>
+         {/* <!-- Calendly inline widget begin --> */}
+
+<div className="calendly-inline-widget" data-url="https://calendly.com/onenine/15min?hide_landing_page_details=1&hide_gdpr_banner=1&back=1" ></div>
+
+{/* <!-- Calendly inline widget end --> */}
       </>
    );
 };

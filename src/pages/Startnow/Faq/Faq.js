@@ -40,7 +40,7 @@ const Faq = () => {
                               </div>
                               <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                  <div className="card-body accordion-body">
-                                 Once you login to OneNine Dashboard, you have full access to documentation and video tutorial on all platform features. We also provide 24X7 support. Create a ticket on OneNine Portal and one of our team members will reach out to you within 24 hours:<a href='https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals' className='sup'>https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals</a> 
+                                 Once you login to OneNine Dashboard, you have full access to documentation and video tutorial on all platform features. We also provide 24X7 support. Create a ticket on OneNine Portal and one of our team members will reach out to you within 24 hours:<a href='https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals' target="_blank" className='sup'>https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals</a> 
                                  </div>
                               </div>
                            </div>
