@@ -39,9 +39,7 @@ const HomeThree = () => {
          <HomeTwoBlogs/>
         
          
-         {/* <HomeThreeSecondServices /> */}
-         {/* <HomeTwoTestimonial /> */}
-         {/* <HomeThreeProjects /> */}
+       
          
          {/* <HomeThreeFaq />  
          <CommonCtaArea /> */}

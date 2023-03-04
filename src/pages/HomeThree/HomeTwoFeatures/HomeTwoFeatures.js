@@ -25,7 +25,7 @@ const HomeTwoFeatures = () => {
                         <h2>Create Human & AI embeded workforce of the future allowing anyone to build data products to improve their predictions.</h2>
                         <br/>
                         <br/>
-                        <Link to="/about" className="z-btn">What we do<i><CgArrowLongRight/></i></Link>
+                        <Link to="/" className="z-btn">What we do<i><CgArrowLongRight/></i></Link>
                      </div>
                   </div>
                   <div className="col-xl-6 offset-xl-1 col-lg-6">

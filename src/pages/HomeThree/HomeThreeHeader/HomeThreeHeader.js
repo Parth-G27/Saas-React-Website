@@ -39,7 +39,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                         <ul>
                           <li>
                             <NavLink to={`${h4class ? '/headerStyleFour' : '/homeThree'}`}>Home</NavLink>
-                            {/* <ul className="submenu">
+                            <ul className="submenu">
                               <li><NavLink to="/home">Home Style 1</NavLink></li>
                               <li>
                                 <NavLink to="/homeTwo">Home Style 2</NavLink>
@@ -58,34 +58,34 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                                   <li><NavLink to="/headerStyleSeven">Header Syle 7</NavLink></li>
                                 </ul>
                               </li>
-                            </ul> */}
+                            </ul>
                           </li>
                           <li><NavLink to="/platform">Platform</NavLink></li>
                           <li>
                             <NavLink to="/solutions">Solutions</NavLink>
-                            {/* <ul className="submenu">
+                            <ul className="submenu">
                               <li><NavLink to="/services">Services</NavLink></li>
                               <li><NavLink to="/servicesDetails">Services Details</NavLink></li>
-                            </ul> */}
+                            </ul>
                           </li>
                           <li>
-                            <NavLink to="/">Services</NavLink>
-                            {/* <ul className="submenu">
+                            <NavLink to="/portfolio">Services</NavLink>
+                            <ul className="submenu">
                               <li><NavLink to="/portfolio">portfolio</NavLink></li>
                               <li><NavLink to="/portfolioDetails">portfolio Details</NavLink></li>
                               <li><NavLink to="/team">team</NavLink></li>
                               <li><NavLink to="/teamDetails">team Details</NavLink></li>
-                            </ul> */}
+                            </ul>
                           </li>
                           <li>
                             <NavLink to="/startnow">Start now</NavLink>
                           </li>
                           <li>
                             <NavLink to="/aiacademy">AI Academy</NavLink>
-                            {/* <ul className="submenu">
+                            <ul className="submenu">
                               <li><NavLink to="/blogs">Blog</NavLink></li>
                               <li><NavLink to="/blogDetails">Blog Details</NavLink></li>
-                            </ul> */}
+                            </ul>
                           </li>
                           <li>
                             <NavLink to="/">About Us</NavLink>
