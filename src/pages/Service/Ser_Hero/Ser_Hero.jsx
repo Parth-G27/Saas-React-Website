@@ -70,9 +70,9 @@ const Ser_Hero = () => {
                         </div>
                     </div>
 
-                     {/* <div className="col-xl-9 col-lg-3">
-               
-                     </div>                      */}
+                   
+
+
                   </div>
                </div>
          </section>
