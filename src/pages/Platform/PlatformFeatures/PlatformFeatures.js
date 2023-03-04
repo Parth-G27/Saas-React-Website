@@ -1,5 +1,5 @@
 import React from 'react';
-import SingleService from '../../../components/SingleService/SingleService';
+// import SingleService from '../../../components/SingleService/SingleService';
 
 
 import plat_Hero1 from './sub_hero-1.json';
@@ -9,6 +9,8 @@ import plat_Hero4 from './sub_hero-4.json';
 import plat_Hero5 from './sub_hero-5.json';
 import plat_Hero6 from './sub_hero-6.json';
 import Lottie from 'lottie-react';
+
+import Calendly from '../../../components/Calendly/Calendly';
 
 
 const HomeServices = () => {
@@ -145,11 +147,12 @@ const HomeServices = () => {
                </div>  
          </section>
          </section>
-         {/* <!-- Calendly inline widget begin --> */}
 
-<div className="calendly-inline-widget" data-url="https://calendly.com/onenine/15min?hide_landing_page_details=1&hide_gdpr_banner=1&back=1" ></div>
 
-{/* <!-- Calendly inline widget end --> */}
+        <Calendly/>
+
+        <div className="mt-50">
+        </div>
       </>
    );
 };
