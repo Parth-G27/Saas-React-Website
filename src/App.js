@@ -24,6 +24,7 @@ import Startnow from "./pages/Startnow/Startnow";
 import AIAcademy from './pages/AIAcademy/AIAcademy';
 import Ourteam from './pages/Ourteam/Ourteam';
 import Partner from './pages/Partner/Partner';
+import Service from './pages/Service/Service';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
             <Route path="/aiacademy" element={<AIAcademy/>} />
             <Route path="/ourteam" element={<Ourteam/>} />
             <Route path="/partner" element={<Partner/>} />
+            <Route path="/service" element={<Service/>} />
 
 
 

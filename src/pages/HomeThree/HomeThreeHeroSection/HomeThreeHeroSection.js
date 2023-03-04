@@ -8,7 +8,7 @@ const HomeThreeHeroSection = () => {
       <>
          <section className="hero__area p-relative">
             <div className="hero__shape">
-               <img className="one" src="assets/img/icon/slider/03/icon-1.png" alt="" />
+               {/* <img className="one" src="assets/img/icon/slider/03/icon-1.png" alt="" /> */}
                <img className="two" src="assets/img/icon/slider/03/icon-2.png" alt="" />
                <img className="three" src="assets/img/icon/slider/03/icon-3.png" alt="" />
                <img className="four" src="assets/img/icon/slider/03/icon-4.png" alt="" />
