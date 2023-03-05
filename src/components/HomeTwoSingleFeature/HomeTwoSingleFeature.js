@@ -1,5 +1,4 @@
 import React from 'react';
-import { CgArrowLongRight } from 'react-icons/cg';
 import { Link } from 'react-router-dom';
 
 const HomeTwoSingleFeature = ({icon,title}) => {
