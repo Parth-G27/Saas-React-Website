@@ -25,6 +25,8 @@ import AIAcademy from './pages/AIAcademy/AIAcademy';
 import Ourteam from './pages/Ourteam/Ourteam';
 import Partner from './pages/Partner/Partner';
 import Service from './pages/Service/Service';
+import News from './pages/News/News';
+import Usecases from './pages/Usecases/Usecases';
 
 
 function App() {
@@ -48,6 +50,9 @@ function App() {
             <Route path="/ourteam" element={<Ourteam/>} />
             <Route path="/partner" element={<Partner/>} />
             <Route path="/service" element={<Service/>} />
+            <Route path="/news" element={<News/>} />
+            <Route path="/usecases" element={<Usecases/>} />
+            
 
 
 

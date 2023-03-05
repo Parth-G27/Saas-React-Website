@@ -90,15 +90,20 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                           <li>
                             <NavLink to="/">About Us</NavLink>
                             <ul className="submenu">
-                              <li><NavLink to="/ourteam">Our Team</NavLink></li>
                               <li><NavLink to="/partner">Partners</NavLink></li>
+                              <li><NavLink to="/usecases">Use Cases</NavLink></li>
+                              <li><NavLink to="/news">News</NavLink></li>
+                              <li><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
+                              <li><NavLink to="/ourteam">Our Team</NavLink></li>
+                              
+                              
                             </ul>
                           </li>
                         </ul>
                       </nav>
                     </div>
                     <div className="ml-25">
-                    <a href="https://calendly.com/onenine/15min?month=2023-03" target="_blank">
+                    <a href="https://calendly.com/onenine/15min?month=2023-03" target="_blank" >
                               <button className='z-btn-2'>Book Demo</button>
                            </a>
                       {/* <Link to="/contact" className={`z-btn ${btn_class}`}>{btn_text}</Link> */}

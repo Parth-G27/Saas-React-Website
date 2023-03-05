@@ -37,9 +37,10 @@ const HomeThreeFooter = () => {
                                     <ul>
                                        <li><a href="/platform">Platform</a></li>
                                        <li><a href="/solutions">Solutions</a></li>
-                                       <li><a href="#">Services</a></li>
+                                       <li><a href="/service">Services</a></li>
+                                       <li><a href="/startnow">Start Now</a></li>
                                        <li><a href="/aiacademy">AI Academy</a></li>
-                                       <li><a href="#">About Us</a></li>
+                                       
                                     </ul>
                                  </div>
                               </div>
@@ -53,11 +54,12 @@ const HomeThreeFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links">
                                     <ul>
-                                       <li><a href="#">News</a></li>
-                                       <li><a href="#">Support Portal</a></li>
-                                       <li><a href="#">Contact</a></li>
-                                       <li><a href="#">Careers</a></li>
-                                       <li><a href="#">Release Notes</a></li>
+                                       <li><a href="/partner">Partners</a></li>
+                                       <li><a href="/usecases">Use Cases</a></li>
+                                       <li><a href="/news">News</a></li>
+                                       <li><a href="/https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
+                                       <li><a href="/ourteam">Our Team</a></li>
+                                       
                                       
                                     </ul>
                                  </div>
@@ -77,16 +79,16 @@ const HomeThreeFooter = () => {
                                              <i> <FaEnvelope/> </i>
                                           </div>
                                           <div className="text theme-color ">
-                                             <span><a href="/">support@onenine.ai</a></span>
+                                             <span><a href='mailto:support@onenine.ai'className='sup'>support@onenine.ai</a></span>
                                           </div>
                                        </li>
                                        <li>
-                                          <div className="icon theme-color">
+                                          {/* <div className="icon theme-color">
                                              <i > <FaPhoneAlt/> </i>
-                                          </div>
-                                          <div className="text theme-color">
+                                          </div> */}
+                                          {/* <div className="text theme-color">
                                              <span><a href="/">(+91) XXX-XXX-7282</a></span>
-                                          </div>
+                                          </div> */}
                                        </li>
                                     </ul>
                                  </div>
