@@ -38,12 +38,12 @@ const HomeTwoSingleCase = ({ galleryItem, index, filterGalleryItems}) => {
                      <h4><Link to="/portfolioDetails">{title}</Link></h4>
                      <span>{subtitle}</span>
                   </div>
-                  <div className="case__plus p-absolute transition-3" onClick={setOpen} >
+                  {/* <div className="case__plus p-absolute transition-3" onClick={setOpen} >
                      <button onClick={() => setPhotoIndex(index)} data-fancybox="gallery">
                         <i > <AiOutlinePlus/> </i>
                         <i > <AiOutlinePlus/> </i>
                      </button>
-                  </div>
+                  </div> */}
                </div>
             </div>
          </div>
