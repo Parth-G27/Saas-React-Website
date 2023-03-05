@@ -15,6 +15,7 @@ import HomeTwoFeatures from './HomeTwoFeatures/HomeTwoFeatures';
 import HomeServices from './HomeServices/HomeServices';
 import HomeHeroSlider from './HomeHeroArea/HomeHeroSlider';
 import HomeTwoBlogs from './HomeTwoBlogs/HomeTwoBlogs';
+import Backedby from '../Partner/Backedby/Backedby'
 
 const HomeThree = () => {
    return (
@@ -37,6 +38,7 @@ const HomeThree = () => {
          <HomeHeroSlider/>
          <HomeServices />
          <HomeTwoBlogs/>
+         <Backedby/>
         
          
        

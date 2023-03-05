@@ -20,10 +20,7 @@ const HomeServices = () => {
                   <SingleService icon="2" title="Pick & Choose from 200+ Visualizations" />
                   <SingleService icon="3" title="300+ Machine Learning models" />
                   <SingleService icon="8" title="Deploy to production within minutes" />
-                  {/* <SingleService icon="5" title="Finance Analytics" />
-                  <SingleService icon="6" title="Cord Processing" />
-                  <SingleService icon="7" title="Development" />
-                  <SingleService icon="8" title="Financial audit" /> */}
+                 
 
                </div>
             </div>
