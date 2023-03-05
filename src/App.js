@@ -29,6 +29,7 @@ import News from './pages/News/News';
 import Usecases from './pages/Usecases/Usecases';
 
 
+
 function App() {
   return (
     <>
@@ -52,6 +53,11 @@ function App() {
             <Route path="/service" element={<Service/>} />
             <Route path="/news" element={<News/>} />
             <Route path="/usecases" element={<Usecases/>} />
+
+
+            
+
+
             
 
 
