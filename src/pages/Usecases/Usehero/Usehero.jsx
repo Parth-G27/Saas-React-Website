@@ -55,8 +55,21 @@ const Usehero = () => {
 
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
 
-                              <Case  title="Healthcare" />
-                              <Case  title="Transportation" />
+                              {/* <Case  title="Healthcare" /> */}
+                              {/* <Case  title="Transportation" /> */}
+                              <div className="features__itemm features__itemm-2 white-bg fix mb-30">
+                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                                        <div className="features__content-2">
+                                        <h3>Healthcare</h3>
+                                    </div>
+                                </div>
+
+                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
+                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                                        <div className="features__content-2">
+                                        <h3>Transportation</h3>
+                                    </div>
+                                </div>
 
                            </div>
 

@@ -9,7 +9,7 @@ import Calendly from '../../../components/Calendly/Calendly';
 
 
 
-const Bookdemo = () => {
+const Cal = () => {
    return (
       <>
    
@@ -22,4 +22,4 @@ const Bookdemo = () => {
    );
 };
 
-export default Bookdemo;
+export default Cal;
