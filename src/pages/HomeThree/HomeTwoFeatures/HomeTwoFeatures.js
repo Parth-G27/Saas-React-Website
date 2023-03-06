@@ -25,7 +25,7 @@ const HomeTwoFeatures = () => {
                         <h2>Create Human & AI embeded workforce of the future allowing anyone to build data products to improve their predictions.</h2>
                         <br/>
                         <br/>
-                        <Link to="/" className="z-btn">What we do<i><CgArrowLongRight/></i></Link>
+                        <a href="https://calendly.com/onenine/15min?month=2023-03" target="_blank" className="z-btn">What we do<i><CgArrowLongRight/></i></a>
                      </div>
                   </div>
                   <div className="col-xl-6 offset-xl-1 col-lg-6">

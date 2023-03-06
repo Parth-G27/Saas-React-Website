@@ -29,35 +29,49 @@ const Usehero = () => {
                             
                               {/* <Case title="Telecommunications" /> */}
                                 <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                                    <div className="features__thumb-2 w-img p-relative" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
                                         <div className="features__content-2">
                                         <h3>Telecommunications</h3>
+                                        
+
                                     </div>
                                 </div>
 
+                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
+                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                                        <div className="features__content-2">
+                                        <h3>Construction</h3>
+                                    </div>
+                                </div>
+
+                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
+                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                                        <div className="features__content-2">
+                                        <h3>Real Estate</h3>
+                                    </div>
+                                </div>
                             
-                            <Case title="Construction" />
-                            
-
-                              
-
-                             
-
                            </div>
 
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
+
                               <Case  title="Healthcare" />
                               <Case  title="Transportation" />
+
                            </div>
 
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
+
                               <Case  title="Agriculture" />
                               <Case  title="Government " />
+
                            </div>
 
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
+
                               <Case  title="Finance" />
                               <Case  title=" Food Services" />
+                              
                            </div>
                            
                         </div>

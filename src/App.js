@@ -27,6 +27,7 @@ import Partner from './pages/Partner/Partner';
 import Service from './pages/Service/Service';
 import News from './pages/News/News';
 import Usecases from './pages/Usecases/Usecases';
+import Bookdemo from './pages/Bookdemo/Bookdemo';
 
 
 
@@ -53,6 +54,7 @@ function App() {
             <Route path="/service" element={<Service/>} />
             <Route path="/news" element={<News/>} />
             <Route path="/usecases" element={<Usecases/>} />
+            <Route path="/bookdemo" element={<Bookdemo/>} />
 
 
             
