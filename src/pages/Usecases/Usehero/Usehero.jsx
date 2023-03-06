@@ -119,6 +119,7 @@ const Usehero = () => {
                                 </div>
                                 </HashLink>
 
+
                                 <HashLink to="#foo">
                                 <div className="features__itemm features__itemm-2 white-bg fix mb-30">
                                     <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
