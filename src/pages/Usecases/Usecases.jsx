@@ -4,6 +4,7 @@ import HomeThreeHeader from '../HomeThree/HomeThreeHeader/HomeThreeHeader';
 import HomeThreeFooter from '../HomeThree/HomeThreeFooter/HomeThreeFooter';
 import Usehero from './Usehero/Usehero';
 import Usehead from './Usehead/Usehead';
+import Telecommunications from './Telecommunications/Telecommunications';
 
 
 const Usecases = () => {
@@ -13,6 +14,7 @@ const Usecases = () => {
           <HomeThreeHeader/>
           <Usehero/>
           <Usehead/>
+          <Telecommunications/>
        
           
           <HomeThreeFooter/>
