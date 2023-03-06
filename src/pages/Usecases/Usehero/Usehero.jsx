@@ -39,56 +39,98 @@ const Usehero = () => {
                                 </div>
                                 </HashLink>
 
+                                <HashLink to="#con">
                                 <div className="features__itemm features__itemm-2 white-bg fix mb-30">
                                     <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
                                         <div className="features__content-2">
                                         <h3>Construction</h3>
                                     </div>
                                 </div>
+                                </HashLink>
 
+                                <HashLink to="#rea">
                                 <div className="features__itemm features__itemm-2 white-bg fix mb-30">
                                     <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
                                         <div className="features__content-2">
                                         <h3>Real Estate</h3>
                                     </div>
                                 </div>
+                                </HashLink>
                             
                            </div>
 
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
 
-                              {/* <Case  title="Healthcare" /> */}
-                              {/* <Case  title="Transportation" /> */}
+                            
                               <HashLink to="#hel">
-                              <div className="features__itemm features__itemm-2 white-bg fix mb-30" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
-                                    <div className="features__thumb-2"  ></div>
+                              <div className="features__itemm features__itemm-2 white-bg fix mb-30">
+                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
                                         <div className="features__content-2">
                                         <h3>Healthcare</h3>
                                     </div>
                                 </div>
                                 </HashLink>
 
+                                <HashLink to="#tra">
                                 <div className="features__itemm features__itemm-2 white-bg fix mb-30">
                                     <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
                                         <div className="features__content-2">
                                         <h3>Transportation</h3>
                                     </div>
                                 </div>
+                                </HashLink>
 
                            </div>
 
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
+
+                               <HashLink to="#agr">
+                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
+                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                                        <div className="features__content-2">
+                                        <h3>Agriculture</h3>
+                                    </div>
+                                </div>
+                                </HashLink>
+
+                                <HashLink to="#gov">
+                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
+                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                                        <div className="features__content-2">
+                                        <h3>Government</h3>
+                                    </div>
+                                </div>
+                                </HashLink>
 
                               
-                              <HashLink to="#agr" smooth><Case  title="Agriculture" /></HashLink>
-                              <Case  title="Government " />
+                              {/* <HashLink to="#agr" smooth><Case  title="Agriculture" /></HashLink>
+                              <Case  title="Government " /> */}
 
                            </div>
 
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
 
-                              <Case  title="Finance" />
-                              <HashLink to="#tel" smooth><Case  title=" Food Services" /></HashLink>
+                           <HashLink to="#fin">
+                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
+                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                                        <div className="features__content-2">
+                                        <h3>Finance</h3>
+                                    </div>
+                                </div>
+                                </HashLink>
+
+                                <HashLink to="#foo">
+                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
+                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                                        <div className="features__content-2">
+                                        <h3>Food Services</h3>
+                                    </div>
+                                </div>
+                                </HashLink>
+                            
+
+                              {/* <Case  title="Finance" />
+                              <HashLink to="#tel" smooth><Case  title=" Food Services" /></HashLink> */}
                               
                               
                            </div>

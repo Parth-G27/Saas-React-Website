@@ -8,6 +8,11 @@ import Telecommunications from './Telecommunications/Telecommunications';
 import Healthcare from './Healthcare/Healthcare';
 import Agriculture from './Agriculture/Agriculture';
 import Finance from './Finance/Finance';
+import Construction from './Construction/Construction';
+import Transportation from './Transportation/Transportation';
+import Government from './Government/Government';
+import FoodServices from './Foodservices/Foodservices';
+import RealEstate from './Realestate/Realestate';
 
 
 const Usecases = () => {
@@ -21,6 +26,11 @@ const Usecases = () => {
           <Healthcare/>
           <Agriculture/>
           <Finance/>
+          <Construction/>
+          <Transportation/>
+          <Government/>
+          <FoodServices/>
+          <RealEstate/>
        
           
           <HomeThreeFooter/>
