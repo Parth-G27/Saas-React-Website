@@ -26,5 +26,4 @@ const Telecommunications = () => {
         </>
     )
 }
-export default Telecommunications
-;
+export default Telecommunications;

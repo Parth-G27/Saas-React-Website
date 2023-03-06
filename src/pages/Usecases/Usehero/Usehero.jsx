@@ -30,14 +30,14 @@ const Usehero = () => {
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
                             
                               {/* <Case title="Telecommunications" /> */}
+                                <HashLink to="#tel">
                                 <div className="features__itemm features__itemm-2 white-bg fix mb-30">
                                     <div className="features__thumb-2 w-img p-relative" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
                                         <div className="features__content-2">
-                                        <h3>Telecommunications</h3>
-                                        
-
+                                        <h3>Telecommunications</h3>                              
                                     </div>
                                 </div>
+                                </HashLink>
 
                                 <div className="features__itemm features__itemm-2 white-bg fix mb-30">
                                     <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
@@ -59,12 +59,14 @@ const Usehero = () => {
 
                               {/* <Case  title="Healthcare" /> */}
                               {/* <Case  title="Transportation" /> */}
-                              <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
+                              <HashLink to="#hel">
+                              <div className="features__itemm features__itemm-2 white-bg fix mb-30" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
+                                    <div className="features__thumb-2"  ></div>
                                         <div className="features__content-2">
                                         <h3>Healthcare</h3>
                                     </div>
                                 </div>
+                                </HashLink>
 
                                 <div className="features__itemm features__itemm-2 white-bg fix mb-30">
                                     <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
@@ -77,7 +79,8 @@ const Usehero = () => {
 
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
 
-                              <Case  title="Agriculture" />
+                              
+                              <HashLink to="#agr" smooth><Case  title="Agriculture" /></HashLink>
                               <Case  title="Government " />
 
                            </div>
@@ -85,22 +88,15 @@ const Usehero = () => {
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
 
                               <Case  title="Finance" />
-                              <Case  title=" Food Services" />
+                              <HashLink to="#tel" smooth><Case  title=" Food Services" /></HashLink>
+                              
                               
                            </div>
                            
                         </div>
                      </div>
                   </div>
-                  
-                  <ink to="#tel">Telecommunication</ink>
-
-                  <HashLink to="#tel">pls work !</HashLink>
-                  
-                  
-                  
-                  <Link to="#tel">Telecommunication</Link>
-
+                 
        
        
     </>
