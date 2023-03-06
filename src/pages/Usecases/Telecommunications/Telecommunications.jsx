@@ -6,7 +6,7 @@ const Telecommunications = () => {
 
     return (
         <>
-        <section className="services__area-2 mt-50 pt-70 pb-0 p-relative" style={{ background: `url(assets/img/bg/bg-new.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}> 
+        <section className="services__area-2 mt-50 pt-70 pb-0 p-relative" style={{ background: `url(assets/img/bg/bg-new.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }} id="tel"> 
             <div className="about__area-2 pt-130 pl-20">
                 <div className="row">
                     <Lottie className="col-xl-3 col-lg-3" speed={null} loop={true} animationData ={plat_Hero1} />

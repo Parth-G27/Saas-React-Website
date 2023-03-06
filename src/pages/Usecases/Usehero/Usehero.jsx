@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Usercards from '../Usecards/Usecards';
 import Case from '../../../components/Case/Case';
 import test from './test';
+import { BrowserRouter } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link'; 
 const Usehero = () => {
 
 
@@ -90,6 +92,14 @@ const Usehero = () => {
                         </div>
                      </div>
                   </div>
+                  
+                  <ink to="#tel">Telecommunication</ink>
+
+                  <HashLink to="#tel">pls work !</HashLink>
+                  
+                  
+                  
+                  <Link to="#tel">Telecommunication</Link>
 
        
        
