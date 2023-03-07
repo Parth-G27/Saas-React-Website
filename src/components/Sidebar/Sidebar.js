@@ -13,11 +13,11 @@ const Sidebar = ({ show, handleClose }) => {
          <div >
             <Offcanvas show={show} onHide={handleClose} placement='end' className='side__bar'>
                <Offcanvas.Header closeButton>
-                  <div className="logo">
+                  {/* <div className="logo">
                      <a href="index.html">
                         <img src="assets/img/logo/logo.png" alt="logo" />
                      </a>
-                  </div>
+                  </div> */}
                </Offcanvas.Header>
 
                <Offcanvas.Body>
@@ -30,9 +30,9 @@ const Sidebar = ({ show, handleClose }) => {
                               <li className="nav-item">
                                  <a className="nav-link active" id="menu-tab" data-bs-toggle="tab" href="#menu" role="tab" aria-controls="menu" aria-selected="true">menu</a>
                               </li>
-                              <li className="nav-item">
+                              {/* <li className="nav-item">
                                  <a className="nav-link" id="info-tab" data-bs-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">info</a>
-                              </li>
+                              </li> */}
                            </ul>
                         </div>
                         <div className="sidebar__content">
@@ -41,9 +41,12 @@ const Sidebar = ({ show, handleClose }) => {
                               <div className="tab-pane fade show active" id="menu" role="tabpanel" aria-labelledby="menu-tab">
 
                                  <div className='side_navBar'>
-                                    <Collapsible trigger={<NavLink to="/home">Home</NavLink>} triggerTagName="div"
+                                 <div className='about iconAdd'>
+                                       <NavLink to="/">Home</NavLink>
+                                   </div>
+                                    {/*<Collapsible trigger={<NavLink to="/home">Home</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                                       <ul className="sidebar_sub_menu text-white">
+                                        <ul className="sidebar_sub_menu text-white">
 
                                           <li className='pt-10'><NavLink to="/home">Home style 1</NavLink></li>
 
@@ -64,22 +67,34 @@ const Sidebar = ({ show, handleClose }) => {
                                              </ul>
                                           </Collapsible>
 
-                                       </ul>
-                                    </Collapsible>
+                                       </ul> 
+                                    </Collapsible>*/}
 
                                    <div className='about iconAdd'>
-                                       <NavLink to="/about">About Us </NavLink>
+                                       <NavLink to="/platform">Platform </NavLink>
                                    </div>
 
-                                    <Collapsible trigger={<NavLink to="/services">Services</NavLink>} triggerTagName="div"
+                                    <Collapsible trigger={<NavLink to="/solutions">Solutions</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                           <ul className="sidebar_sub_menu submenu text-white">
-                                             <li><NavLink to="/services">Services</NavLink></li>
-                                             <li><NavLink to="/servicesDetails">Services Details</NavLink></li>
+                                             <li><NavLink to="/usecases">Use Cases</NavLink></li>
+                                             {/* <li><NavLink to="/servicesDetails">Services Details</NavLink></li> */}
                                           </ul>
                                     </Collapsible>
 
-                                    <Collapsible trigger={<NavLink to="/portfolio">Insights</NavLink>} triggerTagName="div"
+                                    <div className='about iconAdd'>
+                                       <NavLink to="/service">Services</NavLink>
+                                    </div>
+
+                                    <div className='about iconAdd'>
+                                       <NavLink to="/startnow">Start Now</NavLink>
+                                    </div>
+
+                                    <div className='about iconAdd'>
+                                       <NavLink to="/aiacademy">AI Academy</NavLink>
+                                    </div>
+
+                                    {/* <Collapsible trigger={<NavLink to="/portfolio">Insights</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white text-capitalize">
                                           <li><NavLink to="/portfolio">portfolio</NavLink></li>
@@ -87,19 +102,22 @@ const Sidebar = ({ show, handleClose }) => {
                                           <li><NavLink to="/team">team</NavLink></li>
                                           <li><NavLink to="/teamDetails">team Details</NavLink></li>
                                        </ul>
-                                    </Collapsible>
+                                    </Collapsible> */}
 
-                                    <Collapsible trigger={<NavLink to="/blogs">Blog</NavLink>} triggerTagName="div"
+                                    <Collapsible trigger={<NavLink to="/">About Us</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white">
-                                          <li><NavLink to="/blogs">Blog</NavLink></li>
-                                          <li><NavLink to="/blogDetails">Blog Details</NavLink></li>
+                                          <li><NavLink to="/patner">Partners</NavLink></li>
+                                          <li><NavLink to="/news">News</NavLink></li>
+                                          <li><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
+                                          <li><NavLink to="/">Release Notes</NavLink></li>
+                                          <li><NavLink to="/ourteam">Our Team</NavLink></li>
                                        </ul>
                                     </Collapsible>
 
-                                    <div className='about iconAdd border-0'>
+                                    {/* <div className='about iconAdd border-0'>
                                        <NavLink to="/contact">Contact Us </NavLink>
-                                    </div>
+                                    </div> */}
 
                                  </div>
 
