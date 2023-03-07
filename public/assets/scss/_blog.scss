@@ -53,7 +53,7 @@
             border: 1px solid $border-10;
             @include box-shadow(0px 1px 2px 0px rgba(10, 0, 58, 0.14));
             @include border-radius(10px);
-            min-height: 650px;
+            min-height: 690px;
             &:hover{
                 & .blog__thumb-2{
                     & img{

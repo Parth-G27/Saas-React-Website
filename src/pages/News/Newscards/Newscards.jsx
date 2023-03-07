@@ -20,14 +20,32 @@ const BlogsArea = () => {
                   <div className="col-xl-6 col-lg-5">
                      <div className="blog__wrapper mr-50">
 
-                        <Newsitem image="2" user_image="1" name="Jake Weary" title="Businesses Are Thriving, Societies Are Not. Time for Urgent Change" />
+                        <Newsitem date="December 14, 2021" image="2" name="Ravi Trivedi" title="Launching OneNineAI Academy" desc="We are very excited to launch OneNine AI Academy, introducing an innovative way of learning AI.  Innovative Learning approach focuses on solving real world challenges and reducing entry barriers for students & individuals" />
 
                         </div>
                   </div>
                   <div className="col-xl-6 col-lg-5">
                      <div className="blog__wrapper mr-50">
 
-                     <Newsitem image="4" user_image="2" name="Weir Doe" title="We craft marketing & digital products that grow businesses." />
+                     <Newsitem date="August 15, 2021" image="4" name="Ravi Trivedi" title="OneNineAI partners with a top public research university" desc="We are excited to announce our partnership with NJIT, a top public research university conducting world-class technological research. This partnership will help us bring best of academic research to our platform while"/>
+
+
+                        </div>
+                  </div>
+
+                  <div className="col-xl-6 col-lg-5">
+                     <div className="blog__wrapper mr-50">
+
+                     <Newsitem date="August 15, 2021" image="5" name="Ravi Trivedi" title="Discover being data driven with OneNine Cloud" desc="Everyone can be data driven. We are on a journey to help students, parents & general workforce to be data driven using power of Data Analysis, Machine Learning, Deep Learning, AI and Cloud Computing. Our platform automates"/>
+
+
+                        </div>
+                  </div>
+
+                  <div className="col-xl-6 col-lg-5">
+                     <div className="blog__wrapper mr-50">
+
+                     <Newsitem date="August 15, 2021" image="6" name="Ravi Trivedi" title="Future State of AI" desc="As Artificial intelligence becomes mainstream, organizations are looking for faster ways to develop & integrate it within their key products. You have probably heard that developing AI requires lots of data observations, so a machine can learn"/>
 
 
                         </div>
@@ -56,9 +74,9 @@ const BlogsArea = () => {
                            <h4>Shahnewaz Sakil</h4>
                         </div> */}
 
-                        <Newsitem image="4" user_image="2" name="Weir Doe" title="We craft marketing & digital products that grow businesses." />
+                        {/* <Newsitem image="4" name="Weir Doe" title="We craft marketing & digital products that grow businesses." /> */}
 
-                        <div className="blog__quote blog__quote-2 mb-50 p-relative white-bg fix"
+                        {/* <div className="blog__quote blog__quote-2 mb-50 p-relative white-bg fix"
                         >
                            <div className="blog__quote-line">
                               <img className="line-3" src="assets/img/icon/blog/line-3.png" alt="" />
@@ -70,11 +88,11 @@ const BlogsArea = () => {
                            </div>
                            <p>Oxford ruddy off his nut, bum bag is lavatory baking cakes bubble and squeak cheesed off what
                               a plonker.!</p>
-                        </div>
+                        </div> */}
 
-                        <Newsitem image="5" user_image="4" name="Indigo Violet" title="TikTok Influencer Marketing: How to Work With Influencers" />
+                        {/* <Newsitem image="5" name="Indigo Violet" title="TikTok Influencer Marketing: How to Work With Influencers" /> */}
 
-                        <div className="basic-pagination" >
+                        {/* <div className="basic-pagination" >
                            <ul>
                               <li>
                                  <Link to="/blogs">
@@ -113,7 +131,7 @@ const BlogsArea = () => {
                                  </Link>
                               </li>
                            </ul>
-                        </div>
+                        </div> */}
                      
 
                   {/* <BlogLeftSideBar/> */}
