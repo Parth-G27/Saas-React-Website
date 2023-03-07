@@ -95,7 +95,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                               
                               <li><NavLink to="/news">News</NavLink></li>
                               <li><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
-                              <li><NavLink to="/">Release Notes</NavLink></li>
+                              <li><NavLink to="/releasenotes">Release Notes</NavLink></li>
                               <li><NavLink to="/ourteam">Our Team</NavLink></li>
                               
                               

@@ -54,10 +54,10 @@ const HomeThreeFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links">
                                     <ul>
-                                       <li><a href="/partner">Partners</a></li>
-                                       <li><a href="/usecases">Use Cases</a></li>
+                                       <li><a href="/partner">Partners</a></li>                               
                                        <li><a href="/news">News</a></li>
                                        <li><a href="/https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
+                                       <li><a href="/releasenotes">Release Notes</a></li>
                                        <li><a href="/ourteam">Our Team</a></li>
                                        
                                       

@@ -28,6 +28,8 @@ import Service from './pages/Service/Service';
 import News from './pages/News/News';
 import Usecases from './pages/Usecases/Usecases';
 import Bookdemo from './pages/Bookdemo/Bookdemo';
+import Releasenotes from "./pages/Releasenotes/Releasenotes";
+import Newsdetails1 from "./pages/Newsdetails1/Newsdetails1";
 
 
 
@@ -55,6 +57,8 @@ function App() {
             <Route path="/news" element={<News/>} />
             <Route path="/usecases" element={<Usecases/>} />
             <Route path="/bookdemo" element={<Bookdemo/>} />
+            <Route path="/releasenotes" element={<Releasenotes/>} />
+            <Route path="/newsdetails1" element={<Newsdetails1/>} /> 
 
 
             
