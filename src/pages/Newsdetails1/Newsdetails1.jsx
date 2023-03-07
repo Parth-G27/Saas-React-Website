@@ -7,7 +7,7 @@ const Newsdetails1 = () => {
 
     return (
         <>
-        <PageHelmet pageTitle="Release Notes" />
+        <PageHelmet pageTitle="Newsdetails" />
         <HomeThreeHeader/>
           
           

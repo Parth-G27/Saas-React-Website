@@ -56,7 +56,7 @@ const HomeThreeFooter = () => {
                                     <ul>
                                        <li><a href="/partner">Partners</a></li>                               
                                        <li><a href="/news">News</a></li>
-                                       <li><a href="/https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
+                                       <li><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
                                        <li><a href="/releasenotes">Release Notes</a></li>
                                        <li><a href="/ourteam">Our Team</a></li>
                                        
