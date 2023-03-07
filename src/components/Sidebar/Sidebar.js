@@ -115,9 +115,6 @@ const Sidebar = ({ show, handleClose }) => {
                                        </ul>
                                     </Collapsible>
 
-                                    {/* <div className='about iconAdd border-0'>
-                                       <NavLink to="/contact">Contact Us </NavLink>
-                                    </div> */}
 
                                  </div>
 
