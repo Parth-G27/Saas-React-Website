@@ -38,12 +38,12 @@ const BlogSingleItem = ({image,user_image,name,title,video_icon}) => {
                         <i > <CgArrowLongRight /> </i>
                      </Link>
                   </div>
-                  <div className="blog__comment">
+                  {/* <div className="blog__comment">
                      <Link to="/blogDetails">
                         <i><FaRegComments/></i>
                         Comments
                      </Link>
-                  </div>
+                  </div> */}
                </div>
             </div>
          </div>

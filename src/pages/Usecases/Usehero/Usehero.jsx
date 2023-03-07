@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Usercards from '../Usecards/Usecards';
 import Case from '../../../components/Case/Case';
-import test from './test';
+// import test from './test';
 import { BrowserRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link'; 
 const Usehero = () => {
