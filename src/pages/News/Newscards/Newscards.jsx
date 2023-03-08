@@ -36,7 +36,7 @@ const BlogsArea = () => {
                   <div className="col-xl-6 col-lg-5">
                      <div className="blog__wrapper mr-50">
 
-                     <Newsitem date="August 15, 2021" image="5" name="Ravi Trivedi" title="Discover being data driven with OneNine Cloud" desc="Everyone can be data driven. We are on a journey to help students, parents & general workforce to be data driven using power of Data Analysis, Machine Learning, Deep Learning, AI and Cloud Computing. Our platform automates"/>
+                     <Newsitem to="newsdetails3" date="August 15, 2021" image="5" name="Ravi Trivedi" title="Discover being data driven with OneNine Cloud" desc="Everyone can be data driven. We are on a journey to help students, parents & general workforce to be data driven using power of Data Analysis, Machine Learning, Deep Learning, AI and Cloud Computing. Our platform automates"/>
 
 
                         </div>
@@ -45,7 +45,7 @@ const BlogsArea = () => {
                   <div className="col-xl-6 col-lg-5">
                      <div className="blog__wrapper mr-50">
 
-                     <Newsitem date="August 15, 2021" image="6" name="Ravi Trivedi" title="Future State of AI" desc="As Artificial intelligence becomes mainstream, organizations are looking for faster ways to develop & integrate it within their key products. You have probably heard that developing AI requires lots of data observations, so a machine can learn"/>
+                     <Newsitem to="newsdetails4" date="August 15, 2021" image="6" name="Ravi Trivedi" title="Future State of AI" desc="As Artificial intelligence becomes mainstream, organizations are looking for faster ways to develop & integrate it within their key products. You have probably heard that developing AI requires lots of data observations, so a machine can learn"/>
 
 
                         </div>

@@ -41,21 +41,20 @@ const Newsdetails2area = () => {
                         </div> */}
 
                         <div className="blog__text mb-40">
-                           <h1 className='pb-5'>Launching OneNine AI Academy</h1>
-                           <p className='wee'>December 14, 2021 | Ravi Trivedi</p>
-                           <p>We are very excited to launch OneNine AI Academy, introducing an innovative way of learning AI.  Innovative Learning approach focuses on solving real world challenges and reducing entry barriers for students & individuals to start using AI and Machine Learning. We have partnered with leading research institutions around that world to bring our state-of-the-art platform to classroom and academic research.</p>
+                           <h1 className='pb-5'>OneNine AI partners with a top public research university</h1>
+                           <p className='wee'>August 15, 2021 | Ravi Trivedi</p>
+                           <p className='pb-20'>We are excited to announce our partnership with NJIT, a top public research university conducting world-class technological research. This partnership will help us bring best of academic research to our platform while building bridges between the College and industry to form mutually beneficial relationships.</p>
+                           <p className='pb-20'>It allows us to collaborate with researchers and lecturers through joint R&D. We will also offer student workshops focusing on our platform technologies.</p>
+                           <p className='pb-40'>We are excited to have access to a talent pipeline of over 3,000 computing professionals studying all aspects of Computer Science, Information Systems and Technology and Data Science.</p>
                            {/* <p> <span>Cheeky bugger cracking goal starkers lemon squeezy</span> lost the plot pardon me no biggie the BBC burke gosh boot so I said wellies, zonked a load of old tosh bodge barmy skive off he legged it morish spend a penny my good sir wind up hunky-dory. Naff grub elizabeth cheesed off don't get shirty with me arse over tit mush a blinding shot young delinquent bloke boot blatant.</p> */}
                         </div>
 
-                        <div className="blog__text bt-40 mb-40">
-                           <h3 className='pb-5'>A New Way of Learning</h3>
+                        {/* <div className="blog__text bt-40 mb-40">
+                           <h3 className='pb-5'>A New Way of Learning</h3>     
+                        </div> */}
 
-                           {/* <p className='wee'>December 14, 2021 | Ravi Trivedi</p>
-                           <p>We are very excited to launch OneNine AI Academy, introducing an innovative way of learning AI.  Innovative Learning approach focuses on solving real world challenges and reducing entry barriers for students & individuals to start using AI and Machine Learning. We have partnered with leading research institutions around that world to bring our state-of-the-art platform to classroom and academic research.</p> */}
-                           {/* <p> <span>Cheeky bugger cracking goal starkers lemon squeezy</span> lost the plot pardon me no biggie the BBC burke gosh boot so I said wellies, zonked a load of old tosh bodge barmy skive off he legged it morish spend a penny my good sir wind up hunky-dory. Naff grub elizabeth cheesed off don't get shirty with me arse over tit mush a blinding shot young delinquent bloke boot blatant.</p> */}
-                        </div>
                         <div className="blog__details-thumb w-img mb-45">
-                           <img src="assets/img/blog/details/1.jpg" alt="" />
+                           <img src="assets/img/blog/details/2.jpg" alt="" />
                         </div>
                         {/* <div className="blog__tag mb-30">
                            <span>Tag : </span>
