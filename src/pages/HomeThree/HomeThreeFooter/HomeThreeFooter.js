@@ -79,7 +79,7 @@ const HomeThreeFooter = () => {
                                              <i> <FaEnvelope/> </i>
                                           </div>
                                           <div className="text theme-color ">
-                                             <span><a href='mailto:support@onenine.ai'className='sup'>support@onenine.ai</a></span>
+                                             <span><a href='mailto:support@onenine.ai'className='sup' target="_blank">support@onenine.ai</a></span>
                                           </div>
                                        </li>
                                        <li>
@@ -95,13 +95,13 @@ const HomeThreeFooter = () => {
                                  <div className="footer__social theme-social">
                                     <ul>
                                        <li>
-                                          <a href="https://www.linkedin.com/company/onenine-ai/">
+                                          <a href="https://www.linkedin.com/company/onenine-ai/" target="_blank">
                                              <i ><FaLinkedin /></i>
                                              <i ><FaLinkedin /></i>
                                           </a>
                                        </li>
                                        <li>
-                                          <a href="https://twitter.com/Onenineai">
+                                          <a href="https://twitter.com/Onenineai" target="_blank">
                                              <i ><FaTwitter /> </i>
                                              <i ><FaTwitter /> </i>
                                           </a>

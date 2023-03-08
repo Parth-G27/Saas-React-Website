@@ -1,8 +1,8 @@
 import React from 'react';
-import { CgArrowLongLeft, CgArrowLongRight } from 'react-icons/cg';
-import { FiPlay } from 'react-icons/fi';
-import { IoEllipsisHorizontal } from 'react-icons/io5';
-import { Link } from 'react-router-dom';
+// import { CgArrowLongLeft, CgArrowLongRight } from 'react-icons/cg';
+// import { FiPlay } from 'react-icons/fi';
+// import { IoEllipsisHorizontal } from 'react-icons/io5';
+// import { Link } from 'react-router-dom';
 import Newsitem from '../../../components/Newsitem/Newsitem';
 import VideoPopup from '../../../components/VideoPopup/VideoPopup';
 import useGlobalContext from '../../../hooks/useGlobalContext';
@@ -20,7 +20,7 @@ const BlogsArea = () => {
                   <div className="col-xl-6 col-lg-5">
                      <div className="blog__wrapper mr-50">
 
-                        <Newsitem date="December 14, 2021" image="2" name="Ravi Trivedi" title="Launching OneNineAI Academy" desc="We are very excited to launch OneNine AI Academy, introducing an innovative way of learning AI.  Innovative Learning approach focuses on solving real world challenges and reducing entry barriers for students & individuals" />
+                        <Newsitem to="newsdetails1" date="December 14, 2021" image="2" name="Ravi Trivedi" title="Launching OneNineAI Academy" desc="We are very excited to launch OneNine AI Academy, introducing an innovative way of learning AI.  Innovative Learning approach focuses on solving real world challenges and reducing entry barriers for students & individuals" />
 
                         </div>
                   </div>
