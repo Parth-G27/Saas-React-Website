@@ -27,7 +27,7 @@ const BlogsArea = () => {
                   <div className="col-xl-6 col-lg-5">
                      <div className="blog__wrapper mr-50">
 
-                     <Newsitem date="August 15, 2021" image="4" name="Ravi Trivedi" title="OneNineAI partners with a top public research university" desc="We are excited to announce our partnership with NJIT, a top public research university conducting world-class technological research. This partnership will help us bring best of academic research to our platform while"/>
+                     <Newsitem to="newsdetails2" date="August 15, 2021" image="4" name="Ravi Trivedi" title="OneNineAI partners with a top public research university" desc="We are excited to announce our partnership with NJIT, a top public research university conducting world-class technological research. This partnership will help us bring best of academic research to our platform while"/>
 
 
                         </div>

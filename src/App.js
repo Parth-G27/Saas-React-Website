@@ -30,6 +30,9 @@ import Usecases from './pages/Usecases/Usecases';
 import Bookdemo from './pages/Bookdemo/Bookdemo';
 import Releasenotes from "./pages/Releasenotes/Releasenotes";
 import Newsdetails1 from "./pages/Newsdetails1/Newsdetails1";
+import Newsdetails2 from './pages/Newsdetails2/Newsdetails2';
+import Newsdetails3 from './pages/Newsdetails3/Newsdetails3';
+import Newsdetails4 from './pages/Newsdetails4/Newsdetails4';
 
 
 
@@ -58,7 +61,10 @@ function App() {
             <Route path="/usecases" element={<Usecases/>} />
             <Route path="/bookdemo" element={<Bookdemo/>} />
             <Route path="/releasenotes" element={<Releasenotes/>} />
-            <Route path="/newsdetails1" element={<Newsdetails1/>} /> 
+            <Route path="/newsdetails1" element={<Newsdetails1/>} />
+            <Route path="/newsdetails2" element={<Newsdetails2/>} />
+            <Route path="/newsdetails3" element={<Newsdetails3/>} />
+            <Route path="/newsdetails4" element={<Newsdetails4/>} /> 
 
 
             
