@@ -572,6 +572,17 @@ p.startnow{
 			padding-top: 4px;
 			border-radius: 4px;
 		}
+		& TextAnimation{
+			font-size: 40px;
+			font-weight: 400;
+			line-height: 1.1;
+			@media #{$sm}{
+				font-size: 30px;
+			}
+			@media #{$xs}{
+				font-size: 25px;
+			}
+		}
 		& h2{
 			font-size: 70px;
 			font-weight: 900;
@@ -698,6 +709,50 @@ p.startnow{
 			// 	color: #000;
 			// 	font-weight: 800;
 			// }
+
+		}
+		&-an{
+			& span{
+				font-size: 25px;
+			    color: #840cd9;
+				display: inline-block;
+				font-weight: 700;
+				font-family: $frank;
+				margin-bottom: 25px;
+				background-color: #ffffff1a;
+				padding-left: 5.5px;
+				padding-right: 5.5px;
+				padding-bottom: 4px;
+				padding-top: 4px;
+				border-radius: 4px;
+				
+			}
+			& h2{
+				font-size: 50px;
+				@media #{$md}{
+					font-size: 40px;
+				}
+				@media #{$sm}{
+					font-size: 40px;
+				}
+				@media #{$xs}{
+					font-size: 35px;
+				}
+			}
+			
+			& h3{
+				font-size: 40px;
+				@media #{$md}{
+					font-size: 30px;
+				}
+				@media #{$sm}{
+					font-size: 30px;
+				}
+				@media #{$xs}{
+					font-size: 25px;
+				}
+			}
+			
 
 		}
 

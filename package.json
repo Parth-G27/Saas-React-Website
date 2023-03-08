@@ -24,6 +24,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.0",
     "react-slick": "^0.28.1",
+    "react-text-animations": "^1.1.10",
     "react-visibility-sensor": "^5.1.1",
     "sass": "^1.49.7",
     "slick-carousel": "^1.8.1",

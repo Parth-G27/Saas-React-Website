@@ -8768,6 +8768,11 @@
     "lodash.debounce" "^4.0.8"
     "resize-observer-polyfill" "^1.5.0"
 
+"react-text-animations@^1.1.10":
+  "integrity" "sha512-k7mOyW5zv258ZLpueRk+IPD7sPm8l6oZhm3dy1/REgEexJMrrUYW1ESm6SwINYNcUPWjk4tkxfHt9HWhhPaD1Q=="
+  "resolved" "https://registry.npmjs.org/react-text-animations/-/react-text-animations-1.1.10.tgz"
+  "version" "1.1.10"
+
 "react-timeout@^1.1.2":
   "integrity" "sha512-HJTmeeNsG3fHmnVkw8cCwAJNmcxf6H/A3vbiS9QKsfxMsgDtDK2oopeReMeLsH/TK1nq8BumL1yYVbcuOX8wGA=="
   "resolved" "https://registry.npmjs.org/react-timeout/-/react-timeout-1.2.0.tgz"
