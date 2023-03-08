@@ -40,6 +40,10 @@ const Newsdetails3area = () => {
                            <img src="assets/img/blog/details/b-d-1.jpg" alt="" />
                         </div> */}
 
+                        <div className="blog__details-thumb w-img mb-15">
+                           <img src="assets/img/blog/details/4.jpg" alt="" />
+                        </div>
+
                         <div className="blog__text mb-40">
                            <h1 className='pb-5'>Discover being data driven with OneNine Cloud</h1>
                            <p className='wee'>August 15, 2021 | Ravi Trivedi</p>
@@ -47,18 +51,20 @@ const Newsdetails3area = () => {
                            <p className='pb-0'>All you need is <span>data.</span></p>
                            <p className='pb-0'>Our wizard based proprietary process helps learn key concepts while building insights from your data at the same time. Our platform helps anyone learn and build data products.</p>
                            <p className='pb-0'>In the simplest term, a data product means using <span>data to help businesses improve their decisions and processes</span>. Platform reduces entry barriers to start using AI and machine learning. Our goal is to bring AI to everyone and accelerate digital transformation & organization's AI journey.</p>
+                           <p className='pb-10'>OneNine AI is the only platform in the market that offers <span>complete data insights lifecycle</span> from learning, developing, using, automating and maintaining insights from your data.</p>
                            {/* <p> <span>Cheeky bugger cracking goal starkers lemon squeezy</span> lost the plot pardon me no biggie the BBC burke gosh boot so I said wellies, zonked a load of old tosh bodge barmy skive off he legged it morish spend a penny my good sir wind up hunky-dory. Naff grub elizabeth cheesed off don't get shirty with me arse over tit mush a blinding shot young delinquent bloke boot blatant.</p> */}
                         </div>
 
-                        <div className="blog__text bt-40 mb-40">
+                        {/* <div className="blog__text bt-40 mb-40">
                            <h3 className='pb-5'>A New Way of Learning</h3>
+                        </div> */}
 
                            {/* <p className='wee'>December 14, 2021 | Ravi Trivedi</p>
                            <p>We are very excited to launch OneNine AI Academy, introducing an innovative way of learning AI.  Innovative Learning approach focuses on solving real world challenges and reducing entry barriers for students & individuals to start using AI and Machine Learning. We have partnered with leading research institutions around that world to bring our state-of-the-art platform to classroom and academic research.</p> */}
                            {/* <p> <span>Cheeky bugger cracking goal starkers lemon squeezy</span> lost the plot pardon me no biggie the BBC burke gosh boot so I said wellies, zonked a load of old tosh bodge barmy skive off he legged it morish spend a penny my good sir wind up hunky-dory. Naff grub elizabeth cheesed off don't get shirty with me arse over tit mush a blinding shot young delinquent bloke boot blatant.</p> */}
-                        </div>
+                        
                         <div className="blog__details-thumb w-img mb-45">
-                           <img src="assets/img/blog/details/1.jpg" alt="" />
+                           <img src="assets/img/blog/details/3.jpg" alt="" />
                         </div>
                         {/* <div className="blog__tag mb-30">
                            <span>Tag : </span>

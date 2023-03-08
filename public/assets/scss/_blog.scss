@@ -290,6 +290,15 @@
                 color: $black;
             }
         }
+        & p.wee{
+            color:rgb(91, 91, 91);
+            font-weight: 700;
+        }
+        & p.sub{
+            color:rgb(43, 40, 40);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
     }
     &__tag{
         & span{

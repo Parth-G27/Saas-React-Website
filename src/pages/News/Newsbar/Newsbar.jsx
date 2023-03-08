@@ -26,33 +26,33 @@ const Newsbar = () => {
                                 <ul>
                                     <li className="d-flex mb-20">
                                         <div className="rc-thumb mr-15">
-                                            <Link to="/blogDetails"><img src="assets/img/blog/rc/rc-1.jpg"
+                                            <Link to="/newsdetails1"><img src="assets/img/blog/rc/1.jpg"
                                                 alt="rc-post" /></Link>
                                         </div>
                                         <div className="rc-text">
-                                            <h6><Link to="/blogDetails">Launching OneNineAI Academy
+                                            <h6><Link to="/newsdetails1">Launching OneNineAI Academy
                                                 </Link></h6>
                                             <div className="rc-meta"><span>Dec 14, 2021</span> </div>
                                         </div>
                                     </li>
                                     <li className="d-flex mb-20">
                                         <div className="rc-thumb mr-15">
-                                            <Link to="/blogDetails"><img src="assets/img/blog/rc/rc-2.jpg"
+                                            <Link to="/newsdetails2"><img src="assets/img/blog/rc/2.jpg"
                                                 alt="rc-post" /></Link>
                                         </div>
                                         <div className="rc-text">
-                                            <h6><Link to="/blogDetails">OneNineAI partners with a top public research university</Link>
+                                            <h6><Link to="/newsdetails2">OneNineAI partners with a top public research university</Link>
                                             </h6>
                                             <div className="rc-meta"><span>Aug 15, 2021</span> </div>
                                         </div>
                                     </li>
                                     <li className="d-flex mb-20">
                                         <div className="rc-thumb mr-15">
-                                            <Link to="/blogDetails"><img src="assets/img/blog/rc/rc-3.jpg"
+                                            <Link to="/newsdetails3"><img src="assets/img/blog/rc/3.jpg"
                                                 alt="rc-post" /></Link>
                                         </div>
                                         <div className="rc-text">
-                                            <h6><Link to="/blogDetails">Discover being data driven with OneNine Cloud</Link>
+                                            <h6><Link to="/newsdetails3">Discover being data driven with OneNine Cloud</Link>
                                             </h6>
                                             <div className="rc-meta"><span>Aug 15, 2021</span> </div>
                                         </div>

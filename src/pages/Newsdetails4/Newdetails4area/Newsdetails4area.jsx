@@ -39,23 +39,45 @@ const Newsdetails4area = () => {
                         {/* <div className="blog__details-thumb w-img mb-45">
                            <img src="assets/img/blog/details/b-d-1.jpg" alt="" />
                         </div> */}
+                        <div className="blog__details-thumb w-img mb-45">
+                           <img src="assets/img/blog/details/5.jpg" alt="" />
+                        </div>
 
                         <div className="blog__text mb-40">
-                           <h1 className='pb-5'>Launching OneNine AI Academy</h1>
-                           <p className='wee'>December 14, 2021 | Ravi Trivedi</p>
-                           <p>We are very excited to launch OneNine AI Academy, introducing an innovative way of learning AI.  Innovative Learning approach focuses on solving real world challenges and reducing entry barriers for students & individuals to start using AI and Machine Learning. We have partnered with leading research institutions around that world to bring our state-of-the-art platform to classroom and academic research.</p>
+                           <h1 className='pb-5 pt-40'>Future State of AI</h1>
+                           <p className='wee'>August 15, 2021 | Ravi Trivedi</p>
+                           <p className='pb-0'>As Artificial intelligence becomes mainstream, organizations are looking for faster ways to develop & integrate it within their key products. You have probably heard that developing AI requires lots of data observations, so a machine can learn for it. I think AI is not just dependent on data observations but is combination of data, algorithms & approaches.</p>
+                           
+                           <p className='sub'>Data, Algorithms & Approaches</p>
+                           <p className='pb-0'>Recent developments in data platforms makes it easy to ingest and use data from internal, external, structured and unstructured data sources. Many data providers are enabling quick access to curated data from various domains - i.e web scraping, open government datasets & NLP techniques.</p>
+                           <p className='pb-0'>Machine Learning & AI Algorithms are also implemented in thousands of open source libraries. Python libraries play an important role in developing machine learning, data science, data visualization, image and data manipulation applications. In fact, there are over 137,000 python libraries present today causing confusion between different implementation of same algorithm, for eg - Regression.</p>
+                           <p className='pb-15'>Now that we have automated data & algorithms, let's talk about approaches. Approaches of developing AI model also differ based on the problem at hand. Let's take an example of imputing missing data. A researcher may choose any method from the limited methods currently available like replace missing data values with 0, NULL, calculated values such as mean, median, mode or any other value of choice. Each of the method will lead to a different output.</p>
+                           <p className='sub'>Can AutoML help with faster development?</p>
+                           <p className='pb-0'>Automated machine learning, or AutoML reduces friction by allowing users to build machine learning and deep learning models automatically. It also allows users to quickly test viability of a dataset for given problem at hand, rather then spending few months to figure out that the data or approach is not good. If you provide labeled training data as input it will produce an optimized model as output.</p>
+                           <p className='pb-15'>It does not aim to replace data scientists or any research method but instead it helps in fast tracking AI development & automation. It increases productivity by automating repetitive tasks - from cleaning the data, engineering features, optimizing, explaining, and deploying AI into production.</p>
+
+                           <h2>Future State: Introducing No Code AI</h2>
+                           <p className='pb-0'>Yes it is just the beginning of next leap in AI. Alongside data and algorithms, our approach towards developing AI can also be automated. Currently AI is only accessible to those limited users who know how to code. No Code AI is here to democratic AI to everyone, all you need is your data.</p>
+                           <p className='pb-10'>OneNine AI is a technology startup building no code AI solutions with a goal to bring AI to everyone and accelerate organization’s AI journey. Our platform automates end to end AI process allowing users to focus less on technology & more on solving complex business problems by building revenue generating AI models quickly.</p>
+                           <p className='sub'>Introducing OneNine Cloud</p>
+                           <p className='pb-0'>It is our No Code AI platform on Cloud. It reduces entry barriers for individuals and businesses to start using AI and machine learning. It's goal is to bring AI to everyone and accelerate digital transformation. You can use <span>discovery wizard</span> to build next AI model used within your product. It aims towards reducing complexity by allowing non technical users to go from an idea to AI model in minutes. <span>One click data analysis</span> allows users to get insights from data attributes without any worry of writing code. <span>Pick & Choose from the marketplace of most popular machine learning models</span> in the world. It helps you learn AI concepts and develop models at the same time. We are always adding new models on OneNine platform from the experts in the AI field. Our proprietary process will help you build AI models and recommend the best solution based on your data. </p>
+                           
                            {/* <p> <span>Cheeky bugger cracking goal starkers lemon squeezy</span> lost the plot pardon me no biggie the BBC burke gosh boot so I said wellies, zonked a load of old tosh bodge barmy skive off he legged it morish spend a penny my good sir wind up hunky-dory. Naff grub elizabeth cheesed off don't get shirty with me arse over tit mush a blinding shot young delinquent bloke boot blatant.</p> */}
                         </div>
 
-                        <div className="blog__text bt-40 mb-40">
-                           <h3 className='pb-5'>A New Way of Learning</h3>
+                       
 
                            {/* <p className='wee'>December 14, 2021 | Ravi Trivedi</p>
                            <p>We are very excited to launch OneNine AI Academy, introducing an innovative way of learning AI.  Innovative Learning approach focuses on solving real world challenges and reducing entry barriers for students & individuals to start using AI and Machine Learning. We have partnered with leading research institutions around that world to bring our state-of-the-art platform to classroom and academic research.</p> */}
                            {/* <p> <span>Cheeky bugger cracking goal starkers lemon squeezy</span> lost the plot pardon me no biggie the BBC burke gosh boot so I said wellies, zonked a load of old tosh bodge barmy skive off he legged it morish spend a penny my good sir wind up hunky-dory. Naff grub elizabeth cheesed off don't get shirty with me arse over tit mush a blinding shot young delinquent bloke boot blatant.</p> */}
+                       
+                        <div className="blog__details-thumb w-img mb-35">
+                           <img src="assets/img/blog/details/6.jpg" alt="" />
                         </div>
-                        <div className="blog__details-thumb w-img mb-45">
-                           <img src="assets/img/blog/details/1.jpg" alt="" />
+
+                        <div className="blog__text mb-40">
+                           <p className='sub'>Concluding thoughts</p>
+                           <p className='pb-0'>Ddevelopment process can be cheaper, faster & fully automated in future. Currently it takes 3-4 months to develop majority of AI models & 5-6 months to fully integrate and make it usable. Future of AI will be <span>faster development, quicker automation and no code</span>.</p>
                         </div>
                         {/* <div className="blog__tag mb-30">
                            <span>Tag : </span>
