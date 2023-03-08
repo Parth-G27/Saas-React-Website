@@ -10,6 +10,7 @@
     "lottie-react": "^2.4.0",
     "lottie-web": "^5.10.2",
     "react": "^17.0.2",
+    "react-animated-text": "^0.1.4",
     "react-bootstrap": "^2.7.2",
     "react-calendly": "^4.1.1",
     "react-collapsible": "^2.8.4",

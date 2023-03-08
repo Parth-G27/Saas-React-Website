@@ -18,6 +18,18 @@ const Textanimation = () => {
                </div>
             </div>
          </section>
+         {/* <TextAnimation.Scale
+                      className="span block dark:text-indigo-400 text-blue-600 mt-3 mb-3 "
+                      animation={{
+                        duration: 1500,
+                        delay: 4000,
+                        timingFunction: 'ease-in-out',
+                      }}
+                      target="Science"
+                      text={['Analytics', 'Visualization', 'Science']}
+                    >
+                      Data Science
+                    </TextAnimation.Scale> */}
           
      </>
     );
