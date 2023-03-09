@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegComment, FaSearch } from 'react-icons/fa';
+
 import { Link } from 'react-router-dom';
 
 const Newsbar = () => {
