@@ -6,6 +6,7 @@ import 'react-modal-video/scss/modal-video.scss';
 import 'react-image-lightbox/style.css';
 import './index.scss';
 import 'bootstrap/dist/js/bootstrap.min.js';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   

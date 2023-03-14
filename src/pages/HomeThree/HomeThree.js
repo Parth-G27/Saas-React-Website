@@ -1,7 +1,7 @@
 import React from 'react';
 // import CommonCtaArea from '../../components/CommonCtaArea/CommonCtaArea';
 import PageHelmet from '../../components/shared/PageHelmet';
-import HomeTwoTestimonial from '../HomeTwo/HomeTwoTestimonial/HomeTwoTestimonial';
+//import HomeTwoTestimonial from '../HomeTwo/HomeTwoTestimonial/HomeTwoTestimonial';
 // import HomeThreeFaq from './HomeThreeFaq/HomeThreeFaq';
 import HomeThreeFooter from './HomeThreeFooter/HomeThreeFooter';
 import HomeThreeHeader from './HomeThreeHeader/HomeThreeHeader';
@@ -17,7 +17,8 @@ import HomeHeroSlider from './HomeHeroArea/HomeHeroSlider';
 import HomeTwoBlogs from './HomeTwoBlogs/HomeTwoBlogs';
 import Backedby from '../Partner/Backedby/Backedby';
 import Textanimation from './Textanimation/Textanimation';
-import ImgSlide from './ImgSlide/ImgSlide';
+import ImageBoot from './ImageBoot/ImageBoot';
+//import ImgSlide from './ImgSlide/ImgSlide';
 
 
 const HomeThree = () => {
@@ -35,6 +36,8 @@ const HomeThree = () => {
          
          <Backedby/>
          <Textanimation/>
+         <ImageBoot/>
+
          {/* <ImgSlide/> */}
          
         

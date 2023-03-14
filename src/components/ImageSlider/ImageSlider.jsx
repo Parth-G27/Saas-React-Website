@@ -12,9 +12,9 @@ const ImageSlider = ({slides}) => {
     }
 
     console.log(current)
-    // const prevSlide = () =>{
+    const prevSlide = () =>{
         
-    // }
+    }
 
     if(!Array.isArray(slides) || slides.length <=0){
         return null;
@@ -45,8 +45,13 @@ const ImageSlider = ({slides}) => {
                 </section>
             </div>
          </section> */}
-        <section className='slider001'>
-            <FaArrowAltCircleLeft className='left-arrow001'  />
+
+        <section className="services__area pt-115 pb-10">
+        
+        <div className="container">
+        <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div className='slider001'>
+            <FaArrowAltCircleLeft className='left-arrow001'  onClick={prevSlide}/>
             <FaArrowAltCircleRight className='right-arrow001' onClick={nextSlide}/>
             {SliderData.map( (slide, index) => {
                 return (
@@ -54,6 +59,9 @@ const ImageSlider = ({slides}) => {
                 )
             })}
 
+        </div>
+        </div>
+        </div>
         </section>
         
         </>
