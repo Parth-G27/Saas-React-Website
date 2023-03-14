@@ -8,17 +8,17 @@ const HomeTwoSingleBlog = ({date,name,desc}) => {
             <div className="blog__item p-relative fix mb-10 white-bg">
                <div className="blog__thumb" style={{background: `` , backgroundPosition: 'center', backgroundSize: 'cover' }} ></div>
                <div className="blog__content">
-               <div className="team__thumb mb-25">
+               {/* <div className="team__thumb mb-25">
                <img src={`assets/img/team/team-1.jpg`} alt="team"/>
-                </div>
+                </div> */}
 
                
-                  <div className="blog__meta date mb-45">
+                  {/* <div className="blog__meta date mb-45">
                      <h4>{date}</h4>
-                     {/* <h6>Nov 2021</h6> */}
-                  </div>
+                  </div> */}
+
                   <div className="blog__meta user mb-15">
-                     <span>By <Link to="/blogDetails">{name}</Link></span>
+                     <span className=''>By <Link to="/blogDetails">{name}</Link></span>
                   </div>
                   <h3>
                      <Link to="/blogDetails">{desc}</Link>

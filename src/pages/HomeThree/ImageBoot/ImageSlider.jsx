@@ -22,8 +22,8 @@ const ImageSlider = ({slides}) => {
         position:"absolute",
         top:"50%",
         transform:'translate(0, -50%)',
-        left: "32px",
-        fontSize : "45px",
+        left: "-100px",
+        fontSize : "110px",
         color: 'Black',
         zIndex: 10,
         cursor: 'pointer'
@@ -33,8 +33,8 @@ const ImageSlider = ({slides}) => {
         position:"absolute",
         top:"50%",
         transform:"translate(0, -50%)",
-        right: "32px",
-        fontSize : "45px",
+        right: "-100px",
+        fontSize : "110px",
         color: 'Black',
         zIndex: 10,
         cursor: 'pointer'
@@ -46,9 +46,9 @@ const ImageSlider = ({slides}) => {
     };
 
     const dotStyles = {
-        margin: '03px',
+        margin: '5px',
         cursor:'pointer',
-        fontSize: '20px',
+        fontSize: '30px',
     };
 
     const goToPrevious = () => {
@@ -81,10 +81,7 @@ const ImageSlider = ({slides}) => {
             </div>
             {/* <div>
 
-            </div> */}
-
-            
-            
+            </div> */}   
         </div>
         
         </>

@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeTwoSingleBlog from '../../../components/HomeTwoSingleBlog/HomeTwoSingleBlog';
-import { CgArrowLongRight } from 'react-icons/cg';
-import { Link } from 'react-router-dom';
+// import { CgArrowLongRight } from 'react-icons/cg';
+// import { Link } from 'react-router-dom';
 
 const HomeTwoBlogs = () => {
    return (

@@ -20,6 +20,8 @@
         padding: 45px 40px;
         padding-right: 60px;
         @include border-radius(10px);
+        @include transition(.3s);
+        min-height: 350px;
         &:hover{
             & .blog__thumb{
                 opacity: 1;
@@ -72,6 +74,7 @@
         @include background();
         @include transition(.3s);
         opacity: 0;
+        
         &::after{
             position: absolute;
             content: '';
