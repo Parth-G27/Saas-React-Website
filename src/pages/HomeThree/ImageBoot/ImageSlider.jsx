@@ -64,11 +64,12 @@ const ImageSlider = ({slides}) => {
     const textStyle = {
         margin: '5px',
         cursor:'pointer',
-        fontSize: '22px',
+        fontSize: '27px',
         padding:'3px',
         color: 'black',
-        fontWeight: '600',
+        fontWeight: '700',
         textAlign: 'center',
+        paddingBottom:'10px'
     };
 
 
@@ -100,7 +101,7 @@ const ImageSlider = ({slides}) => {
             <div style={leftArrowStyles} onClick={goToPrevious}>&#8249;</div>
             <div style={rightArrowStyles} onClick={goToNext}>&#8250;</div>
             <div style={slideStyles} > </div>
-            
+
             <div style={dotsContainerStyles}>
                 {slides.map((slide, slideIndex)=>(
                     <div key={slideIndex} style={dotStyles} onClick={()=> goToSlide(slideIndex) }>&#x2022;</div>

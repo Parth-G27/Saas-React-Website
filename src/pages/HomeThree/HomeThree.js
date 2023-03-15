@@ -35,8 +35,9 @@ const HomeThree = () => {
          <HomeTwoBlogs/>
          
          <Backedby/>
-         <Textanimation/>
+         
          <ImageBoot/>
+         <Textanimation/>
 
          {/* <ImgSlide/> */}
          
