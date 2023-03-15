@@ -8,6 +8,19 @@ const ImageBoot = () => {
         {url:'assets/img/Slide_img_test/b.gif',title:'2md image'},
         {url:'assets/img/Slide_img_test/c.gif',title:'3rd image'},
         {url:'assets/img/Slide_img_test/d.gif',title:'4th image'},
+        {url:'assets/img/Slide_img_test/a.gif',title:'1st image'},
+        {url:'assets/img/Slide_img_test/b.gif',title:'2md image'},
+        {url:'assets/img/Slide_img_test/c.gif',title:'3rd image'},
+        {url:'assets/img/Slide_img_test/d.gif',title:'4th image'},
+        {url:'assets/img/Slide_img_test/a.gif',title:'1st image'},
+        {url:'assets/img/Slide_img_test/b.gif',title:'2md image'},
+        {url:'assets/img/Slide_img_test/c.gif',title:'3rd image'},
+        {url:'assets/img/Slide_img_test/d.gif',title:'4th image'},
+        {url:'assets/img/Slide_img_test/a.gif',title:'1st image'},
+        {url:'assets/img/Slide_img_test/b.gif',title:'2md image'},
+        {url:'assets/img/Slide_img_test/c.gif',title:'3rd image'},
+        {url:'assets/img/Slide_img_test/d.gif',title:'4th image'},
+        
     ];
 
     const containerStyle = {

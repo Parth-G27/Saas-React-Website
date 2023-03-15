@@ -51,6 +51,18 @@ const ImageSlider = ({slides}) => {
         fontSize: '30px',
     };
 
+    const textContainerStyle = {
+        display: 'flex',
+        justifyContent: 'center',
+    };
+
+    const textStyle = {
+        margin: '5px',
+        cursor:'pointer',
+        fontSize: '30px',
+    };
+
+
     const goToPrevious = () => {
         const isFirstSlide  = currentIndex  === 0 ; 
         const newIndex = isFirstSlide ? slides.length -1 : currentIndex - 1;
@@ -79,9 +91,10 @@ const ImageSlider = ({slides}) => {
                     <div key={slideIndex} style={dotStyles} onClick={()=> goToSlide(slideIndex) }>&#x2022;</div>
                 ))}
             </div>
-            {/* <div>
 
-            </div> */}   
+            <div style={textContainerStyle}> 
+                    <div style={textStyle}>{slides[currentIndex].title}</div>                
+            </div>   
         </div>
         
         </>
