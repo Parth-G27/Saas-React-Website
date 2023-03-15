@@ -15,6 +15,7 @@ const ImageSlider = ({slides}) => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundImage:`url(${slides[currentIndex].url })`,
+        boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset',
 
     };
 
@@ -43,23 +44,31 @@ const ImageSlider = ({slides}) => {
     const dotsContainerStyles = {
         display: 'flex',
         justifyContent: 'center',
+        padding:'15px',
     };
 
     const dotStyles = {
         margin: '5px',
         cursor:'pointer',
         fontSize: '30px',
+        
     };
 
     const textContainerStyle = {
         display: 'flex',
         justifyContent: 'center',
+        
+        
     };
 
     const textStyle = {
         margin: '5px',
         cursor:'pointer',
-        fontSize: '30px',
+        fontSize: '22px',
+        padding:'3px',
+        color: 'black',
+        fontWeight: '600',
+        textAlign: 'center',
     };
 
 
@@ -83,18 +92,22 @@ const ImageSlider = ({slides}) => {
     return(
         <>
         <div style={sliderstyle}>
+
+            <div style={textContainerStyle}> 
+                    <div style={textStyle}>{slides[currentIndex].title}</div>                
+            </div>
+
             <div style={leftArrowStyles} onClick={goToPrevious}>&#8249;</div>
             <div style={rightArrowStyles} onClick={goToNext}>&#8250;</div>
             <div style={slideStyles} > </div>
+            
             <div style={dotsContainerStyles}>
                 {slides.map((slide, slideIndex)=>(
                     <div key={slideIndex} style={dotStyles} onClick={()=> goToSlide(slideIndex) }>&#x2022;</div>
                 ))}
             </div>
 
-            <div style={textContainerStyle}> 
-                    <div style={textStyle}>{slides[currentIndex].title}</div>                
-            </div>   
+               
         </div>
         
         </>

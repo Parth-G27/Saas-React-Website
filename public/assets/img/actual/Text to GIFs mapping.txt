@@ -1,0 +1,27 @@
+GIFs to texts mapping:
+
+Collaborate easily with other users on the dashboard - Collaboration
+
+Configure a large number of algorithms to the specific use case needs - Configure Algos
+
+Easy to interpret visual results - Deep Learning Results
+
+Detailed Insights into the results and forecasts - Detailed Results
+
+A comprehensive learning library to onboard both technical and non-technical users - Learning
+
+Build Natural Language Processing models with just a few clicks - NLP
+
+A user-friendly and highly intuitive platform - Overview
+
+Get your model outputs in your desired format - Results
+
+No-code, ened to end wizard based model development - Upload data and select algos
+
+Build smart models that provide and let you choose from a list of appropriate algorithms and their accuracy for the dataset - Smart Models
+
+Get meaningful suggestions alongside your results to help improve your modeling skills - Suggestions and Results
+
+Various easy to use transformers available to clean and transform the data as needed - Transformers
+
+Build stunning visualization with just a few easy to follow wizard choices without any previous BI experience - Visualizations
