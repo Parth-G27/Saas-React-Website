@@ -32,13 +32,16 @@ const HomeServices = () => {
                <div className="about__area-2 pt-130 pl-20">
                   <div className="row">
                   <Lottie className="col-xl-3 col-lg-3" speed={null} loop={true} animationData ={plat_Hero1} />
-                    <div className="col-xl-7 col-lg-5">
+                  {/* <div className=""> */}
+                    <div className="testing">
+                     {/* <div className="d-flex align-middle"> */}
                         <div className="about__content pl-140">
                            <div className="section__title section__title-3 mb-0 mt-30 ">
                               <h3 >One Click Automated Data Analysis</h3>
                            </div>
                            <p >Automated Data Analysis lets you uncover new insights from your data with self service exploratory data analysis. Just select data & choose report type to see new insights</p>                           
                         </div>
+                        {/* </div> */}
                      </div>                     
                   </div>
                </div>  
@@ -47,7 +50,7 @@ const HomeServices = () => {
             
                <div className="about__area-2 pt-10 pl-20">
                   <div className="row">
-                  <div className="col-xl-7 col-lg-5">
+                  <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-3 mb-25 mt-80">
                               <h3 >EasyAI - No Code AI</h3>
@@ -68,7 +71,7 @@ const HomeServices = () => {
                <div className="about__area-2 pt-10 pl-20">
                   <div className="row">
                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero3} />
-                  <div className="col-xl-7 col-lg-5">
+                  <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-3 mb-25 mt-80">
                               <h3 >EasyDL - No Code Deep Learning</h3>

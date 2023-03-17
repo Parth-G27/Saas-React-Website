@@ -110,6 +110,54 @@ const Teamhero = () => {
                </div>
          </section>
 
+         <section className="services__area-2 mt-0 pt-30 pb-140 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>      
+               <div className="about__area-2 pt-130 pb-60 pl-20">
+                  <div className="row">
+                  <div className="col-xl-3 col-lg-3">
+                        <div className="m-img text-center pl-30">
+                           <img src="assets/img/ourteam/image-9.png" alt=""/>
+                        </div>
+                    </div>
+                     <div className="col-xl-9 col-lg-3">
+                        <div className="about__content">
+                           <div className="section__title section__title-sh mb-25 ">
+                              <h3 >Kamran Turkoglu </h3>
+                           </div>
+                           <p>Dr Turkoglu is a seasoned emerging technologies/markets executive leader, with diverse advanced/innovative technology leadership and architecture background. Dr. Turkoglu possesses experience with concentration on emerging technologies, partnerships, markets, innovation, and business development, and holds past collaboration experience with many industry and academia partners including but not limited to NASA Ames Research Center, NIO-Autonomous Driving division, National Science Foundation, US Air Force Directorate and more. He has been actively participating as a Board Member in different organizations and has unique interest in data analytics, AI, innovative technologies and emerging market applications of AI.</p>
+                           {/* <p className='wee'> Workforce enabled with practical AI skillsets & data driven solutions to their problems</p>   */}
+                           {/* <div className="m-img">
+                           <img src="assets/img/ourteam/image-6.png" alt=""/>
+                        </div>                       */}
+                        </div>
+                     </div>                     
+                  </div>
+               </div>
+         </section>
+
+         <section className="services__area-2 mt-0 pt-30 pb-140 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>      
+               <div className="about__area-2 pt-130 pb-60 pl-20">
+                  <div className="row">
+                  <div className="col-xl-3 col-lg-3">
+                        <div className="m-img text-center pl-30">
+                           <img src="assets/img/ourteam/image-7.jpg" alt=""/>
+                        </div>
+                    </div>
+                     <div className="col-xl-9 col-lg-3">
+                        <div className="about__content">
+                           <div className="section__title section__title-sh mb-25 ">
+                              <h3 >Michael Ciancio</h3>
+                           </div>
+                           <p>Michael Ciancio is Product Marketing and Go-To-Market strategy executive who has successfully driven strategic growth and product visibility for market leading organizations. He is a leader who is highly competitive, passionate and persuasive in achieving team results. His technical skills focus in solutions strategy, product development and brand management.</p>
+                           {/* <p className='wee'> Workforce enabled with practical AI skillsets & data driven solutions to their problems</p>   */}
+                           {/* <div className="m-img">
+                           <img src="assets/img/ourteam/image-6.png" alt=""/>
+                        </div>                       */}
+                        </div>
+                     </div>                     
+                  </div>
+               </div>
+         </section>
+
          
                
             

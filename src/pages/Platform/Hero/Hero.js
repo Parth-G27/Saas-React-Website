@@ -17,7 +17,7 @@ const Hero = () => {
                   
                  
                      
-                     <div className="col-xl-7 col-lg-6">
+                     <div className="testing">
                         <div className="about__content pl-140">
                            <div className="section__title section__title-3 mb-25 ">
                               <h2 >Most Easiest & User Friendly AI Platform</h2>
