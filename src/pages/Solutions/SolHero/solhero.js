@@ -19,7 +19,7 @@ const SolHero = () => {
                <div className="about__area-2 pt-130 pl-20">
                   <div className="row">
                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero1} />
-                     <div className="col-xl-7 col-lg-6">
+                     <div className="testing">
                         <div className="about__content pl-140">
                            <div className="section__title section__title-sh mb-25 ">
                               <h3 >Human & AI enabled Workforce of the Future</h3>
@@ -35,7 +35,7 @@ const SolHero = () => {
          <section className="services__area-3 mt-10 pt-20 pb-10 p-relative" style={{ background: `url(assets/img/bg/3.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
                <div className="about__area-2 pt-10 pl-20">
                   <div className="row">
-                  <div className="col-xl-7 col-lg-5">
+                  <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-sh mb-25 mt-80">
                               <h3 >Solving Global Issues that impact all of us</h3>
@@ -53,7 +53,7 @@ const SolHero = () => {
                <div className="about__area-2 pt-130 pl-20">
                   <div className="row">
                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero3} />
-                     <div className="col-xl-7 col-lg-6">
+                     <div className="testing">
                         <div className="about__content pl-140">
                            <div className="section__title section__title-sh mb-25 ">
                               <h3 >Customer Churn Prediction</h3>
@@ -69,7 +69,7 @@ const SolHero = () => {
          <section className="services__area-3 mt-10 pt-20 pb-10 p-relative" style={{ background: `url(assets/img/bg/3.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
                <div className="about__area-2 pt-10 pl-20">
                   <div className="row">
-                  <div className="col-xl-7 col-lg-5">
+                  <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-sh mb-25 mt-80">
                               <h3 >Product Recommendation Engine</h3>
@@ -87,7 +87,7 @@ const SolHero = () => {
                <div className="about__area-2 pt-130 pl-20">
                   <div className="row">
                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero5} />
-                     <div className="col-xl-7 col-lg-6">
+                     <div className="testing">
                         <div className="about__content pl-140">
                            <div className="section__title section__title-sh mb-25 ">
                               <h3 >Fraud Detection , Prediction & Prevention</h3>
@@ -103,7 +103,7 @@ const SolHero = () => {
          <section className="services__area-3 mt-10 pt-20 pb-10 p-relative" style={{ background: `url(assets/img/bg/3.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
                <div className="about__area-2 pt-10 pl-20">
                   <div className="row">
-                  <div className="col-xl-7 col-lg-5">
+                  <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-sh mb-25 mt-80">
                               <h3 >Customer Segmentation</h3>
@@ -121,7 +121,7 @@ const SolHero = () => {
                <div className="about__area-2 pt-130 pl-20">
                   <div className="row">
                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero7} />
-                     <div className="col-xl-7 col-lg-6">
+                     <div className="testing">
                         <div className="about__content pl-140">
                            <div className="section__title section__title-sh mb-25 ">
                               <h3 >financial product Defaulters Predictions</h3>
@@ -137,7 +137,7 @@ const SolHero = () => {
          <section className="services__area-3 mt-10 pt-20 pb-10 p-relative" style={{ background: `url(assets/img/bg/3.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
                <div className="about__area-2 pt-10 pl-20">
                   <div className="row">
-                  <div className="col-xl-7 col-lg-5">
+                  <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-sh mb-25 mt-80">
                               <h3 >Employee Attrition</h3>
@@ -150,10 +150,6 @@ const SolHero = () => {
                   </div>
                </div>  
          </section>
-
-
-
-
       </>
    );
 };

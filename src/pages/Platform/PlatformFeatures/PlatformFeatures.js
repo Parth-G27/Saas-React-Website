@@ -78,20 +78,16 @@ const HomeServices = () => {
                            </div>
                            <p> Our platform allows you to build neural networks or traditional machine learning model just by answering few questions. Allows non experts to go from an idea to model in minutes. Learn and build faster. </p>
                         </div>
-                     </div>  
-                   
-                   
-                  
-                  
-                                      
+                     </div>                               
                   </div>
                </div>  
          </section>
+
          <section className="services__area-3 mt-10 pt-20 pb-40 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>
             
                <div className="about__area-2 pt-10 pl-20">
                   <div className="row">
-                  <div className="col-xl-7 col-lg-5">
+                  <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-3 mb-25 mt-80">
                               <h3 >Self Service Visualization</h3>
@@ -112,7 +108,7 @@ const HomeServices = () => {
                <div className="about__area-2 pt-10 pl-20">
                   <div className="row">
                   <Lottie className="col-xl-4 col-lg-4" speed={null} loop={true} animationData ={plat_Hero5} />
-                  <div className="col-xl-7 col-lg-5">
+                  <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-3 mb-25 mt-80">
                               <h3 >Open Source Data</h3>
@@ -133,7 +129,7 @@ const HomeServices = () => {
             
                <div className="about__area-2 pt-10 pl-20">
                   <div className="row">
-                  <div className="col-xl-6 col-lg-5">
+                  <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-3 mb-25 mt-80">
                               <h3 >Organize Projects & Share Outcomes with others</h3>
