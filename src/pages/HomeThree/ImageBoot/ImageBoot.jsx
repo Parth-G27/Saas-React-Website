@@ -28,8 +28,8 @@ const ImageBoot = () => {
     ];
 
     const containerStyle = {
-        width: '920px',
-        height : '490px',
+        width: '1020px',
+        height : '550px',
         margin : '0 auto',
         padding:'30px',
     };

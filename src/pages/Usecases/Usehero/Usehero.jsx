@@ -30,20 +30,30 @@ const Usehero = () => {
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
                             
                               {/* <Case title="Telecommunications" /> */}
-                                <HashLink to="#tel">
-                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2 w-img p-relative" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
-                                        <div className="features__content-2">
-                                        <h3>Telecommunications</h3>                              
+                              <HashLink to="#tel">
+                                <div className="case__item mb-30 fix">
+                                    <div className="case__thumb w-img p-relative">
+                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <div className="case__info p-absolute transition-3">
+                                            <h4>Telecommunications</h4>
+                                        </div>
+                                        <div className="case__info case__info-2 p-absolute transition-3">
+                                            <h4>Telecommunications</h4>
+                                        </div>
                                     </div>
                                 </div>
                                 </HashLink>
 
                                 <HashLink to="#con">
-                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
-                                        <div className="features__content-2">
-                                        <h3>Construction</h3>
+                                <div className="case__item mb-30 fix">
+                                    <div className="case__thumb w-img p-relative">
+                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <div className="case__info p-absolute transition-3">
+                                            <h4>Construction</h4>
+                                        </div>
+                                        <div className="case__info case__info-2 p-absolute transition-3">
+                                            <h4>Construction</h4>
+                                        </div>
                                     </div>
                                 </div>
                                 </HashLink>
@@ -63,12 +73,21 @@ const Usehero = () => {
 
                             
                               <HashLink to="#hel">
-                              <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
-                                        <div className="features__content-2">
-                                        <h3>Healthcare</h3>
-                                    </div>
-                                </div>
+                              
+                              <div className="team__item p-relative text-center fix mb-30">
+               <div className="team__thumb mb-25">
+                  <img src={`assets/img/team/team-5.jpg`} alt="team"/>
+                     <div className="team__info text-start">
+                     <h3><Link to="/teamDetails">Name</Link></h3>
+                        <span>Title</span>
+                     </div>
+               </div>
+               <div className="team__content">
+                  <h3><Link to="/teamDetails">Name</Link></h3>
+                  <span>Title</span>
+               </div>
+            </div>
+
                                 </HashLink>
 
                                 <HashLink to="#tra">

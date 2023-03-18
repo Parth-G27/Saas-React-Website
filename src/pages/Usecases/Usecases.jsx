@@ -13,6 +13,8 @@ import Transportation from './Transportation/Transportation';
 import Government from './Government/Government';
 import FoodServices from './Foodservices/Foodservices';
 import RealEstate from './Realestate/Realestate';
+import Trial from './Trial/Trial';
+import New from './New/New';
 
 
 const Usecases = () => {
@@ -21,6 +23,8 @@ const Usecases = () => {
           <PageHelmet pageTitle="UseCases" />
           <HomeThreeHeader/>
           <Usehero/>
+          {/* <New/>
+          <Trial/> */}
           <Usehead/>
           <Telecommunications/>
           <Healthcare/>

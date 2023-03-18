@@ -1,6 +1,11 @@
-import React from 'react';
-import { useState } from 'react';
+// import React, { useEffect } from 'react';
+// import { useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from "react";
+
 const ImageSlider = ({slides}) => {
+
+    const timerRef = useRef(null);
+
     const [currentIndex,setCurrentIndex]= useState(0);
 
     const sliderstyle = {
@@ -79,15 +84,27 @@ const ImageSlider = ({slides}) => {
         setCurrentIndex(newIndex);
     };
 
-    const goToNext = () => {
+    const goToNext = useCallback(() => {
         const isLasttSlide  = currentIndex  === slides.length -1 ; 
         const newIndex = isLasttSlide ? 0 : currentIndex + 1;
         setCurrentIndex(newIndex);
-    };
+    },[currentIndex,slides]);
 
     const goToSlide = (slideIndex) =>{
         setCurrentIndex(slideIndex);
     }
+
+    useEffect(()=>{
+        if(timerRef.current){
+            clearTimeout(timerRef.current);
+        };
+        console.log('use effect');
+        timerRef.current = setTimeout(() => {
+            goToNext()
+        },5000);
+
+        return () =>clearTimeout(timerRef.current);
+    },[goToNext]);
 
 
     return(
