@@ -1,6 +1,7 @@
 import React from 'react';
 import TextAnimation from 'react-text-animations'
-
+import neww from './neww.json';
+import Lottie from 'lottie-react';
 
 const Textanimation = () => {
     return (
@@ -9,6 +10,11 @@ const Textanimation = () => {
        {/* <div className="hero__item hero__height d-flex align-items-center"> */}
             <div className="container">
                <div className="row">
+               <div className="col-xl-4 col-lg-3 order-last">
+                     <div className="hero__thumb-wrapper ml-100 scene p-relative">
+                        <Lottie loop={true} animationData ={neww}/>
+                     </div>
+                  </div>
                   <div className="col-xl-9 col-lg-7 d-flex align-items-center">
                      <div className="section__title section__title-an " data-wow-delay=".2s">
                         <div className='pb-0'>
@@ -31,6 +37,7 @@ const Textanimation = () => {
                         <h4 className='news'>Build Data Driven Workforce using No Code Data Intelligence Platform.</h4>
                      </div>
                   </div>
+                  
                </div>
             </div>
         {/* </div> */}

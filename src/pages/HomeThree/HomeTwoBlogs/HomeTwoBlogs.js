@@ -6,7 +6,7 @@ import HomeTwoSingleBlog from '../../../components/HomeTwoSingleBlog/HomeTwoSing
 const HomeTwoBlogs = () => {
    return (
       <>
-         <section className="blog__area grey-bg-15 pt-15 pb-45">
+         <section className="blog__area grey-bg-15 pt-100 pb-45">
             <div className="container">
                <div className="row">
                   <div className="col-xl-5">

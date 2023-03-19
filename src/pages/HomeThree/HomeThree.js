@@ -20,6 +20,7 @@ import Textanimation from './Textanimation/Textanimation';
 import ImageBoot from './ImageBoot/ImageBoot';
 import Capacity from './Capacity/Capacity';
 import Counter from './Counter/Counter';
+import Algos from './Algos/Algos';
 //import ImgSlide from './ImgSlide/ImgSlide';
 
 
@@ -34,13 +35,16 @@ const HomeThree = () => {
          <HomeTwoFeatures/>
          <HomeHeroSlider/>
          <HomeServices />
+         <Counter/>
          <HomeTwoBlogs/>
          
-         <Backedby/>
+         
          <Capacity/>
-         <Counter/>
+         <Backedby/>
+         
          
          <ImageBoot/>
+         <Algos/>
          <Textanimation/>
 
          {/* <ImgSlide/> */}
