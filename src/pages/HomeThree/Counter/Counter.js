@@ -1,7 +1,7 @@
 import React from 'react';
 import SingleCount from '../../../components/SingleCount/SingleCount';
 
-const Counter = () => {
+const HomeCounterArea = () => {
    return (
       <>
          <section className="counter__area pb-100">
@@ -9,10 +9,10 @@ const Counter = () => {
                <div className="counter__inner white-bg wow fadeInUp" data-wow-delay=".2s">
                   <div className="row">
 
-                     <SingleCount counter={1749} title="Happy Clients" />
-                     <SingleCount counter={796} title="Project Completed" />
-                     <SingleCount counter={573} title="Support Given" />
-                     <SingleCount counter={2739} title="Offices Worldwide" />
+                     <SingleCount counter={90} option="%" title="Cost Reduction" />
+                     <SingleCount counter={20} option="+" title="Happy Clients" />
+                     <SingleCount counter={80} option="%" title="Time Reduction" />
+                     <SingleCount counter={300} option="+" title="Machine Learning models" />
 
                   </div>
                </div>
@@ -22,4 +22,4 @@ const Counter = () => {
    );
 };
 
-export default Counter;
+export default HomeCounterArea;

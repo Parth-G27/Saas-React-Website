@@ -18,6 +18,8 @@ import HomeTwoBlogs from './HomeTwoBlogs/HomeTwoBlogs';
 import Backedby from '../Partner/Backedby/Backedby';
 import Textanimation from './Textanimation/Textanimation';
 import ImageBoot from './ImageBoot/ImageBoot';
+import Capacity from './Capacity/Capacity';
+import Counter from './Counter/Counter';
 //import ImgSlide from './ImgSlide/ImgSlide';
 
 
@@ -35,6 +37,8 @@ const HomeThree = () => {
          <HomeTwoBlogs/>
          
          <Backedby/>
+         <Capacity/>
+         <Counter/>
          
          <ImageBoot/>
          <Textanimation/>

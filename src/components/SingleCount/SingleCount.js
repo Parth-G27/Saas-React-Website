@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
-const SingleCount = ({counter,title,color}) => {
+const SingleCount = ({counter,title,color,option}) => {
    const [viewCountUp,setViewCountUp] = useState(false);
 
    const onVisibilityChange = (isVisible) => {
@@ -18,6 +18,7 @@ const SingleCount = ({counter,title,color}) => {
                   <VisibilitySensor onChange={onVisibilityChange} offset={{ top: 10 }} delayedCall>
                      <CountUp end={viewCountUp ? counter : 0} duration={8} />
                   </VisibilitySensor>
+                  {option}
                </h2>
                <span>{title}</span>
             </div>

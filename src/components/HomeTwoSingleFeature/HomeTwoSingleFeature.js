@@ -13,7 +13,7 @@ const HomeTwoSingleFeature = ({icon,title}) => {
                <h3>{title}</h3>
                {/* <p>He nicked it Jeffrey zonked cheeky bugger.</p> */}
                <div className="features__btn-2">
-                  <Link to="/about" className="link-btn">
+                  <Link to="/" className="link-btn">
                      {/* <i > <CgArrowLongRight /> </i>
                      <i > <CgArrowLongRight /> </i> */}
                   </Link>

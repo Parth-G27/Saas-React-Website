@@ -14,12 +14,12 @@ const HomeSingleFeature = ({icon,title}) => {
                      <i> {icon} </i>
                   </div>
                   <h3> {title} </h3>
-                  <div className="features__btn">
+                  {/* <div className="features__btn">
                      <Link to="/servicesDetails" className="link-btn">
                         <i > <CgArrowLongRight /> </i>
                         <i > <CgArrowLongRight /> </i>
                      </Link>
-                  </div>
+                  </div> */}
                </div>
             </div>
          </div>
