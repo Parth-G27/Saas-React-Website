@@ -146,7 +146,9 @@ ol{
 	padding: 0;
 }
 li {
-	list-style: none;
+	padding-top: 3px;
+	list-style: disc;
+	font-size: 20px;
 }
 p {
 	font-family: $lato;

@@ -126,7 +126,7 @@ const Usehero = () => {
                                 <HashLink to="#gov">
                                 <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <img src="assets/img/case/case-11.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Government</h4>
                                         </div>
