@@ -10,9 +10,11 @@ const HomeCounterArea = () => {
                   <div className="row">
 
                      <SingleCount counter={90} option="%" title="Cost Reduction" />
-                     <SingleCount counter={20} option="+" title="Happy Clients" />
+                     <SingleCount counter={500} option="" title="Million Data Points" />
                      <SingleCount counter={80} option="%" title="Time Reduction" />
+                     <SingleCount counter={500} option="" title="Models Built" />
                      <SingleCount counter={300} option="+" title="Machine Learning models" />
+                     <SingleCount counter={100} option="+" title="Algorithms" />
 
                   </div>
                </div>

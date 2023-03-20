@@ -12,11 +12,11 @@ const SingleCount = ({counter,title,color,option}) => {
    }
    return (
       <>
-         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+         <div className="col-xl-2 col-lg-2 col-md-4 col-sm-4">
             <div className="counter__item text-center mb-30">
                <h2 className={`counter ${color && color}`}>
                   <VisibilitySensor onChange={onVisibilityChange} offset={{ top: 10 }} delayedCall>
-                     <CountUp end={viewCountUp ? counter : 0} duration={8} />
+                     <CountUp end={viewCountUp ? counter : 0} duration={3} />
                   </VisibilitySensor>
                   {option}
                </h2>

@@ -15,7 +15,7 @@ const Textanimation = () => {
                         <Lottie loop={true} animationData ={neww}/>
                      </div>
                   </div>
-                  <div className="col-xl-9 col-lg-7 d-flex align-items-center">
+                  <div className="col-xl-6 col-lg-7 d-flex align-items-center">
                      <div className="section__title section__title-an " data-wow-delay=".2s">
                         <div className='pb-0'>
                             <h4><div className='pb-10'>We Believe</div></h4>

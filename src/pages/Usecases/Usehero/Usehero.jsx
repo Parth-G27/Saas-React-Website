@@ -59,10 +59,15 @@ const Usehero = () => {
                                 </HashLink>
 
                                 <HashLink to="#rea">
-                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
-                                        <div className="features__content-2">
-                                        <h3>Real Estate</h3>
+                                <div className="case__item mb-30 fix">
+                                    <div className="case__thumb w-img p-relative">
+                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <div className="case__info p-absolute transition-3">
+                                            <h4>Real Estate</h4>
+                                        </div>
+                                        <div className="case__info case__info-2 p-absolute transition-3">
+                                            <h4>Real Estate</h4>
+                                        </div>
                                     </div>
                                 </div>
                                 </HashLink>
@@ -73,28 +78,29 @@ const Usehero = () => {
 
                             
                               <HashLink to="#hel">
-                              
-                              <div className="team__item p-relative text-center fix mb-30">
-               <div className="team__thumb mb-25">
-                  <img src={`assets/img/team/team-5.jpg`} alt="team"/>
-                     <div className="team__info text-start">
-                     <h3><Link to="/teamDetails">Name</Link></h3>
-                        <span>Title</span>
-                     </div>
-               </div>
-               <div className="team__content">
-                  <h3><Link to="/teamDetails">Name</Link></h3>
-                  <span>Title</span>
-               </div>
-            </div>
-
-                                </HashLink>
+                              <div className="case__item mb-30 fix">
+                                    <div className="case__thumb w-img p-relative">
+                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <div className="case__info p-absolute transition-3">
+                                            <h4>Healthcare</h4>
+                                        </div>
+                                        <div className="case__info case__info-2 p-absolute transition-3">
+                                            <h4>Healthcare</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                              </HashLink>
 
                                 <HashLink to="#tra">
-                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
-                                        <div className="features__content-2">
-                                        <h3>Transportation</h3>
+                                <div className="case__item mb-30 fix">
+                                    <div className="case__thumb w-img p-relative">
+                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <div className="case__info p-absolute transition-3">
+                                            <h4>Transportation</h4>
+                                        </div>
+                                        <div className="case__info case__info-2 p-absolute transition-3">
+                                            <h4>Transportation</h4>
+                                        </div>
                                     </div>
                                 </div>
                                 </HashLink>
@@ -104,19 +110,29 @@ const Usehero = () => {
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
 
                                <HashLink to="#agr">
-                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
-                                        <div className="features__content-2">
-                                        <h3>Agriculture</h3>
+                               <div className="case__item mb-30 fix">
+                                    <div className="case__thumb w-img p-relative">
+                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <div className="case__info p-absolute transition-3">
+                                            <h4>Agriculture</h4>
+                                        </div>
+                                        <div className="case__info case__info-2 p-absolute transition-3">
+                                            <h4>Agriculture</h4>
+                                        </div>
                                     </div>
                                 </div>
                                 </HashLink>
 
                                 <HashLink to="#gov">
-                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
-                                        <div className="features__content-2">
-                                        <h3>Government</h3>
+                                <div className="case__item mb-30 fix">
+                                    <div className="case__thumb w-img p-relative">
+                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <div className="case__info p-absolute transition-3">
+                                            <h4>Government</h4>
+                                        </div>
+                                        <div className="case__info case__info-2 p-absolute transition-3">
+                                            <h4>Government</h4>
+                                        </div>
                                     </div>
                                 </div>
                                 </HashLink>
@@ -130,20 +146,30 @@ const Usehero = () => {
                            <div className="col-xl-3 col-lg-5 col-md-6 col-sm-6">
 
                            <HashLink to="#fin">
-                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
-                                        <div className="features__content-2">
-                                        <h3>Finance</h3>
+                           <div className="case__item mb-30 fix">
+                                    <div className="case__thumb w-img p-relative">
+                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <div className="case__info p-absolute transition-3">
+                                            <h4>Finance</h4>
+                                        </div>
+                                        <div className="case__info case__info-2 p-absolute transition-3">
+                                            <h4>Finance</h4>
+                                        </div>
                                     </div>
                                 </div>
-                                </HashLink>
+                            </HashLink>
 
 
                                 <HashLink to="#foo">
-                                <div className="features__itemm features__itemm-2 white-bg fix mb-30">
-                                    <div className="features__thumb-2" style={{background: `assets/img/usecases/R.jpg`, backgroundPosition: 'center', backgroundSize: 'cover'}} ></div>
-                                        <div className="features__content-2">
-                                        <h3>Food Services</h3>
+                                <div className="case__item mb-30 fix">
+                                    <div className="case__thumb w-img p-relative">
+                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <div className="case__info p-absolute transition-3">
+                                            <h4>Food Services</h4>
+                                        </div>
+                                        <div className="case__info case__info-2 p-absolute transition-3">
+                                            <h4>Food Services</h4>
+                                        </div>
                                     </div>
                                 </div>
                                 </HashLink>
