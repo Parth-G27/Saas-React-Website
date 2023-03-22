@@ -69,7 +69,7 @@ const Contact = () => {
    return (
       <>
          <section className="contact__area">
-            <div className="container-fluid p-0" style={{ background: `url(assets/img/bg/wave-bg-2.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
+            <div className="container-fluid pt-200" style={{ background: `url(assets/img/bg/wave-bg-2.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
                <div className="row g-0">
                   <div className="col-xl-12">
                      <div className="contact__map" >
