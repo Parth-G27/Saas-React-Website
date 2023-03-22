@@ -27,9 +27,9 @@ const NewContact = () => {
    };
    return (
       <>
-         <section className="contact__area">
-            <div className="container-fluid p-0" style={{ background: `url(assets/img/bg/wave-bg-2.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
-               <div className="row g-0">
+         <section className="contact__area" style={{ background: `url(assets/img/bg/wave-bg-2.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
+            <div className="container-fluid pb-80" >
+               <div className="text-center">
                   <div className="col-xl-12">
                      <div className="contact__map">
                         {/* <iframe title='contact' src="https://maps.google.com/maps?hl=en&amp;q=Dhaka+()&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"></iframe> */}

@@ -33,10 +33,11 @@ const HomeThree = () => {
          <HomeThreeHeroSection />
          <HomeThreeServices />
          <Textanimation/>
+         <HomeHeroSlider/>
          <Capacity/>
          <HomeTwoFeatures/>
          <ImageBoot/>
-         <HomeHeroSlider/>
+         
          
          <Algos/>
          <Backedby/>

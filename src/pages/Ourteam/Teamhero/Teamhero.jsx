@@ -50,7 +50,7 @@ const Teamhero = () => {
                      <div className="col-xl-9 col-lg-3">
                         <div className="about__content">
                            <div className="section__title section__title-sh mb-25 ">
-                              <h3 >Andre Winebar, Diretor of Global Operations at YouTube, Board Member</h3>
+                              <h3 >Andre Winebar, Diretor of Global Operations at Google, Board Member</h3>
                            </div>
                            <p>Andre Winebar is an Operations Business Executive with over 20 years of experience growing and scaling businesses. He is most known for his work in the Financial Services and Tech industry successfully leading global teams to achieve maximum potential at several top fortune 500 companies and for advancing corporate cultures as a champion for Diversity, Equity, Inclusion and Belonging. Andre has spent the last eight years of his professional career at Google helping to scale products like Google Payments, Play Store and YouTube where he currently leads global scaled operations. Prior to joining Google, Andre held executive roles at General Electric, American Express and Canon.</p>
                            {/* <p className='wee'> Workforce enabled with practical AI skillsets & data driven solutions to their problems</p>   */}
