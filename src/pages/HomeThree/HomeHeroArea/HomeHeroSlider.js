@@ -51,7 +51,7 @@ const HomeHeroArea = () => {
                               <div className="col-xl-9 col-lg-9 col-md-10 col-sm-10">
                                  <div className="slider__content">
                                     <span>We are adding new exciting features </span>
-                                    <h1>See OneNineAI  <br />Platform in action <br/> in the video</h1>
+                                    <h1>See OneNineAI  <br />Platform <br/> in the video</h1>
                                     {/* <div className="slider__btn">
                                        <Link to="/contact" className="z-btn z-btn-transparent">Get a quote</Link>
                                     </div> */}

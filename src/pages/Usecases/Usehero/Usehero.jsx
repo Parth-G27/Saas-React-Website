@@ -33,7 +33,7 @@ const Usehero = () => {
                               <HashLink to="#tel">
                                 <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <img src="assets/img/case/new/1.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Telecommunications</h4>
                                         </div>
@@ -47,7 +47,7 @@ const Usehero = () => {
                                 <HashLink to="#con">
                                 <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <img src="assets/img/case/new/2.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Construction</h4>
                                         </div>
@@ -61,7 +61,7 @@ const Usehero = () => {
                                 <HashLink to="#rea">
                                 <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <img src="assets/img/case/new/3.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Real Estate</h4>
                                         </div>
@@ -80,7 +80,7 @@ const Usehero = () => {
                               <HashLink to="#hel">
                               <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <img src="assets/img/case/new/4.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Healthcare</h4>
                                         </div>
@@ -94,7 +94,7 @@ const Usehero = () => {
                                 <HashLink to="#tra">
                                 <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <img src="assets/img/case/new/5.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Transportation</h4>
                                         </div>
@@ -112,7 +112,7 @@ const Usehero = () => {
                                <HashLink to="#agr">
                                <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <img src="assets/img/case/new/6.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Agriculture</h4>
                                         </div>
@@ -126,7 +126,7 @@ const Usehero = () => {
                                 <HashLink to="#gov">
                                 <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-11.jpg" alt="case" />
+                                        <img src="assets/img/case/new/7.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Government</h4>
                                         </div>
@@ -148,7 +148,7 @@ const Usehero = () => {
                            <HashLink to="#fin">
                            <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <img src="assets/img/case/new/8.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Finance</h4>
                                         </div>
@@ -163,7 +163,7 @@ const Usehero = () => {
                                 <HashLink to="#foo">
                                 <div className="case__item mb-30 fix">
                                     <div className="case__thumb w-img p-relative">
-                                        <img src="assets/img/case/case-3.jpg" alt="case" />
+                                        <img src="assets/img/case/new/9.jpg" alt="case" />
                                         <div className="case__info p-absolute transition-3">
                                             <h4>Food Services</h4>
                                         </div>
