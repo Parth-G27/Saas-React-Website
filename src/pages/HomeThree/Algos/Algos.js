@@ -13,12 +13,19 @@ const Algos = () => {
                <div className="features__inner fix">
                   <div className="row g-0 ">
 
-                     <HomeSingleFeature icon={<FiBook />} title="algorithm-1" />
-                     <HomeSingleFeature icon={<FaLightbulb />} title="algorithm-2" />
-                     <HomeSingleFeature icon={<BsHouseDoor />} title="algorithm-3" />
-                     <HomeSingleFeature icon={<IoDocumentTextOutline />} title="algorithm-4" />
-                     <HomeSingleFeature icon={<FiLock />} title="algorithm-5" />
-                     <HomeSingleFeature icon={<FaRibbon />} title="algorithm-6" />
+                  {/* icon={<FiBook />}
+                  icon={<FaLightbulb />}
+                  icon={<BsHouseDoor />}
+                  icon={<IoDocumentTextOutline />}
+                  icon={<FiLock />}  
+                  icon={<FaRibbon />} */}
+
+                     <HomeSingleFeature  title="30+ Supervised Learning Algorithms" />
+                     <HomeSingleFeature  title="20+ Unsupervised Learning Algorithms" />
+                     <HomeSingleFeature  title="10+ Time Series Forecasting Algorithms" />
+                     <HomeSingleFeature title="10+ Deep Learning Algorithms" />
+                     <HomeSingleFeature title="10+ Anomaly Detection Algorithms" />
+                     <HomeSingleFeature  title="30+ Natural Language Processing Technique " />
 
                   </div>
                </div>

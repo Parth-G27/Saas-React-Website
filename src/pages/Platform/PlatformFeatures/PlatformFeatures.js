@@ -16,7 +16,7 @@ import Calendly from '../../../components/Calendly/Calendly';
 const HomeServices = () => {
    return (
       <>
-         <section className="services__area pt-65 pb-0">
+         <section className="services__area pt-35 pb-0">
             
             <section className="services__area-2 mt-50 pt-70 pb-0 p-relative" style={{ background: `url(assets/img/bg/bg-new.png)`, backgroundPosition: 'top', backgroundSize: 'cover' }}>
             
