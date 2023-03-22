@@ -44,7 +44,7 @@ const HomeServices = () => {
                   <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-3 mb-25 mt-80">
-                              <h3 >EasyAI - No Code AI</h3>
+                              <h3 >Easy AI - No Code AI</h3>
                            </div>
                            <p>Pick & Choose from the marketplace of most popular machine learning models in the world. It helps you learn AI concepts and develop models at the same time. We are always adding new models on OneNine platform from the experts in the AI field. Our proprietary process will help you build AI models and recommend the best solution based on your data.</p>
                         </div>
@@ -65,7 +65,7 @@ const HomeServices = () => {
                   <div className="testing">
                         <div className="about__content pl-10 ">
                            <div className="section__title section__title-3 mb-25 mt-80">
-                              <h3 >EasyDL - No Code Deep Learning</h3>
+                              <h3 >Easy DL - No Code Deep Learning</h3>
                            </div>
                            <p> Our platform allows you to build neural networks or traditional machine learning model just by answering few questions. Allows non experts to go from an idea to model in minutes. Learn and build faster. </p>
                         </div>

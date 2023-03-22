@@ -10,7 +10,7 @@ const ReleaseHero = () =>{
                   <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                      <div className="section__title section__title-3 text-center mt-100 mb-10 wow fadeInUp" data-wow-delay=".2s">
                         <div className='pb-40'>
-                            <h2>Release summary</h2>
+                            <h2>Platform Release Notes</h2>
                         </div>
                         <h4 className='news pb-50'>Our No Code Data Intelligence Platform reduces entry barriers for individuals and businesses to start using AI and machine learning.</h4>
                         <a href="https://calendly.com/onenine/15min?month=2023-03" target="_blank" className="z-btn">Start Now</a>

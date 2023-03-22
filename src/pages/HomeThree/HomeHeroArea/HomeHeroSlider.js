@@ -41,17 +41,17 @@ const HomeHeroArea = () => {
                   homeSliderData.map((slider,index) => {
                      return <div key={index} className={`single-slider slider__height d-flex align-items-center ${slider}`}>
                         <div className="slider__shape">
-                           <img className="shape triangle" src="assets/img/icon/slider/triangle.png" alt="triangle" />
+                           {/* <img className="shape triangle" src="assets/img/icon/slider/triangle.png" alt="triangle" /> */}
                            <img className="shape dotted-square" src="assets/img/icon/slider/dotted-square.png" alt="dotted-square" />
-                           <img className="shape solid-square" src="assets/img/icon/slider/solid-square.png" alt="solid-square" />
+                           {/* <img className="shape solid-square" src="assets/img/icon/slider/solid-square.png" alt="solid-square" /> */}
                            <img className="shape circle" src="assets/img/icon/slider/circle.png" alt="circle" />
                         </div>
                         <div className="container h1_slider_wrapper">
                            <div className="row">
                               <div className="col-xl-9 col-lg-9 col-md-10 col-sm-10">
                                  <div className="slider__content">
-                                    <span>We are adding new exciting features </span>
-                                    <h1>See OneNineAI  <br />Platform <br/> in the video</h1>
+                                    {/* <span>We are adding new exciting features </span> */}
+                                    <h1>See the <br />Platform <br/> in Action</h1>
                                     {/* <div className="slider__btn">
                                        <Link to="/contact" className="z-btn z-btn-transparent">Get a quote</Link>
                                     </div> */}

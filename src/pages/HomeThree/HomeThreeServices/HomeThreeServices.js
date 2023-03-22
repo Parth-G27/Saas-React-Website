@@ -27,9 +27,9 @@ const HomeThreeServices = () => {
                      <div className="col-xl-5 col-lg-6">
                         <div className="about__content">
                            <div className="section__title section__title-3 mb-25">
-                              <h2 >Build data driven workforce faster on OneNine AI</h2>
+                              <h2 >Build data driven workforce faster with OneNine AI</h2>
                            </div>
-                           <p >OneNine Al is a no code Al platform that will democratize Al to everyone. It reduces entry barriers for individuals and businesses to start using Al and machine learning. Our goal is to bring Al to everyone and accelerate digital transformation & organization's Al journey.</p>
+                           <p >OneNine Al is a no code Al platform that will democratizes Al to everyone. It reduces entry barriers for individuals and businesses to start using Al and machine learning. Our goal is to bring Al to everyone and accelerate digital transformation & organization's Al journey.</p>
                            {/* <Link to="/about" className="z-btn">What we do<i > <CgArrowLongRight /> </i></Link> */}
                         </div>
                      </div>

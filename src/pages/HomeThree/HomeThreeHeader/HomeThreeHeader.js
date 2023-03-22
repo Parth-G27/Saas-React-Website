@@ -95,7 +95,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                               
                               <li><NavLink to="/news">News</NavLink></li>
                               <li><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
-                              <li><NavLink to="/releasenotes">Release Notes</NavLink></li>
+                              <li><NavLink to="/releasenotes">Platform Release Notes</NavLink></li>
                               <li><NavLink to="/ourteam">Our Team</NavLink></li>
                               
                               
@@ -106,7 +106,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                     </div>
                     <div className="ml-25">
                     <a href="/bookdemo" target="_blank" >
-                              <button className='z-btn-2'>Book Demo</button>
+                              <button className='z-btn-2'>Book a Demo</button>
                            </a>
                       {/* <Link to="/contact" className={`z-btn ${btn_class}`}>{btn_text}</Link> */}
                     </div>

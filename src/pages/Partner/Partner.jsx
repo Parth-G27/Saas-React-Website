@@ -11,7 +11,7 @@ import Backedby from './Backedby/Backedby';
 const Partner = () => {
    return (
       <>
-         <PageHelmet pageTitle="Partner" />
+         <PageHelmet pageTitle="Partners" />
          <HomeThreeHeader/>
          <Partnerarea/>
          {/* <Backed/> */}

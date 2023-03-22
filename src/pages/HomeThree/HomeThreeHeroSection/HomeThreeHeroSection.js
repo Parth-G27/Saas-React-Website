@@ -39,7 +39,7 @@ const HomeThreeHeroSection = () => {
                         <div className="hero__content">
                            <span className='ai'>OneNine AI.</span>
                            <h1>Bringing power of AI to everyone</h1>
-                           <p>No Code Data Intelligence Platform for Everyone.</p>
+                           <p>A No Code Data Intelligence Platform for Everyone.</p>
                            <a href="/bookdemo" target="_blank">
                               <button className='z-btn-1'>Book Demo</button>
                            </a>

@@ -8,7 +8,7 @@ import Teamhero from './Teamhero/Teamhero'
 const Ourteam = () => {
     return (
        <>
-          <PageHelmet pageTitle="OurTeam" />
+          <PageHelmet pageTitle="Our Team" />
           <HomeThreeHeader/>
           <Teamhero/>
           

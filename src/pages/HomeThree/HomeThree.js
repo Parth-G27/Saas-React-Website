@@ -27,7 +27,7 @@ import Algos from './Algos/Algos';
 const HomeThree = () => {
    return (
       <>
-         <PageHelmet pageTitle="OneNineAI" />
+         <PageHelmet pageTitle="OneNine AI" />
          
          <HomeThreeHeader />
          <HomeThreeHeroSection />

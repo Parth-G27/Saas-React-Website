@@ -9,7 +9,7 @@ const Releasenotes = () =>{
 
     return (
         <>
-        <PageHelmet pageTitle="Release Notes" />
+        <PageHelmet pageTitle="Platform Release Notes" />
         <HomeThreeHeader/>
         <ReleaseHero/>
 

@@ -45,7 +45,7 @@ const Hero = () => {
                      <div className="testing">
                         <div className="about__content pl-140">
                            <div className="section__title section__title-3 mb-25 ">
-                              <h2 >Most Easiest & User Friendly AI Platform</h2>
+                              <h2 >Easy and user friendly no -code AI platform</h2>
                            </div>
                            <p >Our no code platform democratizes Data Literacy & Al to everyone. It reduces entry barriers for individuals and businesses to start using Al and machine learning. Our goal is to bring Al to everyone and accelerate digital transformation & organization's Al journey.</p>
                            
