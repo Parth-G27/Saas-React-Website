@@ -30,7 +30,7 @@ const ImageBoot = () => {
         {url:'assets/img/actual/png/24.png',title:'User friendly, easy to use platform'},
         {url:'assets/img/actual/png/25.png',title:'View you model results and easily submit for review and approval to team expert as needed'},
         {url:'assets/img/actual/png/26.png',title:'Visually stunning and informative model outputs '},
-        {url:'assets/img/actual/png/27.png',title:'Visually stunning and informative model outputs'},
+        {url:'assets/img/actual/png/27.png',title:''},
 
         // {url:'assets/img/actual/Collaboration.gif',title:'Collaborate easily with other users on the dashboard'},
         // {url:'assets/img/actual/ConfigureAlgos.gif',title:'Configure a large number of algorithms to the specific use case needs'},
@@ -51,8 +51,12 @@ const ImageBoot = () => {
     ];
 
     const containerStyle = {
-        width: '1650px',
-        height : '750px',
+        width: '1500px',
+        height: '650px',
+        // maxHeight : '950px',
+        
+        // maxWidth : '1600px',
+        // maxHeight : '1000px',
         margin : '0 auto',
         padding:'30px',
     };

@@ -32,22 +32,34 @@ const HomeThree = () => {
          <HomeThreeHeader />
          <HomeThreeHeroSection />
          <HomeThreeServices />
+         <Textanimation/>
+         <Capacity/>
          <HomeTwoFeatures/>
+         <ImageBoot/>
          <HomeHeroSlider/>
+         
+         <Algos/>
+         <Backedby/>
+         <HomeTwoBlogs/>
+
+         {/* 
          <HomeServices />
          <Counter/>
-         <HomeTwoBlogs/>
          
          
-         <Capacity/>
-         <Backedby/>
+         
+        
+         
          
          
          <ImageBoot/>
-         <Algos/>
-         <Textanimation/>
+         
+         <Textanimation/> */}
 
-         {/* <ImgSlide/> */}
+        
+         
+         <HomeThreeFooter />
+          {/* <ImgSlide/> */}
          
         
          
@@ -55,8 +67,6 @@ const HomeThree = () => {
          
          {/* <HomeThreeFaq />  
          <CommonCtaArea /> */}
-         
-         <HomeThreeFooter />
       </>
    );
 };
