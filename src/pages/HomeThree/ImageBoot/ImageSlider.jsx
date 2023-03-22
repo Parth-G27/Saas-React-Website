@@ -10,6 +10,7 @@ const ImageSlider = ({slides}) => {
 
     const sliderstyle = {
         height: "100%",
+        width: "100%",
         position: "relative"  
     };
 
@@ -18,7 +19,7 @@ const ImageSlider = ({slides}) => {
         height: '100%',
         borderRadius:'10px',
         backgroundPosition: 'center',
-        backgroundSize: 'cover',
+        backgroundSize: 'contain',
         backgroundImage:`url(${slides[currentIndex].url })`,
         boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset',
 
@@ -94,17 +95,17 @@ const ImageSlider = ({slides}) => {
         setCurrentIndex(slideIndex);
     }
 
-    useEffect(()=>{
-        if(timerRef.current){
-            clearTimeout(timerRef.current);
-        };
-        console.log('use effect');
-        timerRef.current = setTimeout(() => {
-            goToNext()
-        },5000);
+    // useEffect(()=>{
+    //     if(timerRef.current){
+    //         clearTimeout(timerRef.current);
+    //     };
+    //     console.log('use effect');
+    //     timerRef.current = setTimeout(() => {
+    //         goToNext()
+    //     },5000);
 
-        return () =>clearTimeout(timerRef.current);
-    },[goToNext]);
+    //     return () =>clearTimeout(timerRef.current);
+    // },[goToNext]);
 
 
     return(

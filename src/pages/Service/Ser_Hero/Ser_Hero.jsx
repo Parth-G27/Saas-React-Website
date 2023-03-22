@@ -18,24 +18,31 @@ const Ser_Hero = () => {
                   <div className="row">
                     <div className="col-xl-4 col-lg-3">
                         <h3>Custom AI Solutions</h3>
-                        <div className="m-img pl-30 pb-50">
-                            <img src="assets/img/service/1.jpg" alt=""/>
+                        <div className='con'>
+                            <div className="m-img pl-30 pb-50">
+                                <img src="assets/img/service/1.jpg" alt=""/>
+                            </div>
                         </div>
+                        
                         <h5 className='ser'>We enable organizations to build custom solution & end-to-end AI pipeline </h5>
                     </div>
 
                     <div className="col-xl-4 col-lg-3">
                         <h3>Develop & Execute AI Strategy</h3>
-                        <div className="m-img pl-30 pb-50">
-                            <img src="assets/img/service/2.jpg" alt=""/>
+                        <div className='con'>
+                            <div className="m-img pl-30 pb-50">
+                                <img src="assets/img/service/2.jpg" alt=""/>
+                            </div>
                         </div>
                         <h5 className='ser'> With deep understanding of AI lifecycle, we help organizations develop and execute AI strategy </h5>
                     </div>
 
                     <div className="col-xl-4 col-lg-3">
                         <h3>Open Source Tools</h3>
-                        <div className="m-img pl-30 pb-50">
-                            <img src="assets/img/service/3.jpg" alt=""/>
+                        <div className='con'>
+                            <div className="m-img pl-30 pb-50">
+                                <img src="assets/img/service/3.jpg" alt=""/>
+                            </div>
                         </div>
                         <h5 className='ser'>All of Data Science is open source, we can help leverage the best tools for your organization</h5>
                     </div>
@@ -43,9 +50,11 @@ const Ser_Hero = () => {
                     <div className="col-xl-4 col-lg-3">
                         <div className='pt-80'>
                             <h3>Academic Partnership & Consulting</h3>
+                            <div className='con2'>
                             <div className="m-img pl-30 pb-50">
                                 <img src="assets/img/service/4.jpg" alt=""/>
                             </div>
+                        </div>
                             <h5 className='ser pt-40'>We provide faster outcomes & knowledge transfer thought our unique engagement approach</h5>
                         </div>
                     </div>
@@ -53,9 +62,11 @@ const Ser_Hero = () => {
                     <div className="col-xl-4 col-lg-3">
                         <div className='pt-80'>
                             <h3>Cultural Innovation</h3>
+                            <div className='con2'>
                             <div className="m-img pl-30 pb-50">
                                 <img src="assets/img/service/5.jpg" alt=""/>
                             </div>
+                        </div>
                         <h5 className='ser'> Enable cultural innovation through our engagement and bring data science to everyone</h5>
                         </div>
                     </div>
@@ -63,9 +74,11 @@ const Ser_Hero = () => {
                     <div className="col-xl-4 col-lg-3">
                         <div className='pt-80'>
                             <h3>Latest Trends</h3>
+                            <div className='con2'>
                             <div className="m-img pl-30 pb-50">
                                 <img src="assets/img/service/6.jpg" alt=""/>
                             </div>
+                        </div>
                         <h5 className='ser'>Understand latest trends and breakthroughs, partner with academic institutions</h5>
                         </div>
                     </div>
