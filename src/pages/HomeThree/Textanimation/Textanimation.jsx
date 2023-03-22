@@ -33,7 +33,7 @@ const Textanimation = () => {
                         <h4 className='news'>Build Data Driven Workforce using No Code Data Intelligence Platform.</h4>
                      </div>
                   </div>
-                  <div className="col-xl-3 col-lg-3 order-last">
+                  <div className="lot">
                      <div className="hero__thumb-wrapper ml-100 scene p-relative">
                         <Lottie loop={true} animationData ={neww}/>
                      </div>
