@@ -18,7 +18,7 @@ const Ser_Hero = () => {
                   <div className="row">
                     <div className="col-xl-4 col-lg-3">
                         <h3>Custom AI Solutions</h3>
-                        <div className='con'>
+                        <div className='con2'>
                             <div className="m-img pl-30 pb-50">
                                 <img src="assets/img/service/1.jpg" alt=""/>
                             </div>
@@ -29,7 +29,7 @@ const Ser_Hero = () => {
 
                     <div className="col-xl-4 col-lg-3">
                         <h3>Develop & Execute AI Strategy</h3>
-                        <div className='con'>
+                        <div className='con2'>
                             <div className="m-img pl-30 pb-50">
                                 <img src="assets/img/service/2.jpg" alt=""/>
                             </div>
@@ -39,7 +39,7 @@ const Ser_Hero = () => {
 
                     <div className="col-xl-4 col-lg-3">
                         <h3>Open Source Tools</h3>
-                        <div className='con'>
+                        <div className='con2'>
                             <div className="m-img pl-30 pb-50">
                                 <img src="assets/img/service/3.jpg" alt=""/>
                             </div>
@@ -55,7 +55,7 @@ const Ser_Hero = () => {
                                 <img src="assets/img/service/4.jpg" alt=""/>
                             </div>
                         </div>
-                            <h5 className='ser pt-40'>We provide faster outcomes & knowledge transfer thought our unique engagement approach</h5>
+                            <h5 className='ser'>We provide faster outcomes & knowledge transfer thought our unique engagement approach</h5>
                         </div>
                     </div>
 

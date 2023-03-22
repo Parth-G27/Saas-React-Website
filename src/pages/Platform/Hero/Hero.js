@@ -6,6 +6,18 @@ import Lottie from 'lottie-react';
 const Hero = () => {
    return (
       <>
+      <section className="services__area pt-115 pb-0">
+      <div className="container">
+               <div className="row">
+                  <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                     <div className="section__title section__title-m text-center mb-0 wow fadeInUp" data-wow-delay=".2s">
+                        {/* <span>Highlights</span> */}
+                        <h2>No Code Platform</h2>
+                     </div>
+                  </div>
+               </div>  
+            </div>
+            </section>
          <section className="services__area-2 mt-120 pt-70 pb-140 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>
             
                <div className="about__area-2 pt-130 pl-20">
