@@ -35,11 +35,11 @@ const HomeThreeFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links">
                                     <ul>
-                                       <li><a href="/platform">Platform</a></li>
-                                       <li><a href="/solutions">Solutions</a></li>
-                                       <li><a href="/service">Services</a></li>
-                                       <li><a href="/startnow">Start Now</a></li>
-                                       <li><a href="/aiacademy">AI Academy</a></li>
+                                       <li className='footer'><a href="/platform">Platform</a></li>
+                                       <li className='footer'><a href="/solutions">Solutions</a></li>
+                                       <li className='footer'><a href="/service">Services</a></li>
+                                       <li className='footer'><a href="/startnow">Start Now</a></li>
+                                       <li className='footer'><a href="/aiacademy">AI Academy</a></li>
                                        
                                     </ul>
                                  </div>
@@ -54,11 +54,11 @@ const HomeThreeFooter = () => {
                               <div className="footer__widget-content">
                                  <div className="footer__links">
                                     <ul>
-                                       <li><a href="/partner">Partners</a></li>                               
-                                       <li><a href="/news">News</a></li>
-                                       <li><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
-                                       <li><a href="/releasenotes">Release Notes</a></li>
-                                       <li><a href="/ourteam">Our Team</a></li>
+                                       <li className='footer'><a href="/partner">Partners</a></li>                               
+                                       <li className='footer'><a href="/news">News</a></li>
+                                       <li className='footer'><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
+                                       <li className='footer'><a href="/releasenotes">Release Notes</a></li>
+                                       <li className='footer'><a href="/ourteam">Our Team</a></li>
                                        
                                       
                                     </ul>

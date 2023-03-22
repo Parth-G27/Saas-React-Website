@@ -1,7 +1,30 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { FaEnvelope, FaFacebookF, FaPhoneAlt, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
-const HomeContact = () => {
+const NewContact = () => {
+
+   const form = useRef();
+   
+   const sendEmail = (e) => {
+      e.preventDefault();
+      
+      emailjs.sendForm('service_f3kk1wo',
+                       'template_x95psj4',
+                        form.current, 
+                        'XOzlv2IDQxHObVECY'
+                     )
+      .then((result) => {
+         
+         console.log(result.text);
+         console.log("message sent");
+         e.target.reset();
+         alert("Email sent succesfully");
+         
+      }, (error) => {
+         console.log(error.text);
+      });
+   };
    return (
       <>
          <section className="contact__area">
@@ -14,7 +37,7 @@ const HomeContact = () => {
                            <div className="contact__info mr-100">
                               <h3>Get in touch</h3>
                               <ul>                    
-                                 <li>
+                                 <li className='footer'>
                                     <h4>Email Address</h4>
                                     <p><a href="mailto:support@onenine.ai">support@onenine.ai</a></p>
                                  </li>
@@ -37,11 +60,12 @@ const HomeContact = () => {
                               </div>
                            </div>
                            <div className="contact__form">
-                              <form action="#">
-                                 <input type="text" placeholder="Your Name"/>
-                                    <input type="email" placeholder="Your Email"/>
-                                       <textarea placeholder="Your Message"></textarea>
-                                       <button type="button" className="z-btn " >Send Message</button>
+                              <form ref={form} onSubmit={sendEmail}>
+                                 <input type="text" name="user_name" placeholder="Your Name"/>
+                                    <input type="email" name="user_email" placeholder="Your Email"/>
+                                       <textarea name="message" placeholder="Your Message"></textarea>
+                                       {/* <input type="submit" value="Send" className="z-btn " /> */}
+                                       <button type="submit" className="z-btn" >Send Message</button>
                                     </form>
                                  </div>
                            </div>
@@ -54,4 +78,4 @@ const HomeContact = () => {
    );
 };
 
-export default HomeContact;
+export default NewContact;

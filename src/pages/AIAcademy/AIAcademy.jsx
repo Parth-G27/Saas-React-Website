@@ -10,11 +10,11 @@ import NewContact from './NewContact/NewContact';
 const AIAcademy = () => {
     return (
        <>
-          <PageHelmet pageTitle="Solutions" />
+          <PageHelmet pageTitle="AI Academy" />
           <HomeThreeHeader/>
           <Hero_sec/>
           <NewContact/>
-          <Contact/>
+          {/* <Contact/> */}
           <HomeThreeFooter/>
      </>
     );
