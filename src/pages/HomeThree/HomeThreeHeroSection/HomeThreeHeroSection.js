@@ -37,8 +37,8 @@ const HomeThreeHeroSection = () => {
                      </div>
                      <div className="col-xl-6 col-lg-7 d-flex align-items-center">
                         <div className="hero__content">
-                           <span className='ai'>OneNine AI.</span>
-                           <h1>Bringing power of AI to everyone</h1>
+                           <span className='ai'>OneNine AI</span>
+                           <h1>Bringing the power of AI to everyone</h1>
                            <p>A No Code Data Intelligence Platform for Everyone.</p>
                            <a href="/bookdemo" target="_blank">
                               <button className='z-btn-1'>Book Demo</button>

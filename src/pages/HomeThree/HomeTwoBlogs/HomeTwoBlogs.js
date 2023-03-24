@@ -12,7 +12,7 @@ const HomeTwoBlogs = () => {
                   <div className="col-xl-5">
                      <div className="section__title section__title-3 mb-35">
                         <span>Reviews</span>
-                        <h2>Client review</h2>
+                        <h2>Client reviews</h2>
                      </div>
                   </div>
                </div>

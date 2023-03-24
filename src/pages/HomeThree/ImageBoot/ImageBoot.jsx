@@ -69,7 +69,7 @@ const ImageBoot = () => {
                <div className="row">
                   <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                      <div className="section__title section__title-3 text-center mb-70 wow fadeInUp" data-wow-delay=".2s">
-                        <h1 className='imgslider'>See OneNine Platform In Action</h1>
+                        {/* <h1 className='imgslider'>See OneNine Platform In Action</h1> */}
                      </div>
                   </div>
                </div>
