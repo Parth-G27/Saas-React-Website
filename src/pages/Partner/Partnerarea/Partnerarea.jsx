@@ -54,7 +54,36 @@ const Partnerarea = () => {
                </div>
                </div>
          </section>
-         <section className="services__area pt-5 pb-0">
+         <section className="services__area-2 mt-0 pt-30 pb-140 pl-20 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>      
+               <div className="about__area-2 pt-130 pb-60 pl-20">
+                  <div className="row text-center">
+                    <div className="col-xl-4 col-lg-3">
+                        <h1 className='startnow'>Value Added Resellers</h1>
+                        
+                        <h5 className='acad'>We enable organizations to build custom solution & end-to-end AI pipeline </h5>
+                    </div>
+
+                    <div className="col-xl-4 col-lg-3">
+                        <h1 className='startnow'>Exclusive Partners</h1>
+                        {/* <div className='con2'>
+                           
+                        </div> */}
+                        <h5 className='acad'> With deep understanding of AI lifecycle, we help organizations develop and execute AI strategy </h5>
+                    </div>
+
+                    <div className="col-xl-4 col-lg-3">
+                        <h1 className='startnow'>Channel Distribution</h1>
+                        
+                            
+                       
+                        <h5 className='acad'>All of Data Science is open source, we can help leverage the best tools for your organization</h5>
+                        </div>
+                    </div>
+                    </div>
+                    </section>
+                    
+
+         {/* <section className="services__area pt-5 pb-0">
             <div className="container">
                <div className="row">
                   <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
@@ -89,7 +118,7 @@ const Partnerarea = () => {
                   </div>
                </div>
                </div>
-         </section>
+         </section> */}
          <section className="case__area pt-115 pb-120">
             <div className="container">
                <div className="row">

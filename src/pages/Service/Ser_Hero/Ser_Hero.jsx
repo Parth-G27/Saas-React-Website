@@ -15,7 +15,7 @@ const Ser_Hero = () => {
          </section>
          <section className="services__area-2 mt-0 pt-30 pb-140 pl-20 p-relative" style={{ background: ``, backgroundPosition: 'top', backgroundSize: 'cover' }}>      
                <div className="about__area-2 pt-130 pb-60 pl-20">
-                  <div className="row">
+                  <div className="row text-center">
                     <div className="col-xl-4 col-lg-3">
                         <h3>Custom AI Solutions</h3>
                         <div className='con2'>
@@ -82,10 +82,6 @@ const Ser_Hero = () => {
                         <h5 className='ser'>Understand latest trends and breakthroughs, partner with academic institutions</h5>
                         </div>
                     </div>
-
-                   
-
-
                   </div>
                </div>
          </section>
