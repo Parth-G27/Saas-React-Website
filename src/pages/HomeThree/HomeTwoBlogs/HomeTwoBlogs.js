@@ -19,9 +19,9 @@ const HomeTwoBlogs = () => {
                <div className="row">
 
                   {/* <HomeTwoSingleBlog date="7/27/2022" name="Sr Advisor to CIO, IRS" desc="Very comprehensive platform for everyone. I was able to develop & test multiple AI use cases for leaning organizations. Platform helped me learn data science, data visualization, NLP, NLU and fundamentals." /> */}
-                  <HomeTwoSingleBlog date="8/7/2022" name="a Fedral Contractor" desc="I was able to generate insights in minutes and was able to complete data projects in days vs months" />
-                  <HomeTwoSingleBlog date="8/1/2022" name="a Professor & Researcher" desc="My students were able to learn and develop AI use cases very fast using OneNine Platform" />
-                  <HomeTwoSingleBlog date="8/8/2022" name="a Graduate Student" desc="Learned a lot about the platform during training sessions. I can easily develop predictive models using Smart Model feature" />
+                  <HomeTwoSingleBlog date="8/7/2022" bold="Easy to use : " name="a Fedral Contractor" desc=" I was able to generate insights in minutes and was able to complete data projects in days vs months" />
+                  <HomeTwoSingleBlog date="8/1/2022" bold="Using in Classroom : " name="a Professor & Researcher" desc="My students were able to learn and develop AI use cases very fast using OneNine Platform" />
+                  <HomeTwoSingleBlog date="8/8/2022" bold="Great Product : " name="a Graduate Student" desc="Learned a lot about the platform during training sessions. I can easily develop predictive models using Smart Model feature" />
 
                </div>
                {/* <div className="row">

@@ -79,7 +79,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                             </ul> */}
                           </li>
                           <li>
-                            <NavLink to="/startnow">Start now</NavLink>
+                            <NavLink to="/partner">Partners</NavLink>
                           </li>
                           <li>
                             <NavLink to="/aiacademy">AI Academy</NavLink>
@@ -91,7 +91,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get a Quote", btn_class = "z-btn
                           <li>
                             <NavLink>About Us</NavLink>
                             <ul className="submenu">
-                              <li><NavLink to="/partner">Partners</NavLink></li>
+                              {/* <li><NavLink to="/partner">Partners</NavLink></li> */}
                               
                               <li><NavLink to="/news">News</NavLink></li>
                               <li><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>

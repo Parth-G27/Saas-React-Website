@@ -22,7 +22,7 @@ const Home = () => {
 
             {/* <HomeOneHeader/> */}
             <HomeHeroSlider/>
-            <HomeFeatures/>
+            {/* <HomeFeatures/> */}
             <HomeAbout/>
             <HomeCapabilities/>
             <HomeServices/>

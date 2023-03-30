@@ -1,7 +1,7 @@
 //import { CgArrowLongRight } from 'react-icons/cg';
 import { Link } from 'react-router-dom';
 
-const HomeTwoSingleBlog = ({date,name,desc}) => {
+const HomeTwoSingleBlog = ({date,name,desc,bold}) => {
    return (
       <>
          <div className="col-xl-4 col-lg-4 col-md-6">
@@ -18,11 +18,12 @@ const HomeTwoSingleBlog = ({date,name,desc}) => {
                   </div> */}
 
                   <div className="blog__meta user mb-15">
-                     <span className=''>By <Link to="/blogDetails">{name}</Link></span>
+                     <span className='pb-25'>By <Link to="/">{name}</Link></span>
+                     <h3>
+                        <span className='review'>{bold}</span>{desc}
+                     </h3>
                   </div>
-                  <h3>
-                     <Link to="/blogDetails">{desc}</Link>
-                  </h3>
+                  
                   {/* <div className="blog__btn">
                      <Link to="/blogDetails" className="link-btn-2">
                  Read More

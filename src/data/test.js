@@ -1,4 +1,7 @@
 
+// ID 6 IS EMPTY || FILL IS WHEN NEEDED
+
+
 const test = [
     {
         id:1,
@@ -49,13 +52,13 @@ const test = [
     },
 
 
-    {
-        id:6,
-        img:'assets/img/case/case-0.jpg',
-        title:'Company-1',
-        subtitle:'Services Partners',
-        category:'Services Partners',
-    },
+    // {
+    //     id:6,
+    //     img:'assets/img/case/case-0.jpg',
+    //     title:'Company-1',
+    //     subtitle:'Services Partners',
+    //     category:'Services Partners',
+    // },
 
 
     {

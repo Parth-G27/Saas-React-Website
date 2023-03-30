@@ -7,6 +7,7 @@ import HomeThreeHeader from '../HomeThree/HomeThreeHeader/HomeThreeHeader';
 import Hero from './Hero/Hero';
 import PlatformFeatures from './PlatformFeatures/PlatformFeatures';
 import HomeThreeFooter from '../HomeThree/HomeThreeFooter/HomeThreeFooter';
+import HomeHeroArea from './HomeHeroArea/HomeHeroSlider';
 
 
 const About = () => {
@@ -18,6 +19,7 @@ const About = () => {
          {/* <CommonPageHeader title="Platform" subtitle="Platform" /> */}
 
          <Hero/>
+         <HomeHeroArea/>
          <PlatformFeatures/>
          <HomeThreeFooter/>
 {/* 

@@ -53,7 +53,7 @@ const HomeHeroArea = () => {
                                     {/* <span>We are adding new exciting features </span> */}
                                     <h1>See OneNineAI platform <br /> in action</h1>
                                     <div className="slider__btn">
-                                       <Link to="/" className="z-btn z-btn-transparent">Get a quote</Link>
+                                       <a href="/bookdemo" target="_blank" className="z-btn z-btn-transparent">Book a Demo</a>
                                     </div>
                                  </div>
                               </div>
