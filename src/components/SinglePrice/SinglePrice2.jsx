@@ -17,13 +17,13 @@ const SinglePrice2 = ({title,price,active,one,two,three,four,five,six,seven}) =>
                   </div>
                   <div className="price__features text-start mb-55">
                      <ul>
-                        <li><span>{one}</span></li>
-                        <li><span>{two}</span></li>
-                        <li><span>{three}</span></li>
-                        <li><span>{four}</span></li>
-                        <li><span>{five}</span></li>
-                        <li><span>{six}</span></li>
-                        <li><span>{seven}</span></li>
+                        <li className='footer'><span>{one}</span></li>
+                        <li className='footer'><span>{two}</span></li>
+                        <li className='footer'><span>{three}</span></li>
+                        <li className='footer'><span>{four}</span></li>
+                        <li className='footer'><span>{five}</span></li>
+                        <li className='footer'><span>{six}</span></li>
+                        <li className='footer'><span>{seven}</span></li>
                      </ul>
                   </div>
                   <a href='https://checkout.stripe.com/c/pay/cs_live_b1iRqPzho5LmwmVRAQ9Uh5aDdvHsVIBt1X69yfBJ7kRsiuNq5zVhYEec4A#fidkdWxOYHwnPyd1blppbHNgWjA0SXBjdTROSENOa2hATUJ%2FUDdVc3FNRzE9bExQc0JKQFdAUExLb3QzTmBJXzBWaDV3RkRgUjJPc0ZgSklgTXJAf0JcXzZGQXUyMDBBMFVWcVBsTmh2XVxGNTU9Vm9xdmB0Zyd4JSUl' className="price-btn">Get Started</a>

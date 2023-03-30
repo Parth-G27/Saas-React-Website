@@ -95,17 +95,17 @@ const ImageSlider = ({slides}) => {
         setCurrentIndex(slideIndex);
     }
 
-    // useEffect(()=>{
-    //     if(timerRef.current){
-    //         clearTimeout(timerRef.current);
-    //     };
-    //     console.log('use effect');
-    //     timerRef.current = setTimeout(() => {
-    //         goToNext()
-    //     },5000);
+    useEffect(()=>{
+        if(timerRef.current){
+            clearTimeout(timerRef.current);
+        };
+        console.log('use effect');
+        timerRef.current = setTimeout(() => {
+            goToNext()
+        },5000);
 
-    //     return () =>clearTimeout(timerRef.current);
-    // },[goToNext]);
+        return () =>clearTimeout(timerRef.current);
+    },[goToNext]);
 
 
     return(

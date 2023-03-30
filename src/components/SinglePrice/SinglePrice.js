@@ -17,13 +17,13 @@ const SinglePrice = ({title,price,active,one,two,three,four,five,six,seven,link}
                   </div>
                   <div className="price__features text-start mb-55">
                      <ul>
-                        <li><span>{one}</span></li>
-                        <li><span>{two}</span></li>
-                        <li><span>{three}</span></li>
-                        <li><span>{four}</span></li>
-                        <li><span>{five}</span></li>
-                        <li><span>{six}</span></li>
-                        <li><span>{seven}</span></li>
+                        <li className='footer'><span>{one}</span></li>
+                        <li className='footer'><span>{two}</span></li>
+                        <li className='footer'><span>{three}</span></li>
+                        <li className='footer'><span>{four}</span></li>
+                        <li className='footer'><span>{five}</span></li>
+                        <li className='footer'><span>{six}</span></li>
+                        <li className='footer'><span>{seven}</span></li>
                      </ul>
                   </div>
                   <a href={link} className="price-btn">Get Started</a>

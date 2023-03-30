@@ -4,7 +4,7 @@ import SingleCount from '../../../components/SingleCount/SingleCount';
 const HomeCounterArea = () => {
    return (
       <>
-         <section className="counter__area pb-100">
+         <section className="counter__area mt-100 pb-100">
             <div className="container">
                <div className="counter__inner white-bg wow fadeInUp" data-wow-delay=".2s">
                   <div className="row">

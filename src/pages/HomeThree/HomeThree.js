@@ -34,6 +34,7 @@ const HomeThree = () => {
          <HomeThreeServices />
          <Textanimation/>
          <HomeHeroSlider/>
+         <Counter/>
          <Capacity/>
          <HomeTwoFeatures/>
          <ImageBoot/>
