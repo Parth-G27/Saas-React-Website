@@ -59,8 +59,9 @@ const HomeThreeFooter = () => {
                                        <li className='footer'><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
                                        <li className='footer'><a href="/releasenotes">Release Notes</a></li>
                                        <li className='footer'><a href="/ourteam">Our Team</a></li>
-                                       
-                                      
+                                       <li className='footer'><a href="/https://onenine-ai.github.io/">OneNine AI Docs</a></li>
+
+
                                     </ul>
                                  </div>
                               </div>
