@@ -35,7 +35,7 @@ const HomeHeroArea = () => {
       <>
          <VideoPopup videoId="TJ5nElu-K6I" />
 
-         <section className="slider__area">
+         <section className="slider__area" id="vid">
                <Slider className='slider-active' {...settings}>
                 {
                   homeSliderData.map((slider,index) => {

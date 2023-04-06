@@ -14,7 +14,7 @@ const Cal = () => {
       <>
    
          <Calendly/>
-         <div className="mt-50">
+         <div className="mt-50 mb-100">
 
          </div>
 

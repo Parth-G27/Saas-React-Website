@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero_an from './hero_animation.json';
 import Lottie from 'lottie-react';
+import { HashLink } from 'react-router-hash-link';
 
 const HomeThreeHeroSection = () => {
    return (
@@ -43,6 +44,12 @@ const HomeThreeHeroSection = () => {
                            <a href="/bookdemo" target="_blank">
                               <button className='z-btn-1'>Book Demo</button>
                            </a>
+                           {/* <HashLink to="/platform#vid"> */}
+                           <a href="/platform" className='pl-50'>
+                              <button className='z-btn-1'>Platform Overview</button>
+                           </a>
+                           {/* </HashLink> */}
+                           
                            
                            {/* <Link to="/about" className="z-btn ">Book Demo</Link> */}
                         </div>

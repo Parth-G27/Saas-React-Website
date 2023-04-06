@@ -59,7 +59,9 @@ const HomeThreeFooter = () => {
                                        <li className='footer'><a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a></li>
                                        <li className='footer'><a href="/releasenotes">Release Notes</a></li>
                                        <li className='footer'><a href="/ourteam">Our Team</a></li>
-                                       <li className='footer'><a href="/https://onenine-ai.github.io/">OneNine AI Docs</a></li>
+                                       <li className='footer'><a href="https://onenine-ai.github.io/" target="_blank">OneNine AI Docs</a></li>
+
+                                       {/* <a href="https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals" target="_blank">Support Portal</a> */}
 
 
                                     </ul>
@@ -127,10 +129,10 @@ const HomeThreeFooter = () => {
                         <div className="row align-items-center">
                            <div className="col-xl-12">
                               <div className="footer__copyright-text text-center">
-                                 <p>Copyright © 2022 OneNine AI - All Rights Reserved.</p>
+                                 <p>Copyright © 2023 OneNine AI - All Rights Reserved.</p>
                               </div>
                               <div className="footer__privacy-text text-center">
-                                 <a href="/"><p>Privacy</p></a>
+                                 <a href="https://onenine.cloud/privacy"><p>Privacy</p></a>
                               </div>
                            </div>
                         </div>

@@ -10,7 +10,7 @@ import { RiOpenSourceFill } from "react-icons/ri";
 import { GiCheckMark } from "react-icons/gi";
 import HomeTwoSingleFeature from '../../../components/HomeTwoSingleFeature/HomeTwoSingleFeature';
 
-const HomeTwoFeatures = () => {
+const one = () => {
    return (
       <>
          <section className="features__area pt-115 pb-70">
@@ -25,7 +25,7 @@ const HomeTwoFeatures = () => {
                         <h2>Create Human & AI embeded workforce of the future allowing anyone to build data products to improve their predictions.</h2>
                         <br/>
                         <br/>
-                        <a href="/service" className="z-btn">What we do<i><CgArrowLongRight/></i></a>
+                        <a href="/" className="z-btn">Learn More<i><CgArrowLongRight/></i></a>
                      </div>
                   </div>
                   <div className="col-xl-6 offset-xl-1 col-lg-6">
@@ -55,4 +55,4 @@ const HomeTwoFeatures = () => {
    );
 };
 
-export default HomeTwoFeatures;
+export default one;
