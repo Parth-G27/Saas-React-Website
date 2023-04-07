@@ -21,6 +21,8 @@ import ImageBoot from './ImageBoot/ImageBoot';
 import Capacity from './Capacity/Capacity';
 import Counter from './Counter/Counter';
 import Algos from './Algos/Algos';
+import Reviews from './Reviews/Reviews';
+import Carousel from './Carousel/Carousle';
 //import ImgSlide from './ImgSlide/ImgSlide';
 
 
@@ -31,6 +33,8 @@ const HomeThree = () => {
          
          <HomeThreeHeader />
          <HomeThreeHeroSection />
+         <Carousel/>
+         <Reviews/>
          <HomeThreeServices />
          <Textanimation/>
          <HomeHeroSlider/>

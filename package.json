@@ -21,6 +21,7 @@
     "react-icons": "^4.8.0",
     "react-image-lightbox": "^5.1.4",
     "react-modal-video": "^1.2.8",
+    "react-multi-carousel": "^2.8.3",
     "react-router-dom": "^6.8.2",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.0",
