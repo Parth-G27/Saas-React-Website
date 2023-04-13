@@ -156,12 +156,17 @@ ol{
 }
 li {
 	padding-top: 3px;
-	list-style: disc;
+	list-style: none;
 	font-size: 20px;
 }
 li.footer {
 	padding-top: 3px;
 	list-style: none;
+	font-size: 20px;
+}
+li.notes {
+	padding-top: 3px;
+	list-style: disc;
 	font-size: 20px;
 }
 p {

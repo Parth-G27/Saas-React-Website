@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HomeTwoSingleBlog = ({date,name,desc,bold}) => {
    return (
       <>
-         <div className="pl-40 pr-40">
+         <div className="pl-40 pr-40 ">
             <div className="blog__item p-relative fix mb-10 white-bg">
                <div className="blog__thumb" style={{background: `` , backgroundPosition: 'center', backgroundSize: 'cover' }} ></div>
                <div className="blog__content">

@@ -30,20 +30,26 @@ const Reviews = () => {
    return (
       <>
          <section className="blog__area grey-bg-15 pt-200 mb-40">
-            <h2>Testing.....</h2>
+            
+            <div className="container">
+               <div className="row">
+                  <div className="col-xl-5">
+                     <div className="section__title section__title-3 mb-35">
+                        <span>Reviews</span>
+                        <h2>Client reviews</h2>
+                     </div>
+                  </div>
+              </div>
+            </div>
 
-            <Carousel responsive={responsive}>
-                {/* <div className="pl-20">Item 1</div> */}
+            <Carousel responsive={responsive} >
+             {/* infinite={true} */}
+                
                 <HomeTwoSingleBlog date="8/7/2022" bold="Easy to use : " name="a Fedral Contractor" desc=" I was able to generate insights in minutes and was able to complete data projects in days vs months" />
                 <HomeTwoSingleBlog date="8/1/2022" bold="Using in Classroom : " name="a Professor & Researcher" desc="My students were able to learn and develop AI use cases very fast using OneNine Platform" />
-                <HomeTwoSingleBlog date="8/8/2022" bold="Great Product : " name="a Graduate Student" desc="Learned a lot about the platform during training sessions. I can easily develop predictive models using Smart Model feature" />
-                <HomeTwoSingleBlog date="8/8/2022" bold="Great Product : " name="a Graduate Student" desc="Learned a lot about the platform during training sessions. I can easily develop predictive models using Smart Model feature" />
-                <HomeTwoSingleBlog date="8/8/2022" bold="Great Product : " name="a Graduate Student" desc="Learned a lot about the platform during training sessions. I can easily develop predictive models using Smart Model feature" />
-                {/* <div>Item 2</div> */}
-                {/* <div>Item 2</div>
-                <div>Item 3</div>
-                <div>Item 4</div>
-                <div>Item 5</div> */}
+                <HomeTwoSingleBlog date="8/8/2022" bold="No Code is Better : " name="a Graduate Student" desc="Learned a lot about the platform during training sessions. I can easily develop predictive models using Smart Model feature" />
+                <HomeTwoSingleBlog date="8/8/2022" bold="Great Product : " name="a Graduate Student" desc="Very comprehensive platform for everyone. I was able to to develop & test multiple use cases of AI. Platform helped me learn data science, data vizualization, NLP & NLU." />
+                
             </Carousel>
             
          </section>

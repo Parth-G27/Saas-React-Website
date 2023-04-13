@@ -33,7 +33,9 @@ import Newsdetails1 from "./pages/Newsdetails1/Newsdetails1";
 import Newsdetails2 from './pages/Newsdetails2/Newsdetails2';
 import Newsdetails3 from './pages/Newsdetails3/Newsdetails3';
 import Newsdetails4 from './pages/Newsdetails4/Newsdetails4';
-
+import Privacy from "./pages/Privacy/Privacy";
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+import { useRef } from 'react';
 
 
 function App() {
@@ -65,6 +67,7 @@ function App() {
             <Route path="/newsdetails2" element={<Newsdetails2/>} />
             <Route path="/newsdetails3" element={<Newsdetails3/>} />
             <Route path="/newsdetails4" element={<Newsdetails4/>} /> 
+            <Route path="/privacy" element={<Privacy/>} />
 
 
             

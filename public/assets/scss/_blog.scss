@@ -21,7 +21,7 @@
         padding-right: 60px;
         @include border-radius(10px);
         @include transition(.3s);
-        min-height: 350px;
+        min-height: 400px;
         &:hover{
             & .blog__thumb{
                 opacity: 1;

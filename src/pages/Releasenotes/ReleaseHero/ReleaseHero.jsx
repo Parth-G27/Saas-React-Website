@@ -31,24 +31,24 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>This release of the OneNine AI Cloud Platform includes new enhancements and bug fixes:</h4>
                         <h4 className='rel pt-30'>Algorithm Enhancements</h4> 
                         <ul>
-                           <li>Comprehensive enhancement to Time Series feature that allows user to do multiple time series forecasting based of user selected groups</li>
-                           <li>Anomaly Detection enhancements</li>
-                           <li>Moved to latest algorithm implementations to enhance performance and user experience</li>
-                           <li>Dynamic & User Enabled Cluster tuning</li>
+                           <li className='notes'>Comprehensive enhancement to Time Series feature that allows user to do multiple time series forecasting based of user selected groups</li>
+                           <li className='notes'>Anomaly Detection enhancements</li>
+                           <li className='notes'>Moved to latest algorithm implementations to enhance performance and user experience</li>
+                           <li className='notes'>Dynamic & User Enabled Cluster tuning</li>
                         </ul>
 
                         <h4 className='rel pt-30'>New Features & User Experience</h4>
                         <ul>
-                           <li>MLOps & Model Management Model to track model performance overtime, records and compare experiments</li>
-                           <li>Dynamic interface allows user to export prediction data and view multiple forecasting and trends</li>
-                           <li>New Automated Exploratory Data Analysis modules</li>
-                           <li>Switched to new messaging system for better and faster notifications</li>
+                           <li className='notes'>MLOps & Model Management Model to track model performance overtime, records and compare experiments</li>
+                           <li className='notes'>Dynamic interface allows user to export prediction data and view multiple forecasting and trends</li>
+                           <li className='notes'>New Automated Exploratory Data Analysis modules</li>
+                           <li className='notes'>Switched to new messaging system for better and faster notifications</li>
                         </ul>
 
                         <h4 className='rel pt-30'>Bug Fixes and Algorithm Enhancements</h4>
                         <ul>
-                           <li>Better Error handling thought out the platform</li>
-                           <li className='pb-50'>Fixed File Browser issue to restrict certain types of file uploads</li>
+                           <li className='notes'>Better Error handling thought out the platform</li>
+                           <li className='notes pb-50'>Fixed File Browser issue to restrict certain types of file uploads</li>
                         </ul>
 
                         <a href="/platform" className="z-btn">Features</a>
@@ -70,21 +70,21 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>This release of the OneNine AI Cloud Platform includes new enhancements and bug fixes:</h4>
                         <h4 className='rel pt-30'>Algorithm Enhancements</h4> 
                         <ul>
-                           <li>Time Series: Added Multivariate time series feature with comprehensive charts and tracking</li>
-                           <li>Recommendation Engine: Enhancements that allows users to create model faster</li>
-                           <li>Moved to latest algorithm implementations to enhance performance and user experience</li>
+                           <li className='notes'>Time Series: Added Multivariate time series feature with comprehensive charts and tracking</li>
+                           <li className='notes'>Recommendation Engine: Enhancements that allows users to create model faster</li>
+                           <li className='notes'>Moved to latest algorithm implementations to enhance performance and user experience</li>
                         </ul>
 
                         <h4 className='rel pt-30'>New Features & User Experience</h4>
                         <ul>
-                           <li>New Simplified Payment Interface to provide seemless subscription experience</li>
-                           <li>Deep Learning Feature Upgrade</li>
+                           <li className='notes'>New Simplified Payment Interface to provide seemless subscription experience</li>
+                           <li className='notes'>Deep Learning Feature Upgrade</li>
                         </ul>
 
                         <h4 className='rel pt-30'>Bug Fixes and Algorithm Enhancements</h4>
                         <ul>
-                           <li>Bug Fix to Smart Model API Delete feature</li>
-                           <li className='pb-50'>Better Error handeling thought out the smart wizard interface</li>
+                           <li className='notes'>Bug Fix to Smart Model API Delete feature</li>
+                           <li className='notes pb-50 '>Better Error handeling thought out the smart wizard interface</li>
                         </ul>
 
                         <a href="/platform" className="z-btn">Features</a>
@@ -106,10 +106,10 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>This release of the OneNine AI Cloud Platform includes new enhancements and bug fixes:</h4>
                         <h4 className='rel pt-30'>New Features & User Experience</h4>
                         <ul>
-                           <li>New Simplified User Interface for Prediction APIs enabling Real Time, Batch & Adhoc Predictions in seconds</li>
-                           <li>Data Visualization Upgrade</li>
-                           <li>Individual User Launch & Payments Integration</li>
-                           <li>Smart Wizards Enhancement</li>
+                           <li className='notes'>New Simplified User Interface for Prediction APIs enabling Real Time, Batch & Adhoc Predictions in seconds</li>
+                           <li className='notes'>Data Visualization Upgrade</li>
+                           <li className='notes'>Individual User Launch & Payments Integration</li>
+                           <li className='notes'>Smart Wizards Enhancement</li>
                         </ul>
 
                         <h4 className='rel pt-30'>Security Enhancements</h4>
@@ -136,12 +136,12 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>This release of the OneNine AI Cloud Platform includes new enhancements and bug fixes:</h4>
                         <h4 className='rel pt-30'>New Features & User Experience</h4>
                         <ul>
-                           <li>Major Data Visualization Upgrade to enable self-service no code visualization interface</li>
-                           <li>Major upgrade for AI Engine Features</li>
-                           <li>New EDA feature for deeper self service insights</li>
-                           <li>New In-Built Tour and Tutorials</li>
-                           <li>Lauched new Smart Models APIs</li>
-                           <li className='pb-50'>End to End Infrastructure automation</li>
+                           <li className='notes'>Major Data Visualization Upgrade to enable self-service no code visualization interface</li>
+                           <li className='notes'>Major upgrade for AI Engine Features</li>
+                           <li className='notes'>New EDA feature for deeper self service insights</li>
+                           <li className='notes'>New In-Built Tour and Tutorials</li>
+                           <li className='notes'>Lauched new Smart Models APIs</li>
+                           <li className='notes pb-50'>End to End Infrastructure automation</li>
                         </ul>
                         <a href="/platform" className="z-btn">Features</a>
                      </div>
@@ -161,11 +161,11 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>This release of the OneNine AI Cloud Platform includes new enhancements and bug fixes:</h4>
                         <h4 className='rel pt-30'>New Features & User Experience</h4>
                         <ul>
-                           <li>Added new Project Sharing feature to allow user to share their projects with other team members</li>
-                           <li>Added New dashboard and drift report to measure performance of AI models</li>
-                           <li>Enhancements and bug fixes related Decision Tree & File Browser Interface</li>
-                           <li>Platform Admin User Interface Upgraded</li>
-                           <li>Platform Exception Handing Improvements</li>
+                           <li  className='notes'>Added new Project Sharing feature to allow user to share their projects with other team members</li>
+                           <li className='notes'>Added New dashboard and drift report to measure performance of AI models</li>
+                           <li className='notes'>Enhancements and bug fixes related Decision Tree & File Browser Interface</li>
+                           <li className='notes'>Platform Admin User Interface Upgraded</li>
+                           <li className='notes'>Platform Exception Handing Improvements</li>
                         </ul>
 
                         <h4 className='rel pt-30'>Data Sources</h4>
@@ -175,7 +175,7 @@ const ReleaseHero = () =>{
 
                         <h4 className='rel pt-30'>Security</h4>
                         <ul>
-                           <li className='pb-50'>Added new security feature to Data Visualization Module</li>
+                           <li className='notes pb-50'>Added new security feature to Data Visualization Module</li>
                         </ul>
 
                         <a href="https://onenine-ai.github.io/"  target="_blank" className="z-btn">Documentation Site</a>
@@ -197,22 +197,22 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>This release of the OneNine AI Cloud Platform includes new enhancements and bug fixes:</h4>
                         <h4 className='rel pt-30'>User Experience </h4> 
                         <ul>
-                           <li>Enabled new Use Cases & Tutorials on Official Documentation site</li>
-                           <li>Enhancements and bug fixes related Open Source Search, Time Series, Model Download & Admin User Interface</li>
-                           <li>Data Visualization Improvements </li>
+                           <li  className='notes'>Enabled new Use Cases & Tutorials on Official Documentation site</li>
+                           <li className='notes'>Enhancements and bug fixes related Open Source Search, Time Series, Model Download & Admin User Interface</li>
+                           <li className='notes'>Data Visualization Improvements </li>
                         </ul>
 
                         <h4 className='rel pt-30'>Data Sources</h4>
                         <ul>
-                           <li>Added New User Interface for Data Sources that allows users and admins to connect to multiple databases</li>
-                           <li>Added NoSQL Mongo Database Support</li>
-                           <li>Added Trino Support for Data Visualization to efficiently query vast amounts of data by using distributed execution</li>
+                           <li className='notes'>Added New User Interface for Data Sources that allows users and admins to connect to multiple databases</li>
+                           <li className='notes'>Added NoSQL Mongo Database Support</li>
+                           <li className='notes'>Added Trino Support for Data Visualization to efficiently query vast amounts of data by using distributed execution</li>
                         </ul>
 
                         <h4 className='rel pt-30'>Security</h4>
                         <ul>
-                           <li>Added new security feature to allow Private Certificate authentication</li>
-                           <li className='pb-50'>Added SSL support for SQL Server Database that enables secure connections</li>
+                           <li className='notes'>Added new security feature to allow Private Certificate authentication</li>
+                           <li className='notes pb-50'>Added SSL support for SQL Server Database that enables secure connections</li>
                         </ul>
 
                         <a href="/platform" className="z-btn">Features</a>
@@ -234,11 +234,11 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>This release of the OneNine AI Cloud Platform includes new enhancements and bug fixes:</h4>
                         {/* <h4 className='rel pt-30'>New Features & User Experience</h4> */}
                         <ul>
-                           <li>Added new project tagging feature across the application</li>
-                           <li>Launched new user documentation site for OneNine Cloud</li>
-                           <li>Added new database connectors for mysql, postgreSQL & SQL Server</li>
+                           <li className='notes'>Added new project tagging feature across the application</li>
+                           <li className='notes'>Launched new user documentation site for OneNine Cloud</li>
+                           <li className='notes'>Added new database connectors for mysql, postgreSQL & SQL Server</li>
       
-                           <li className='pb-50'>Enhancements and bug fixes related to data upload and handing URL to source data</li>
+                           <li className='notes pb-50'>Enhancements and bug fixes related to data upload and handing URL to source data</li>
                            
                         </ul>
                         <a href="https://onenine-ai.github.io/"  target="_blank" className="z-btn">Documentation Site</a>
@@ -259,16 +259,16 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>This release of the OneNine AI Cloud Platform includes new enhancements and bug fixes:</h4>
                         {/* <h4 className='rel pt-30'>New Features & User Experience</h4> */}
                         <ul>
-                           <li>Added support to source data directly from URL in Smart Models and Discovery Projects</li>
-                           <li>Optimized code for performance improvements</li>
-                           <li>Added support for docker containers architecture</li>
-                           <li>Fixed Independent Column dropdown list to exclude target column</li>
-                           <li>Transformers added for Smart Models</li>
-                           <li>GovCloud support added</li>
-                           <li>Multi factor Authentication support added</li>
-                           <li>Enhanced Monitoring support added</li>
-                           <li>Load Testing support added for login, register and data analysis</li>
-                           <li>Major library upgrades</li>
+                           <li className='notes'>Added support to source data directly from URL in Smart Models and Discovery Projects</li>
+                           <li  className='notes'>Optimized code for performance improvements</li>
+                           <li  className='notes'>Added support for docker containers architecture</li>
+                           <li  className='notes'>Fixed Independent Column dropdown list to exclude target column</li>
+                           <li className='notes'>Transformers added for Smart Models</li>
+                           <li className='notes'>GovCloud support added</li>
+                           <li  className='notes'>Multi factor Authentication support added</li>
+                           <li  className='notes'>Enhanced Monitoring support added</li>
+                           <li  className='notes'>Load Testing support added for login, register and data analysis</li>
+                           <li  className='notes'>Major library upgrades</li>
 
       
                            <li className='pb-50'>Bug fixes related to Project Creation</li>
@@ -289,12 +289,12 @@ const ReleaseHero = () =>{
                         </div>
                         <h4 className='rel'>Initial release of the OneNine AI Cloud Platform. Below are new features added to this release:</h4>
                         <ul>
-                           <li>One Click Automated Data Analysis</li>
-                           <li>No Code AI Pick & Choose</li>
-                           <li>No Code Deep Learning Self Service</li>
-                           <li>Smart Models</li>
-                           <li>Self Service Visualization</li>
-                           <li>Open Source Data (Data.Gov & Kaggle)</li>
+                           <li className='notes'>One Click Automated Data Analysis</li>
+                           <li className='notes'>No Code AI Pick & Choose</li>
+                           <li className='notes'>No Code Deep Learning Self Service</li>
+                           <li className='notes'>Smart Models</li>
+                           <li className='notes'>Self Service Visualization</li>
+                           <li className='notes'>Open Source Data (Data.Gov & Kaggle)</li>
              
                            <li className='pb-50'>API Endpoint</li>
                         </ul>
@@ -315,10 +315,10 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>Beta release of the OneNine AI Cloud Platform. Below are new features added to this release:</h4>
                         <ul>
                            
-                           <li>No Code Deep Learning Self Service</li>
-                           <li>No Code AI Pick & Choose - New Models Added</li>
+                           <li className='notes'>No Code Deep Learning Self Service</li>
+                           <li  className='notes'>No Code AI Pick & Choose - New Models Added</li>
                           
-                           <li className='pb-50'>Open Source Data (Data.Gov & Kaggle)</li>
+                           <li className='notes pb-50'>Open Source Data (Data.Gov & Kaggle)</li>
              
                         </ul>
                      </div>
@@ -338,10 +338,10 @@ const ReleaseHero = () =>{
                         <h4 className='rel'>Beta release of the OneNine AI Cloud Platform. Below are new features added to this release:</h4>
                         <ul>
                            
-                           <li>One Click Automated Data Analysis</li>
-                           <li>No Code AI Pick & Choose - New Models Added</li>
+                           <li  className='notes'>One Click Automated Data Analysis</li>
+                           <li  className='notes'>No Code AI Pick & Choose - New Models Added</li>
                           
-                           <li className='pb-50'>OProject History</li>
+                           <li className='notes pb-50'>OProject History</li>
              
                         </ul>
                      </div>

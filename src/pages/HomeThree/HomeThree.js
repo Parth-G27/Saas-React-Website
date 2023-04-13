@@ -33,8 +33,8 @@ const HomeThree = () => {
          
          <HomeThreeHeader />
          <HomeThreeHeroSection />
-         <Carousel/>
-         <Reviews/>
+         
+         {/* <Reviews/> */}
          <HomeThreeServices />
          <Textanimation/>
          <HomeHeroSlider/>
@@ -46,7 +46,8 @@ const HomeThree = () => {
          
          <Algos/>
          <Backedby/>
-         <HomeTwoBlogs/>
+         <Carousel/>
+         {/* <HomeTwoBlogs/> */}
 
          {/* 
          <HomeServices />

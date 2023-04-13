@@ -132,7 +132,7 @@ const HomeThreeFooter = () => {
                                  <p>Copyright © 2023 OneNine AI - All Rights Reserved.</p>
                               </div>
                               <div className="footer__privacy-text text-center">
-                                 <a href="https://onenine.cloud/privacy"><p>Privacy</p></a>
+                                 <a href="/privacy"><p>Privacy</p></a>
                               </div>
                            </div>
                         </div>
