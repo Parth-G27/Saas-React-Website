@@ -11,8 +11,11 @@ const Releasenotes = () =>{
         <>
         <PageHelmet pageTitle="Platform Release Notes" />
         <HomeThreeHeader/>
-        
+
         <ReleaseHero/>
+
+          
+
 
           
           
