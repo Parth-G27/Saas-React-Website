@@ -257,7 +257,7 @@ const ReleaseHero = () =>{
                             <h3>2022.1.0-elite</h3>
                         </div>
                         <h4 className='rel'>This release of the OneNine AI Cloud Platform includes new enhancements and bug fixes:</h4>
-                        {/* <h4 className='rel pt-30'>New Features & User Experience</h4> */}
+                        
                         <ul>
                            <li className='notes'>Added support to source data directly from URL in Smart Models and Discovery Projects</li>
                            <li  className='notes'>Optimized code for performance improvements</li>
@@ -349,11 +349,6 @@ const ReleaseHero = () =>{
                </div>
             </div>
          </section>
-
-
-
-
-
 
         </>
     )
